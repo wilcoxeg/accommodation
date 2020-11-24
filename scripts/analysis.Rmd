@@ -1,0 +1,325 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+
+
+```{r echo=FALSE}
+library(tidyverse)
+library(plotrix)
+library(Hmisc)
+library(lme4)
+library(lmerTest)
+library(Cairo)
+library(plotly)
+library(factoextra)
+
+
+
+```
+
+```{r}
+data = read.csv("results.csv", comment = "#", col.names=c("time_hash", "participant", "controller", "item", "element", "meta", "group", "trigger", "value")) %>%
+  mutate(value = as.numeric(as.character(value)),
+         participant = substr(participant, 0, 5)) %>%
+  separate(meta, sep="_", into=c("target", "form", "base", "context"))
+
+data
+```
+
+```{r}
+# Filter out the participants who do not treat the "catch" questions correctly
+filter_df = data %>%
+  filter(controller == "RangeForm", target=="practice1") %>%
+  filter(item == 4 | item == 6) %>%
+  group_by(participant, trigger) %>%
+    summarise(value = mean(value)) %>%
+  ungroup() %>%
+  spread(trigger, value) %>%
+  filter(plus_trigger > 25 & minus_trigger < 75)
+
+filter_list = filter_df$participant
+filter_list
+```
+
+
+
+```{r}
+rating_df = data %>%
+  filter(target == "target") %>%
+  select(-time_hash, -controller, -element, -target, -base, -group) %>%
+  filter(! participant %in% filter_list) %>%
+  group_by(participant) %>%
+    mutate(z_value = scale(value)) %>%
+  ungroup()
+
+```
+
+
+### Histograms of normalized scores
+
+```{r}
+rating_df %>%
+  mutate(form = factor(form, levels = c("cleft", "even", "too", "question", "only", "definite", "stateChange", "back", "again", "still", "accomplishment", "possessive", "embedding"))) %>%
+  ggplot(aes(x=z_value, color = trigger, fill=trigger, linetype=trigger)) +
+    theme_bw() +
+    geom_density(alpha=0.2) +
+    facet_grid(context~form, scales="free") +
+  ylab("Density") +
+  xlab("Rating (standardized)") +
+  ggtitle("Histogram of Ratings") +
+  theme(legend.position = "bottom")
+#ggsave("./images/hist_zscore.pdf", width = 14 , height = 4, device = cairo_pdf)
+
+```
+
+```{r}
+rating_df %>%
+  mutate(form = factor(form, levels = c("cleft", "even", "too", "question", "only", "definite", "stateChange", "back", "again", "still", "accomplishment", "possessive", "embedding"))) %>%
+  ggplot(aes(x=z_value, color = trigger, fill=trigger, linetype=trigger)) +
+    theme_bw() +
+    geom_density(alpha=0.2) +
+    facet_grid(form~context, scales="free") +
+  ylab("Density") +
+  xlab("Rating (standardized)") +
+  ggtitle("Histogram of Ratings") +
+  xlim(-3, 2) +
+  theme(legend.position = "bottom",
+        strip.text.y = element_text(angle = 0))
+#ggsave("./images/hist_zscore.pdf", width = 8 , height = 6, device = cairo_pdf)
+
+
+```
+
+
+### Full 2x2 interaction plut
+
+```{r}
+rating_df %>%
+  mutate(form = factor(form, levels = c("cleft", "even", "too", "question", "only", "definite", "stateChange", "back", "again", "still", "accomplishment", "possessive", "embedding"))) %>%
+  group_by(form, context, trigger) %>%
+    summarise( m = mean(z_value),
+               s=std.error(z_value),
+               upper=m + 1.96*s,
+               lower=m - 1.96*s) %>%
+  ggplot(aes(x=context, y=m, color=trigger)) +
+    theme_bw() +
+    geom_point(size = 3, position=position_dodge(width=.5)) +
+    geom_errorbar(aes(ymin=lower, ymax=upper), width = 0.3, position=position_dodge(width=.5)) +
+    facet_grid(.~form) +
+  ylab("Rating (standardized)") +
+  xlab("Context") +
+  ggtitle("Ratings by Trigger")+
+  theme(legend.position = "bottom")
+#ggsave("./images/barchart_zscore.pdf", width = 8, height = 3, device = cairo_pdf)
+
+```
+
+```{r}
+rating_df %>%
+  mutate(form = factor(form, levels = c("cleft", "even", "too", "question", "only", "definite", "stateChange", "back", "again", "still", "accomplishment", "possessive", "embedding"))) %>%
+  group_by(form, context, trigger) %>%
+    summarise( m = mean(z_value),
+               s=std.error(z_value),
+               upper=m + 1.96*s,
+               lower=m - 1.96*s) %>%
+  mutate(label = paste(context, trigger, sep="_")) %>%
+  ggplot(aes(x=context, y=m, color=trigger, shape = context)) +
+    theme_bw() +
+    #geom_vline(xintercept = 1:5) +
+    geom_point(size = 3, position=position_dodge(width=.5)) +
+    geom_errorbar(aes(ymin=lower, ymax=upper), width = 0.3, position=position_dodge(width=.5)) +
+  facet_grid(~form) +
+  ylab("Rating (standardized)") +
+  xlab("Context") +
+  ggtitle("Ratings by Trigger")+
+  theme(axis.text.x = element_blank(),
+        axis.ticks.x = element_blank(),
+        legend.position = "bottom",
+        strip.background = element_blank(),
+        strip.text.x = element_text(angle = 60, size = 8),
+        panel.spacing = unit(0.1, "cm"))
+#ggsave("./images/barchart_zscore.pdf", width = 8, height = 4 , device = cairo_pdf)
+
+
+```
+
+```{r}
+rating_df %>%
+  mutate(form = factor(form, levels = c("cleft", "even", "too", "question", "only", "definite", "stateChange", "back", "again", "still", "accomplishment", "possessive", "embedding"))) %>%
+  group_by(form, context, trigger) %>%
+    summarise( m = mean(z_value),
+               s=std.error(z_value),
+               upper=m + 1.96*s,
+               lower=m - 1.96*s) %>%
+  mutate(label = paste(context, trigger, sep="_")) %>%
+  ggplot(aes(y=m, x=context, color=trigger, shape = context)) +
+    theme_bw() +
+    #geom_vline(xintercept = 1:5) +
+    geom_point(size = 3, position=position_dodge(width=.5)) +
+    geom_errorbar(aes(ymin=lower, ymax=upper), width = 0.3, position=position_dodge(width=.5)) +
+  facet_wrap(~form, nrow=2) +
+  ylab("Rating (standardized)") +
+  xlab("Context") +
+  ggtitle("Ratings by Trigger")+
+  theme(legend.position = "bottom",
+        strip.background = element_blank(),
+        strip.text.y = element_text(angle = 0, size = 8, hjust=0),
+        panel.spacing = unit(0.1, "cm"))
+#ggsave("./images/barchart_zscore.pdf", width = 8, height = 5 , device = cairo_pdf)
+
+
+```
+
+
+### Statistics
+
+```{r}
+options(scipen = 99)
+
+stats_test = function(df) {
+  df %>%
+    summarise(
+      e = summary(lmer(value ~ trigger * context + (1|item) + (1|participant), data = df))$coefficients[4],
+      p = summary(lmer(value ~ trigger * context + (1|item) + (1|participant), data = df))$coefficients[20],
+    )
+}
+
+rating_df %>%
+  group_by(form) %>% do(stats_test(.)) %>% ungroup() %>% arrange(e)
+
+```
+
+```{r}
+# Mean rating for each condition
+rating_df %>% group_by(context, trigger) %>% summarise(m = mean(value), s=sd(value)) %>% ungroup()
+
+trigger_contrasts = function(df) {
+  df %>% summarise(
+    e = summary(lmer(value ~ context + (1|participant) + (1|item), data=.))$coefficients[2],
+    p = summary(lmer(value ~ context + (1|participant) + (1|item), data=.))$coefficients[10],
+  )
+}
+
+# Contrasts between the positive/neutral context in the -trigger condition
+rating_df %>%
+  filter(trigger=="minus_trigger") %>%
+  group_by(form) %>% do(trigger_contrasts(.)) %>% ungroup() %>%
+  arrange(e)
+
+# Contrasts between the positive/neutral context in the +trigger condition
+rating_df %>%
+  filter(trigger=="plus_trigger") %>%
+  group_by(form) %>% do(trigger_contrasts(.)) %>% ungroup() %>%
+  arrange(e)
+```
+
+```{r}
+
+rating_dummy = rating_df %>%
+  mutate(form = factor(form, levels = c("cleft", "even", "too", "question", "only", "again", "stateChange", "definite", "back", "still", "accomplishment", "embedding", "possessive"))) %>%
+  group_by(form, context, trigger) %>%
+    summarise( m = mean(value),
+               s=std.error(value),
+               upper=m + 1.96*s,
+               lower=m - 1.96*s) %>%
+  ungroup()
+
+plus_trigger_contrast_df = rating_dummy %>%
+  filter(trigger == "plus_trigger") %>% select(form, context, m) %>%
+  spread(context, m) %>%
+  mutate(diff_plustrigger = positive - neutral)
+
+neutral_contrast_df = rating_dummy %>%
+  filter(context == "neutral") %>% select(form, trigger, m) %>%
+  spread(trigger, m) %>%
+  mutate(diff_neutral = minus_trigger - plus_trigger)
+
+absolute_df = rating_dummy %>%
+  filter(context == "neutral", trigger == "plus_trigger") %>%
+  select(form, m) %>% mutate(mn = mean(m), diff_mean = m - mn)
+
+agg_df = merge(plus_trigger_contrast_df, neutral_contrast_df)
+agg_df = merge(agg_df, absolute_df) %>% select(form, diff_plustrigger, diff_neutral, diff_mean)
+
+
+agg_df %>%
+  gather(metric, value, c("diff_plustrigger", "diff_neutral", "diff_mean")) %>%
+  ggplot(aes(x=form, y=value, fill=metric)) +
+    theme_bw() +
+    geom_bar(stat="identity", position=position_dodge(width=1)) +
+    scale_fill_discrete(labels=c("Relative Unsupported \n Felicity", "Trigger Effect", "Context Effect") ) +
+    ylab("Size of contrast") +
+    ggtitle("Summary of Crucial Contrasts") +
+    guides(fill=guide_legend(keywidth=0.5, keyheight=1, default.unit="cm")) +
+    theme(axis.text.x = element_text(angle=30, hjust=.9, size = 12), 
+          legend.position = "bottom")
+
+#ggsave("./images/summary_scores.pdf", width = 9, height = 4.5, device = cairo_pdf)
+
+
+```
+
+
+```{r}
+#pdf(file="./images/cluster_tree_filtered.pdf",width=6, height=5)
+
+rating_dummy = rating_df %>%
+  mutate(form = factor(form, levels = c("cleft", "even", "too", "question", "only", "again", "stateChange", "definite", "back", "still", "accomplishment", "embedding", "possessive"))) %>%
+  group_by(form, context, trigger) %>%
+    summarise( m = mean(z_value),
+               s=std.error(z_value),
+               upper=m + 1.96*s,
+               lower=m - 1.96*s) %>%
+  ungroup() %>%
+  select(form, context, trigger, m) %>%
+  unite(label, context, trigger) %>%
+  spread(label, m) %>%
+  select(-positive_minus_trigger)
+
+dist = dist(rating_dummy %>% select(-form), method = 'euclidean')
+clusters = hclust(dist, method="ward.D")
+clusters$labels = rating_dummy$form
+plot(clusters)
+
+#dev.off()
+```
+
+
+```{r}
+pdf(file="./images/theoretical_presup_clusters.pdf",width=6, height=5)
+
+
+trigger_type = read.csv("./trigger_typology.csv") %>%
+  select(-X)
+
+dist = dist(trigger_type %>% select(-Trigger), method = 'euclidean')
+clusters = hclust(dist, method="average")
+clusters$labels = trigger_type$Trigger
+plot(clusters)
+
+dev.off()
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

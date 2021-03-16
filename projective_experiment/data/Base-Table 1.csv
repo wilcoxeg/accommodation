@@ -1,0 +1,113 @@
+form,trigger,positive,p_plus_trig,p_minus_trig,neutral,n_plus_trig,n_minus_trig
+,,,,,,,
+base,only,Alexandra left for the park.,"On her way, she decided to go only to the park.","On her way, she decided to go to the post office.",What did Alexandra do last weekend?,She went only to the park.,She went to the park.
+base,only,Sarah went off to go shopping.,"On her way, she decided to go only to the grocery store.","On her way, she decided to go to the bank.",What did Sarah do yesterday?,She went only to the grocery store.,She went to the grocery store.
+base,only,Margo went off to the bank.,"On her way, she decided to go only to the bank.","On her way, she decided to go to the park.",What did Margo do yesterday?,She went only to the bank.,She went to the bank.
+base,only,Terry went off to go shopping.,"On her way, he decided to go only to the grocery store.","On her way, he decided to go to the bank.",What did Terry do yesterday?,He decided to go only to the grocery store.,He decided to go to the grocery store.
+base,only,Paul went off to the basketball court.,"On his way, he decided to go only to the basketball courty.","On his way, he decided to go to the park, instead.",What did Paul do last weekend?,He went to to only the basketball courty.,He went to the basketball court.
+base,only,Even went off to the bank.,"On his way, he decided to go only to the bank.","On his way, he decided to go the drug store.",What did Even do this afternoon?,He went to only the bank.,He went to the bank.
+,,,,,,,
+base,even,Irene studied hard in calculus last semester.,She even got an A on the final exam.,She got an A on the final exam.,How did Irene do in class?,She even got an A on the final exam.,She got an A on the final exam.
+base,even,Valerie's team played hard in the tournament.,They even made it to the semi-finals.,They made it to the semi-finals.,How did Valerie's team do in the tournament?,They even made it to the semi-finals.,They made it to the semi-finals.
+base,even,Mira fought hard in her tennis tournament.,She even made it to the final game.,She made it to the final game.,How did Mira do in the tennis tournament?,She even made it to the final game.,She made it to the final game.
+base,even,Xavi worked hard in English class last year.,He even got an A on the final project.,He got an A on the final project.,How did Xavi do in English class?,He even got an A on the final project.,He got an A on his final project.
+base,even,Irma played well in a chess tournament.,She even made it to the semi-final game.,She made it to the semi-final game.,How did Irma do in the chess tournament?,She even made it to the semi-final game.,She made it to the semi-final game.
+base,even,Tyler studied hard for his test.,He even scored at the top of his class.,He scored at the top of his class.,How did Tyler do on the test?,He even scored at the top of his class.,He scored at the top of his class.
+,,,,,,,
+base,too,Jonathan went to a concert.,"He then went to a party, too.",He then went to a party.,What was Jonathan up to yesterday?,"He went to a party, too.",He went to a party.
+base,too,Lora went to a talk at the university.,"She then went to a reception, too.",She then went to a reception.,What did Lora do yesterday?,"She went to a reception, too.",She went to a reception.
+base,too,Jamie watched a comedy show on TV.,"He then watched the news, too.",He then watched the news.,What did Jamie watch on TV?,"He watched the news, too.",He watched the news.
+base,too,Boris went to dinner at a friend's house.,"He then went out to a bar, too.",He then went out to a bar.,What did Boris do last night?,"He went to a bar with friends, too.",He went to a bar with friends.
+base,too,Orianna went out to dinner.,"She then went to the movies, too.",She then went to the movies.,What did Oriana do last night?,"She went to the movies, too.",She went to the movies.
+base,too,Zoe went to dinner with friends.,"She then went out to a bar, too.",She then went out to a bar.,What did Zoe do last night?,"She went out to a bar, too.",She went out to a bar.
+,,,,,,,
+base,cleft,Hannah baked something last weekend.,It was muffins that she made.,She made muffins.,What did Hannah do last weekend?,It was muffins that she made.,She made muffins.
+base,cleft,Avi took a class last spring.,It was a engineering class that he took.,He took an engineering class.,What did Avi do last spring?,It was a engineering class that he took.,He took an engineering class.
+base,cleft,Marion built something last week.,It was a box that she built.,She built a box.,What did Marion do last week?,It was a box that she built.,She built a box.
+base,cleft,Zeke watched a game earlier today.,It was a soccer game that he watched.,He watched a soccer game.,What did Zeke do today?,It was a soccer game that he watched.,He watched a soccer game.
+base,cleft,Taylor went to a store earlier today.,It was the pet store where she went.,She went to the pet store.,What did Taylor do today?,It was the pet store where she went.,She went to the pet store.
+base,cleft,Carter bought something yesterday.,It was a new mixer that he bought.,He bought a new mixer.,What did Carter do yesterday?,It was a new mixer that he bought.,He bought a new mixer.
+,,,,,,,
+base,cognitive,Desmond stole Jill's guitar.,She knows he stole it.,She suspects that he stole it.,Why is Jill upset?,She knows that Desmond stole her guitar.,She suspects that Desmond stole her guitar.
+base,cognitive,Irma took Frank's phone charger.,He knows that she took it.,He suspects that she took it.,Why is Frank annoyed at Irma?,He knows that she stole his phone charger.,He suspects that she took his phone charger.
+base,cognitive,Paul copied Laura's test answers.,She knows that he copied them.,She suspects that he copied them.,Why is Laura mad?,She knows that Paul copied her test answers.,She suspects that Paul copied her test answers.
+base,cognitive,Tom stole Gina's new book.,She knows that he stole it.,She is suspicious that he stole it.,Why is Gina mad at Tom?,She knows that he stole her new book.,She's suspicious that he stole her new book.
+base,cognitive,Rachel accidentally broke Will's glasses.,He knows that she broke them.,He suspects that she broke them.,Why is Will annoyed at Rachel?,He knows that she broke his glasses.,He suspects that she broke his glasses.
+base,cognitive,Leah copied Raul's homework.,He knows that she copied it.,He suspects that she copied it.,What's up with Raul and Leah?,He knows that she copied his homework.,He suspects that she copied his homework.
+,,,,,,,
+base,emotive,Raymond stole Kira's doll.,She's angry that he stole it.,She suspects that he stole it.,What's wrong with Kira?,She's angry that Desmond stole her doll.,She suspects that Desmond stole her doll.
+base,emotive,Kira took Edward's computer charger.,He's mad that she took it.,He suspects that she took it.,What's up with Edward and Kira?,He's mad that she took his computer charger.,He suspects that she took his computer charger.
+base,emotive,Richard copied Dani's homework.,She is annoyed that he copied her.,She is suspicious that he copied her.,What's up with Dani?,She is annoyed that Richard copied her homework.,She is suspicious that Richard copied her homework.
+base,emotive,Harry stole Annie's new scarf.,She's angry that he stole it.,She suspects that he stole it.,What's up with Annie?,She's angry that Harry stole her scarf.,She is suspects that Harry stole her scarf.
+base,emotive,Sarah accidentally broke Nelson's guitar.,He's annoyed that she broke it.,He suspects that she broke it.,What's up with Nelson and Sarah?,He's annoyed that she broke his guitar.,He suspects that she broke his guitar.
+base,emotive,Anna copied Landon's test answers.,He's mad that she copied them.,He suspects that she copied them.,What's up with Anna and Landon?,He's mad that she copied his test answers.,He suspects that she copied his test answers.
+,,,,,,,
+base,accomplishment,Madison participated in a chess tournament.,She won it.,She enjoyed participating in it.,What was Madison up to over the weekend?,She won a chess tournament.,She participated in a chess tournament.
+base,accomplishment,Hope is looking for her high school yearbook.,She found it under the sofa.,She's getting frustrated looking for it.,What's new with Hope?,She found her high school yearbook.,She was looking for her high school yearbook.
+base,accomplishment,Jules took a chemistry test yesterday.,He passed it.,He studied hard for it.,What did Jules do yesterday?,He passed a test.,He studied hard for a test.
+base,accomplishment,Paulina participated in a tennis match yesterday.,She won the match.,She had a good time playing.,What did Paulina do yesterday?,She won a tennis match.,She played in a tennis match.
+base,accomplishment,Edward is looking for his car keys.,He found them underneath the radiator.,He is getting annoyed as he looks.,What's up with Edward?,He found his car keys.,He was looking for his car keys.
+base,accomplishment,Isaac is painting his room.,"Today, he continued painting it.","Today, he finished painting it.",What was Isaac up to today?,He painted his room.,He finished painting his room.
+,,,,,,,
+base,possessive,Uma got a new printer recently.,She asked a friend about how to set up her printer at work.,She asked a friend about how to set up a printer at work.,What did Uma do yesterday?,She asked a friend about how to set up her printer at work.,She asked a friend about how to set up a printer at work.
+base,possessive,Rachel got a new guitar last week.,She asked a friend about how to tune her guitar.,She asked a friend about how to tune a guitar.,What did Rachel do yesterday?,She asked a friend about how to tune her guitar.,She asked a friend about how to tune a guitar.
+base,possessive,Sachel got a new rung.,He asked his mom about how to properly vacuum his rug.,He asked his mom about how to properly vacuum a rug.,What did Sachel do over the weekend?,He asked his mom about how to properly vacuum his rug.,He asked his mom about how to properly vacuum a rug.
+base,possessive,Wendy got a new computer for work.,She asked the IT specialist about the best way to set up her new computer.,She asked the IT specialist about the best way to set up a new computer.,What did Wendy do yesterday?,She asked the IT specialist about the best way to set up her new computer.,She asked the IT specialist about the best way to set up a new computer.
+base,possessive,Raul got a new car recently.,He asked his dad about the best way to change tires on his car.,He asked his dad about the best way to change tires on a car.,What did Raul do yesterday?,He asked his dad about the best way to change tires on his car.,He asked his dad about the best way to change tires on a car.
+base,possessive,Ryan got a new banjo recently.,He asked his friend about how to tune his banjo.,He asked his friend about how to tune a banjo.,What did Ryan do yesterday?,He asked his friend about how to tune his banjo.,He asked his friend about how to tune a banjo.
+,,,,,,,
+base,definite,There are some students and an auditor in Carla's class.,The auditor really likes the course.,Students tend to really like the course.,Carla is taking an Economics class.,The auditor really likes the course.,Students tend to really like the course.
+base,definite,There are three cooks and a chef on Cindy's shift.,The chef doesn't like this shift.,Waiters tend not to like this shift.,Wendy got assigned to a new shift at the restaurant where she works.,The chef doesn't like this shift.,Waiters tend not to like this shift.
+base,definite,There are four programers and a designer on Harry's team.,The designer joined the team recently.,Programmers rotate off the team frequently.,Harry got assigned to a new team at work.,The designer joined the team recently.,Programmers rotate off the team frequently.
+base,definite,There are six families and a couple in Bob's apartment building.,The couple just moved in.,Families stay in the building for a long time.,Bob moved to a new apartment building last year.,The couple likes the building.,Families tend to like the building.
+base,definite,There are five mechanics and a forklift operator in George's shift.,The forklift operator really likes the shift.,Mechanics tend to like this shift.,George just got assigned to a new shift at work.,The forklift operator really likes this shift.,Mechanics tend to like this shift.
+base,definite,There are three cooks and a dishwasher on Michael's shift.,The dish washer likes working this shift.,Cooks tend to like working this shift.,Michael got assigned to a new shift at the restaurant where he works.,The dishwasher likes working this shift.,Cooks tend to like working this shift.
+,,,,,,,
+base,question_matrix,Allison baked something last week.,I wonder what did she bake?,"I wonder, did she bake some muffins?",I don't know if Allison baked anything last week.,"I wonder, what did she bake?","I wonder, did she bake some muffins?"
+base,question_matrix,Kelsey went somewhere last weekend.,"I wonder, where did she go?","I wonder, did she go to the mountains?",I don't know if Kelsey went anywhere last weekend.,"I wonder, where did she go?","I wonder, did she go to the mountains?"
+base,question_matrix,Val watched something on TV last night.,"I wonder, what did he watch?","I wonder, did he watch a comedy show?",I don't know if Val watched any TV last night.,"I wonder, though, what did he watch?","I wonder, though, did he watch a comedy show?"
+base,question_matrix,Sam went somewhere last month.,"I wonder, where did he go?","I wonder, did he go to the beach?",I don't know if Sam went on vacation last month.,"I wonder, though, where did he go?","I wonder, though, did he go to the beach?"
+base,question_matrix,Celeste cooked something last night.,"I wonder, what did she cook?","I wonder, did she cook pasta?",I don't know if Celeste cooked anything last night.,"I wonder, what did she cook?","I wonder, did she cook pasta?"
+base,question_matrix,Jackson went somewhere last night.,"I wonder, where did he go?","I wonder, did he go to the movies?",I don't know if Jackson went anywhere last night.,"I wonder, though, where did he go?","I wonder, though, did he go to the movies?"
+,,,,,,,
+base,question_embed,Someone stole Allison's phone.,She wonders who did it.,She wonders whether they have been caught.,Allison can't find her phone.,She wonders who stole it.,She wonders if someone stole it.
+base,question_embed,Someone dented Jame's fender.,He wonders who did it.,He wonders if they were caught on camera.,James recently got a car.,He wonders who dented its fender.,He wonders if someone has dented its fender.
+base,question_embed,Someone copied Elise's homework.,She wonders who did it.,She wonders if they were caught.,Elise got a good grade on her homework.,She wonders who copied it.,She wonders if anyone copied it.
+base,question_embed,Someone stole Robert's phone charger.,He wonders who did it.,He wonders if they were caught on camera.,Robert can't find his phone charger.,He wonders who stole it.,He wonders if someone stole it.
+base,question_embed,Someone stole Hannah's gym bag.,She wonders who did it.,She wonders if they were caught.,Hannah can't find her gym bag.,She wonders who stole it.,She wonders if someone stole it.
+base,question_embed,Somone copied Damian's test answers.,He wonders who did it.,He wonders if they were caught.,Damien is worried about his classmates.,He wonders who copied his test answers.,He wonders if someone copied his test answers.
+,,,,,,,
+base,again,Kendra baked a pumpkin pie recently. What did she do last weekend?,She baked a pumpkin pie again.,She baked a pumpkin pie.,What did Kendra do last weekend?,She baked a pumpkin pie again.,She baked a pumpkin pie.
+base,again,"Last year, James visited friends in Chicago. What did he do this winter?",He visited friends in Chicago again.,He visited friends in Chicago.,What did James do this winter?,He visited friends in Chicago again.,He visited friends in Chicago.
+base,again,Devon went to an art exhibit last week. What did he do yesterday?,He went to the art exhibit again.,He went to the art exhibit.,What was Devon up to yesterday?,He went to an art exhibit again.,He went to an art exhibit.
+base,again,Mark was at a conference earlier this year. What was he up to last week?,He went to a conference again.,He went to a conference.,What was Mark up to last week?,He went to a conference again.,He went to a conference.
+base,again,Allison was practicing the guitar last week. What did she do yesterday?,She practiced the guitar again.,She practiced the guitar.,What did Allison do yesterday?,She practiced the guitar again.,She practiced the guitar.
+base,again,Kylee went to the post office this morning.,"This afternoon, she went there again.","This afternoon, she went to the bank.",What did Kylee do this afternoon?,She went to the post office again.,She went to the post office.
+,,,,,,,
+base,back,Georgia was at her parents house last month. What did she do last week?,She drove back to her parent's house.,She drove to her parent's house.,What did Georgia do last week?,She drove back to her parent's house.,She drove to her parent's house.
+base,back,Julian was at the town hall last week. What did he do yesterday afternoon?,He went back to the Town Hall to file a petition.,He went to the Town Hall to file a petition.,What did Julian do yesterday afternoon?,He went back to the Town Hall to file a petition.,He went to the Town Hall to file a petition.
+base,back,Harry went to Florida last summer. What about this summer?,He went back to Florida.,He went to Florida.,What did Harry do last summer?,He went back to Florida.,He went to Florida.
+base,back,Kirk went to Disneyland last year. Where did he go on vacation this year?,He went back to Disneyland.,He went to the Disneyland.,Where did Kirk go on vacation?,He went back to Disneyland.,He went to Disneyland.
+base,back,Yvette was in Houston last week. What about this week?,She flew back to Houston for a conference.,She flew to Houston for a conference.,What did Yvette do this week?,She flew back to Houston for a conference.,She flew to Houston for a conference.
+base,back,Alice was in Detroit last week.,"This week, she spent time there for a conference.","This week, she flew back to Detroit for a conference.",What did Alice do this week?,She flew back to Detroit for a conference.,She flew to Detroit for a conference.
+,,,,,,,
+base,stateChange,"Yesterday, Noel was cleaning out the garage.","Today, she stopped cleaning it out.","Today, she is cleaning out the attic.",What's up with Noel?,She stopped cleaning out the garage.,She is cleaning out the garage.
+base,stateChange,"Yesterday, Janet was building a treehouse.","Today, she stopped building it.","Today, she is fixing the fence.",What's new with Janet?,She stopped building a treehouse.,She is building a treehouse.
+base,stateChange,"Yesterday, Kyle was painting his room.","Today, he finished painting it.","Today, he is pulling up the rug.",What's up with Kyle?,He finished painting his room.,He is painting his room.
+base,stateChange,Ira was chopping wood yesterday.,"Today, he finished chopping it.","Today, he's stacking it out back.",What's up with Ira?,He finished chopping wood out back.,He is chopping wood out back.
+base,stateChange,Gail was weeding the garden yesterday.,"Today, she finished weeding it.","Today, she is planting flowers.",What's new with Gail?,She finished weeding the garden.,She is weeding the garden.
+base,stateChange,Victor was cleaning out the attic yesterday.,"Today, he finished cleaning it.","Today, he's cleaning the kitchen.",What's up with Victor?,He finished cleaning out the attic today.,He cleaned out the attic today.
+,,,,,,,
+base,still,Norman was reading his book at lunchtime.,"Around three, he was still reading it.","Around three, he was writing a report about it.",What was Norman up to?,"Around three, he was still reading his book.","Around three, he was reading his book."
+base,still,Lora was playing soccer with friends.,"Later, she was still playing soccer.","Later, she was doing her stretches.",What is Lora up to this afternoon?,She was still playing soccer.,She was playing soccer.
+base,still,Willie was watching TV after dinner.,At 9pm he was still watching TV.,At 9pm he was doing his homework.,What is Willie up to?,He is still watching TV.,He is watching TV.
+base,still,"In the morning, Martin was painting his house.","In the afternoon, he was still painting it.","In the afternoon, he was mowing the lawn.",What is Martin up to?,He is still painting his house.,He is painting his house.
+base,still,Valerie went to a protest in the morning.,"In the afternoon, she was still at the protest.","In the afternoon, she was at work.",What is Valerie up to?,She is still at a protest.,She is at a protest.
+base,still,Isabel was working on her report after dinner.,"Later, she was still working on it.","Later, she was practicing the piano.",What was Isabel up to after dinner?,She was working on her report.,She was still working on her report.
+,,,,,,,
+base,again,Miles went to the zoo yesterday.,"Today, he went to the art museum.","Today, he went there again.",What did Miles do today?,He went to the zoo.,He went to the zoo again.
+base,again,Asher went to the beach last week.,"This week, he went to the pool.","This week, he went there again.",What did Asher do this week?,He went to the beach.,He went to the beach again.
+base,again,Kaleb went to the post office this morning.,"In the afternoon, he went to the bank.","In the afternoon, he went there again.",What did Caleb do this afternoon?,He went to the post office.,He went to the post office again.
+base,again,Rachel went to the mountains on vacation last year.,"This year, she went to the seaside.","This year, she went to the mountains again.",What did Rachel do for vacation?,She went to the mountains.,She went to the mountains again.
+base,again,Jade went to a restaurant for dinner yesterday.,"Tonight, she cooked at home.","Tonight, she went out to eat again.",What did Jade do yesterday?,She went out to dinner.,She went out to dinner again.
+base,again,"Yesterday, Gabriella went to a brewery.","Today, she went wine tasting.","Today, she went there again.",What did Gabriella do yesterday?,She went to a brewery.,She went to a brewery again.

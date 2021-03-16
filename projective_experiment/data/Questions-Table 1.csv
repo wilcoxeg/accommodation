@@ -1,0 +1,99 @@
+context,trigger,positive,p_plus_trig,p_minus_trig,neutral,n_plus_trig,n_minus_trig
+,,,,,,,
+question,only,Martha likes Indian takeout.,Does she only like Indian food?,Does she get it a lot?,Martha gets takeout a lot.,Does she only get Indian food?,Does she get Indian food?
+question,only,Fernanda likes comedy movies.,Does she only like comedies?,Does she watch comedies a lot?,Martha watches a lot of movies.,Does she only like comedies?,Does she like comedies?
+question,only,Tessa likes watching tennis on TV.,Does she only watch tennis?,Does she watch it a lot?,Tessa watches a lot of TV.,Does she only like watching tennis?,Does she like watching tennis?
+question,only,Philippe likes going to musicals.,Does he only go to musicals?,Does he go to watch them a lot?,Philippe likes going to the theater.,Does he only like musicals?,Does he like musicals?
+question,only,Tanya likes horror movies.,Does she only like horror movies?,Does she watch them a lot?,Tanya watches a ton of movies.,Does she only like horror movies?,Does she like horror movies?
+question,only,Pedro loves deep dish pizza.,Does he only like deep dish?,Does he make it at home?,Pedro loves italian food.,Does he only like pizza?,Does he like pizza?
+,,,,,,,
+question,even,Ari's soccer team played unusually well.,Did they even make it to the playoffs?,Did they make it to the playoffs?,Ari played on a soccer team this season.,Did they even make it to the playoffs?,Did they make it to the playoffs?
+question,even,Robert studied extra hard for his test.,Did he even score in the top half of the class?,Did he score in the top half of the class?,Robert is taking Chemistry this semester,Did he even score in the top half of the class?,Did he score in the top half of the class?
+question,even,Tanya ran extremely fast in the race.,Did she even beat her personal record?,Did she beat her personal record.,Tanya ran in a race last weekend.,Did she even beat her personal record?,Did she beat her personal record?
+question,even,James' basketball team is one of the best in the league.,Did they even make it to the championships?,Did they make it to the championships?,James' is playing basketball this year.,Did his team even make it to the championships?,Did his team make it to the championships?
+question,even,Pedro worked really hard in biology.,Did he even get honors in the class?,Did he get honors in the class?,Pedro is taking biology this semester.,Did he even get honors in the class?,Did he get honors in the class?
+question,even,Nina trained hard for her tennis tournament.,Did she even get out of the group stage?,Did she get out of the group stage?,Nina was at a tennis match.,Did she even get out of the group stage?,Did she get out of the group stage?
+,,,,,,,
+question,too,Tom went to a concert.,"Did he then go out for a drink, too?",Did he then go out for a drink?,Tom was feeling blue.,"Did he go out for a drink, too?",Did he go out for a drink?
+question,too,Eduardo went to the bank.,"Did he then go to the post office, too?",Did he then go to the post office?,Eduardo was in a rush.,"Did he go to the post office, too?",Did he go to the post office?
+question,too,Javier shoveled the walk.,"Did he then shovel the driveway, too?",Did he then shovel the driveway?,It snowed last night at Javier's house.,"Did he shovel the driveway, too?",Did he shovel the driveway?
+question,too,Laura was baking bread earlier.,"Did she then bake a cake, too?",Did she then bake a cake?,Laura had free time this afternoon.,"Did she bake a cake, too?",Did she bake a cake?
+question,too,Deirdre went on a run.,"Did she then do some yoga, too?",Did she then do some yoga?,Deirdre had some free time this afternoon.,"Did she do some yoga, too?",Did she do some yoga?
+question,too,Irina mowed the side law.,"Did she then mow the front lawn, too?",Did she then mow the front lawn?,Irina was working outside.,"Did she mow the front lawn, too?",Did she mow the front lawn?
+,,,,,,,
+question,cleft,Trisha left something at home.,Was it her phone charger that she left?,Did she leave her phone charger?,Trisha is angry with herself.,Was it her phone charger that she left at home?,Did she leave her phone charger at home?
+question,cleft,Suhil failed a class this semester.,Was it chemistry that he failed?,Did he fail Chemistry?,Suhil has bad grades this semester.,Was it Chemistry that he failed?,Did he fail Chemistry?
+question,cleft,Rachel lost something at school.,Was it her math textbook that she lost?,Did she lose her math textbook?,Rachel is annoyed with herself.,Was it her Math textbook that she lost?,Did she lose her math textbook?
+question,cleft,Paula went off the to the store earlier.,Was it the gym where she went?,Did she go to the gym?,Paula isn't responding to any calls.,Was it the gym where she went?,Did she go to the gym?
+question,cleft,Bernardo went to a vacation spot last weekend.,Was it the beach where he went?,Did he go to the beach?,Bernardo is away from work.,Was it the beach where he went?,Did he go to the beach?
+question,cleft,Suhas left something at work.,Was it his laptop that he left behind?,Did he leave his laptop behind?,Suhas is annoyed with himself.,Was it his laptop that he left at work?,Did he leave his laptop at work?
+,,,,,,,
+question,cognitive_factive,Harry stole Irma's umbrella.,Does she know that he stole it?,Does she suspect that he stole it?,Irma is annoyed with Harry.,Does she know that he stole her umbrella?,Does she suspect that he stole her umbrella?
+question,cognitive_factive,Zev copied Carrie's homework.,Does she know that he copied it?,Does she suspect that he copied it?,Carrie is annoyed at Zev.,Does she know that he copied her homework?,Does she think that he copied her homework?
+question,cognitive_factive,Rachel broke Ernie's glasses.,Does he know that she broke them?,Does he suspect that she broke them?,Ernie is angry at Rachel.,Does he know that she broke his glasses?,Does he suspect that she broke his glasses?
+question,cognitive_factive,Mari took Tariq's book textbook.,Does he know that she took it?,Does he suspect that she took it?,Tariq is peeved at Mari.,Does he know that she took his textbook?,Does he suspect that she took his textbook?
+question,cognitive_factive,Mo copied Gina's test answers.,Does she know that he copied them?,Does she suspect that he copied them?,Gina is mad at Mo.,Does she know that he copied her test answers?,Does she think that he copied her test answers?
+question,cognitive_factive,Xavi stole Ariana's guitar.,Does she know that he stole it?,Does she suspect that he stole it?,Ariana is mad at Xavi.,Does she know that he stole her guitar?,Does she think that he stole her guitar?
+,,,,,,,
+question,emotive_factive,Nora stole Robert's coat.,Is he angry that she stole it?,Does he suspect that she stole it?,Robert is annoyed at Nora.,Is he angry that she stole his coat?,Does he suspect that she stole his coat?
+question,emotive_factive,Akash took Franny's hat.,Is she annoyed that he took it?,Does she suspect that he took it?,Franny is talking to Akash.,Is she annoyed that he stole her hat?,Does she suspect that he stole her hat?
+question,emotive_factive,Tira copied Eduardo's homework.,Is he mad that she copied it?,Does he suspect that she copied it?,Eduardo is talking to Tira.,Is he mad that she copied his homework?,Does he think that she copied his homework?
+question,emotive_factive,Kira broke Boris' guitar.,Is he upset that she broke it?,Does he suspect that she broke it?,Boris isn't talking to Kira.,Is he upset that she broke his guitar?,Does he think that she broke his guitar?
+question,emotive_factive,Diego lost Amelia's charger.,Is she pissed that he lost it?,Does she suspect that he lost it?,Amelia and Diego are upset.,Is she pissed that he lost her charger?,Does she suspect that he lost her charger?
+question,emotive_factive,Pammy copied Thom's test answers.,Is he angry that she copied them?,Does he suspect that she copied them?,Thom is mad at Pammy.,Is he angry that she copied his test answers?,Does he suspect that she copied his test answers?
+,,,,,,,
+question,accomplishment,Nora participated in a tennis tournament over the weekend.,Did she win it?,Did she enjoy herself?,Nora was very busy over the weekend.,Did she win a tennis tournament?,Did she participate in a tennis tournament?
+question,accomplishment,Hannah took her Physics exam last weekend.,Did she pass it?,Did she study hard for it?,Hannah was very busy last week in school.,Did she pass an exam?,Did she study hard for an exam?
+question,accomplishment,Raul took his certification exam last weekend.,Did he pass it?,Did he study hard for it?,Raul was very busy over the weekend.,Did he pass a certification exam?,Was he studying for a certification exam?
+question,accomplishment,Ginny ran a marathon last week.,Did she win it?,Did she have a good time?,Ginny was very busy last weekend.,Did she win a marathon?,Did she participate in a marathon?
+question,accomplishment,Zev was repairing the fence yesterday.,Did he finish repairing it?,Is he enjoying the work?,Zev was very busy over the weekend.,Did he finish repairing the fence?,Did he work on repairing the fence?
+question,accomplishment,Bernard is writing a report for school.,Has he finished it?,Does he like writing it?,Bernard is very busy tonight.,Did he finish writing a school report?,Did he work on writing a school report?
+,,,,,,,
+question,possessive,Jill got a new printer at home.,Has she set up her printer already?,Has she set up a printer before?,Jill said that printers can be tricky to set up.,Has she set up her printer already?,Has she set up a printer before?
+question,possessive,Wanda got a new piano at home.,Has she turned her piano already?,Has she turned a piano before?,Wanda said that pianos can be difficult to tune.,Has she tuned her piano already?,Has she tuned a piano before?
+question,possessive,Pedro got a new guitar.,Has he tuned his guitar yet?,Has he tuned a guitar before?,Pedro mentioned that guitars can be difficult to tune.,Has he tuned his guitar yet?,Has he tuned a guitar before?
+question,possessive,Irene got a new wifi modem.,Has she set up her modem yet?,Has she set up a modem before?,Irene knows that wifi modems can be difficult to set up.,Has she set up her modem already?,Has she set up a modem before?
+question,possessive,Divya got a new car recently.,Has she bought insurance for her car yet?,Has she bought insurance for a car before?,Divya said that car insurance can be expensive.,Has she bought insurance for her car before?,Has she bought insurance for a car before?
+question,possessive,Tina bought an apartment recently.,Has she bought insurance for her apartment yet?,Has she bought insurance for an apartment before?,Tina said that apartment insurance can be expensive.,Has she bought insurance for her apartment?,Has she bought insurance for an apartment before?
+,,,,,,,
+question,definite_det,There are five students and an auditor in Bill's class.,Does the auditor like the course?,Do students like the course?,Bill is taking Chemistry this semester.,Does the auditor like the course?,Do students tend to like the course?
+question,definite_det,There are three waiters and a chef on Jamie's shift.,Does the chef like the shift?,Do waiters tend to like the shift?,Jamie just got assigned a new shift at her restaurant.,Does the chef like working the shift?,Do waiters like working the shift?
+question,definite_det,There are a bunch of programmers and a designer on Mindy's team.,Did the designer join the team recently?,Do programmers rotate off the team frequently?,Mindy got assigned to a new team at her tech company.,Did the designer join the team recently?,Do programmers rotate off the team frequently?
+question,definite_det,There are five mechanics and a forklift operator on Ira's shift.,Does the forklift operator like working the shift?,Do mechanics like working the shift?,Ira just got assigned to a new shift at his factory.,Does the forklift operator like the shift?,Do mechanics like working the shift?
+question,definite_det,There are a bunch of waiters and a cook on Jared's shift.,Does the cook work late?,Do waiters tend to work late?,Jared got assigned to the closing shift at the restaurant where he works.,Does the cook work late on the shift?,Do waiters tend to work late on the shift?
+question,definite_det,There are a bunch of students and an auditor in Paul's class.,Does the auditor come to every lecture?,Do students tend to come to every lecture?,Paul is taking a hard math course this semester.,Does the auditor come to every lecture?,Do students tend to come to every lecture?
+,,,,,,,
+question,question,Someone stole Gina's phone,Does she wonder who stole it?,Does she wonder if they were caught?,Gina can't find her phone.,Does she wonder who stole it?,Does she wonder if someone stole it?
+question,question,Someone dented Sasha's car.,Does she wonder who did it?,Does she wonder if they were caught?,Sasha is worried about her car.,Does she wonder who dented her fender?,Does she wonder if someone dented her fender?
+question,question,Someone copied Paulina's homework.,Does she wonder who did it?,Does she wonder if they were caught?,Paulina is thinking about her homework.,Does she wonder who copied it?,Does she wonder if someone copied it?
+question,question,Someone cheated of Tyrone's test.,Does he wonder who did it?,Does he wonder if they were caught.,Tyrone is thinking about his test answers.,Does he wonder who copied them?,Does he wonder if someone copied them?
+question,question,Someone stole Elliot's computer.,Does he wonder who did it?,Does he wonder if they were found out.,Elliot is worried about his computer.,Does he wonder who stole it?,Does he wonder if someone stole it?
+question,question,Someone stole Grayson's glasses.,Does he wonder who did it?,Does he wonder if they were caught?,Grayson can't find his glasses.,Does he wonder who stole them?,Does he wonder if someone stole them?
+,,,,,,,
+question,back,Nick was in Chicago last week.,Is he going back there this week?,Is he spending time there this week?,Nick has a busy work schedule this week.,Is he going back to Chicago?,Is he going to Chicago?
+question,back,Gavin was at the university this morning.,Is he going back there this afternoon?,Is he going to be there this afternoon?,Gavin is very busy today.,Is he going back to the university this afternoon?,Is he going to be at the university this afternoon?
+question,back,Conrad was in Pittsburg last year.,Is he going back there next year?,Is he going to be spending time there next year?,Conrad is travelling a lot these days.,Is he going back to Pittsburg next year?,Is he going to Pittsburg next year?
+question,back,Zoe was at the beach yesterday.,Is she going back there today?,Is she heading there today?,Zoe is taking vacation this week.,Is she going back to the beach today?,Is she going to the beach today?
+question,back,Violet was at the art museum yesterday.,Is she going back there today?,Is she heading there today?,Violet is taking vocation this month.,Is she going back to the art museum today?,Is she going to the art museum today?
+question,back,Stacey was in Boston last week.,Is she going back there this week?,Is she going to be spending time there this week?,Stacey has a busy work schedule this week.,Is she going back to Boston for work?,Is she going to Boston for work?
+,,,,,,,
+question,state_change,"Brie was swimming at the seaside, and saw some large clouds on the horizon.",Did she stop swimming?,Did she look at them?,Brie was at the seaside and saw some large clouds on the horizon.,Did she stop swimming?,Did she look at them?
+question,state_change,Virginia was mowing the lawn and heard some thunder.,Did she stop mowing the lawn?,Did she go check the weather forecast?,Virginia was outside and heard some thunder.,Did she stop mowing the lawn?,Did she go check the weather forecast?
+question,state_change,"Sophie was doing her chores, but heard her friends playing outside.",Did she stop doing her chores?,Did she go outside to join them?,Sophie was in her house and heard her friends playing outside.,Did she stop doing chores?,Did she go out to join them?
+question,state_change,Seth was weeding the garden when he felt a raindrop.,Did he finish weeding the garden?,Did he go inside?,Seth was outside when he felt a raindrop.,Did he finish weeding the garden?,Did he go inside?
+question,state_change,Travis was fixing the fence when it started to rain.,Did he finish fixing the fence?,Did he put on a rain jacket?,Travis was outside when it started to rain.,Did he finish fixing the fence?,Did he put on a rain jacket?
+question,state_change,Nolan was on a hike when he heard thunder.,Did he stop hiking?,Did he look for lightning?,Nolan was outside when he heard thunder.,Did he stop hiking?,Did he look for lightning?
+,,,,,,,
+question,still,"At noon, James was reading a book.",Was he still reading it at 3:00pm?,Was he writing his report on it at 3:00pm?,James was relaxing at home.,Was he still reading a book at 3:00pm?,Was he reading a book at 3:00pm?
+question,still,"After lunch, Pierre was washing his car.","An hour later, was he still washing it?","An hour later, was he vacuuming it?",Pierre was doing chores after lunch.,At 3:00 was he still washing his car?,At 3:00 was he washing his car?
+question,still,Tristan was playing basketball after breakfast.,"At 10am, was he still playing basketball?","At 10am, was he doing his stretches?",Tristan got up early.,"At 10am, was he still playing basketball?","At 10am, was he playing basketball?"
+question,still,Olivia went running after dinner.,"At 8pm, was she still running?","At 8pm, was she doing her stretches?",Olivia decided to go on a run after dinner.,"At 8pm, was she still running?","At 8pm, was she doing her stretches?"
+question,still,Natasha was writing a report after lunch.,"At 2:00, was she still writing the report?",At 2:00 was she editing it?,Natasha had lots of work today.,"At 2:00, was she still writing her report?","At 2:00, was she writing her report?"
+question,still,Sierra was working on homework after dinner.,"At 10, was she still working on her homework?","At 10, was she reading in bed?",Sierra ate dinner and went to her room.,"At 10, was she still working on her homework?","At 10, was she working on her homework?"
+,,,,,,,
+question,again,Avi went to the beach last summer.,Did he go again this summer?,Did he spend time there this summer?,Avi had a great summer.,Did he go to the beach again?,Did he go to the beach?
+question,again,Riley went to Disney Land last summer..,Did she go again this summer?,Did she go to a resort this summer?,Riley had an awesome summer.,Did she visit Disney Land again?,Did she visit Disney Land?
+question,again,Sage went skiing last winter.,Did she go again this winter?,Did she have a good time?,Sage had a great winter.,Did she go skiing again?,Did she go skiing?
+question,again,Noah went to Maine for vacation last year.,Did he go there again this year?,Did he spend time there this year?,Noah had a great vacation up north.,Did he visit Maine again?,Did he visit Maine?
+question,again,"Last semester, Irina signed up to be a tutor.",Did she do it again this year?,Did she sign up this year?,Irina is very busy this semester.,Did she sign up to be a tutor again?,Did she sign up to be a tutor?
+question,again,"Last December, Remy went to the craft fair.",Did he go again this year?,Did he visit it this year?,Remy is doing lots of holiday shopping.,Did he go to the craft fair again?,Did he go to the craft fair?

@@ -1,0 +1,15 @@
+["catch", "Form", {html: construct_dialog("My father bought a new TV recently.", "We think he spent too much money on it.", "We think she spent too much money on it." )}],
+
+["catch", "Form", {html: construct_dialog("The local priest asked for donations for a food bank.", "My family gave him lots of money.", "My family gave her lots of money." )}],
+
+["catch", "Form", {html: construct_dialog("Two years ago, our uncle moved to a different city.", "We miss him very badly.", "We miss her very badly." )}],
+
+["catch", "Form", {html: construct_dialog("Last week, my brother found $20 on the sidewalk.", "I said I think he should donate it to charity.", "I said I thought she should donate it to charity." )}],
+
+["catch", "Form", {html: construct_dialog("Yesterday, a nun visited our school.", "We heard her speak in our class on world religion.", "We heard him speak in our class on world religion." )}],
+
+["catch", "Form", {html: construct_dialog("Last year, my aunt visited us from Canada.", "She brought a big jar of maple syrup.", "He brought a big jar of maple syrup." )}],
+
+["catch", "Form", {html: construct_dialog("My mother bought a new car recently.", "We think she got it for a good price.", "We think he got it for a good price." )}],
+
+["catch", "Form", {html: construct_dialog("Three years ago, my sister started college.", "This year, she is going to graduate early.", "This year, he is going to graduate early." )}],

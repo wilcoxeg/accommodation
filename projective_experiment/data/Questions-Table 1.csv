@@ -1,6 +1,6 @@
 context,trigger,positive,p_plus_trig,p_minus_trig,neutral,n_plus_trig,n_minus_trig
 ,,,,,,,
-question,only,Martha likes Indian takeout.,Does she only like Indian food?,Does she get it a lot?,Martha gets takeout a lot.,Does she only get Indian food?,Does she get Indian food?
+question,only,Martha likes Indian takeout.,Does she only like Indian?,Does she get it a lot?,Martha gets takeout a lot.,Does she only get Indian food?,Does she get Indian food?
 question,only,Fernanda likes comedy movies.,Does she only like comedies?,Does she watch comedies a lot?,Martha watches a lot of movies.,Does she only like comedies?,Does she like comedies?
 question,only,Tessa likes watching tennis on TV.,Does she only watch tennis?,Does she watch it a lot?,Tessa watches a lot of TV.,Does she only like watching tennis?,Does she like watching tennis?
 question,only,Philippe likes going to musicals.,Does he only go to musicals?,Does he go to watch them a lot?,Philippe likes going to the theater.,Does he only like musicals?,Does he like musicals?
@@ -80,7 +80,7 @@ question,back,Stacey was in Boston last week.,Is she going back there this week?
 question,state_change,"Brie was swimming at the seaside, and saw some large clouds on the horizon.",Did she stop swimming?,Did she look at them?,Brie was at the seaside and saw some large clouds on the horizon.,Did she stop swimming?,Did she look at them?
 question,state_change,Virginia was mowing the lawn and heard some thunder.,Did she stop mowing the lawn?,Did she go check the weather forecast?,Virginia was outside and heard some thunder.,Did she stop mowing the lawn?,Did she go check the weather forecast?
 question,state_change,"Sophie was doing her chores, but heard her friends playing outside.",Did she stop doing her chores?,Did she go outside to join them?,Sophie was in her house and heard her friends playing outside.,Did she stop doing chores?,Did she go out to join them?
-question,state_change,Seth was weeding the garden when he felt a raindrop.,Did he finish weeding the garden?,Did he go inside?,Seth was outside when he felt a raindrop.,Did he finish weeding the garden?,Did he go inside?
+question,state_change,Seth was weeding the garden when he felt a raindrop.,Did he finish weeding the garden?,Did he put on a raincoat?,Seth was outside when he felt a raindrop.,Did he finish weeding the garden?,Did he put on a raincoat?
 question,state_change,Travis was fixing the fence when it started to rain.,Did he finish fixing the fence?,Did he put on a rain jacket?,Travis was outside when it started to rain.,Did he finish fixing the fence?,Did he put on a rain jacket?
 question,state_change,Nolan was on a hike when he heard thunder.,Did he stop hiking?,Did he look for lightning?,Nolan was outside when he heard thunder.,Did he stop hiking?,Did he look for lightning?
 ,,,,,,,
@@ -92,7 +92,7 @@ question,still,Natasha was writing a report after lunch.,"At 2:00, was she still
 question,still,Sierra was working on homework after dinner.,"At 10, was she still working on her homework?","At 10, was she reading in bed?",Sierra ate dinner and went to her room.,"At 10, was she still working on her homework?","At 10, was she working on her homework?"
 ,,,,,,,
 question,again,Avi went to the beach last summer.,Did he go again this summer?,Did he spend time there this summer?,Avi had a great summer.,Did he go to the beach again?,Did he go to the beach?
-question,again,Riley went to Disney Land last summer..,Did she go again this summer?,Did she go to a resort this summer?,Riley had an awesome summer.,Did she visit Disney Land again?,Did she visit Disney Land?
+question,again,Riley went to Disney Land last summer.,Did she go again this summer?,Did she go to a resort this summer?,Riley had an awesome summer.,Did she visit Disney Land again?,Did she visit Disney Land?
 question,again,Sage went skiing last winter.,Did she go again this winter?,Did she have a good time?,Sage had a great winter.,Did she go skiing again?,Did she go skiing?
 question,again,Noah went to Maine for vacation last year.,Did he go there again this year?,Did he spend time there this year?,Noah had a great vacation up north.,Did he visit Maine again?,Did he visit Maine?
 question,again,"Last semester, Irina signed up to be a tutor.",Did she do it again this year?,Did she sign up this year?,Irina is very busy this semester.,Did she sign up to be a tutor again?,Did she sign up to be a tutor?

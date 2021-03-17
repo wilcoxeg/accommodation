@@ -59,18 +59,18 @@ var items = [
     ["instructions", "Form", { html: { include: "instructions.html" } } ],
     ["outro", "Form", { continueMessage: "Click here to end the survey", html: { include: "example_outro.html" } } ],
     
-    ["practice", "Form", {html: construct_dialog("What did Sandra and Charlotte do last weekend?", "They went to the movies.", "She went to the movies." )}],
-    ["practice", "Form", {html: construct_dialog("What did Henry do on vacation?", "He went to the beach.", "He visited his parent's house in the country." )}],
-    ["practice", "Form", {html: construct_dialog("Where did Rosie put the plants?", "She put them in the box with the books.", "She put it in the box with the books." )}],
+    ["practice", "RangeForm", {html: construct_dialog("What did Sandra and Charlotte do last weekend?", "They went to the movies.", "She went to the movies." )}],
+    ["practice", "RangeForm", {html: construct_dialog("What did Henry do on vacation?", "He went to the beach.", "He visited his parent's house in the country." )}],
+    ["practice", "RangeForm", {html: construct_dialog("Where did Rosie put the plants?", "She put them in the box with the books.", "She put it in the box with the books." )}],
     
-    ["catch", "Form", {html: construct_dialog("My father bought a new TV recently.", "We think he spent too much money on it.", "We think she spent too much money on it." )}],
-["catch", "Form", {html: construct_dialog("The local priest asked for donations for a food bank.", "My family gave him lots of money.", "My family gave her lots of money." )}],
-["catch", "Form", {html: construct_dialog("Two years ago, our uncle moved to a different city.", "We miss him very badly.", "We miss her very badly." )}],
-["catch", "Form", {html: construct_dialog("Last week, my brother found $20 on the sidewalk.", "I said I think he should donate it to charity.", "I said I thought she should donate it to charity." )}],
-["catch", "Form", {html: construct_dialog("Yesterday, a nun visited our school.", "We heard her speak in our class on world religion.", "We heard him speak in our class on world religion." )}],
-["catch", "Form", {html: construct_dialog("Last year, my aunt visited us from Canada.", "She brought a big jar of maple syrup.", "He brought a big jar of maple syrup." )}],
-["catch", "Form", {html: construct_dialog("My mother bought a new car recently.", "We think she got it for a good price.", "We think he got it for a good price." )}],
-["catch", "Form", {html: construct_dialog("Three years ago, my sister started college.", "This year, she is going to graduate early.", "This year, he is going to graduate early." )}],
+    ["catch", "RangeForm", {html: construct_dialog("My father bought a new TV recently.", "We think he spent too much money on it.", "We think she spent too much money on it." )}],
+["catch", "RangeForm", {html: construct_dialog("The local priest asked for donations for a food bank.", "My family gave him lots of money.", "My family gave her lots of money." )}],
+["catch", "RangeForm", {html: construct_dialog("Two years ago, our uncle moved to a different city.", "We miss him very badly.", "We miss her very badly." )}],
+["catch", "RangeForm", {html: construct_dialog("Last week, my brother found $20 on the sidewalk.", "I said I think he should donate it to charity.", "I said I thought she should donate it to charity." )}],
+["catch", "RangeForm", {html: construct_dialog("Yesterday, a nun visited our school.", "We heard her speak in our class on world religion.", "We heard him speak in our class on world religion." )}],
+["catch", "RangeForm", {html: construct_dialog("Last year, my aunt visited us from Canada.", "She brought a big jar of maple syrup.", "He brought a big jar of maple syrup." )}],
+["catch", "RangeForm", {html: construct_dialog("My mother bought a new car recently.", "We think she got it for a good price.", "We think he got it for a good price." )}],
+["catch", "RangeForm", {html: construct_dialog("Three years ago, my sister started college.", "This year, she is going to graduate early.", "This year, he is going to graduate early." )}],
 
 
    

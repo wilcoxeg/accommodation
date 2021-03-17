@@ -1,117 +1,117 @@
-possibility	only	positive, minus	[["target_possibility_only_positive",300], "RangeForm", {html: construct_dialog("Gina went shopping at the supermarket.", "It’s possible that on the way she decided to go to the post office.", "It’s possible that on the way she decided to go only to the supermarket." )}],
-  It’s possible that on the way she decided to go to the post office.
-possibility	only	positive, plus	[["target_possibility_only_positive",300], "RangeForm", {html: construct_dialog("Gina went shopping at the supermarket.", "It’s possible that on the way she decided to go to the post office.", "It’s possible that on the way she decided to go only to the supermarket." )}],
-  It’s possible that on the way she decided to go only to the supermarket.
-possibility	only	neutral, minus	What did Gina do yesterday?  It’s possible that she went to the post office.
-possibility	only	neutral, plus	What did Gina do yesterday?  It’s possible that she went only to the post office.
-possibility	only	positive, minus	[["target_possibility_only_positive",301], "RangeForm", {html: construct_dialog("Bill went to the park.", "It's possible that on the way he decided to go to the beach instead.", "It’s possible that on the way he decided to go only to the park." )}],
-  It's possible that on the way he decided to go to the beach instead.
-possibility	only	positive, plus	[["target_possibility_only_positive",301], "RangeForm", {html: construct_dialog("Bill went to the park.", "It's possible that on the way he decided to go to the beach instead.", "It’s possible that on the way he decided to go only to the park." )}],
-  It’s possible that on the way he decided to go only to the park.
-possibility	only	neutral, minus	What did Bill do last weekend?  It’s possible that he went to the park.
-possibility	only	neutral, plus	What did Bill do last weekend?  It's possible that he went only to the park.
-possibility	only	positive, minus	[["target_possibility_only_positive",302], "RangeForm", {html: construct_dialog("Deirdre left for the bank.", "It's possible that once it was on she decided to go to the library instead.", "It's possible that on her way she decided to go only there.." )}],
-  It's possible that once it was on she decided to go to the library instead.
-possibility	only	positive, plus	[["target_possibility_only_positive",302], "RangeForm", {html: construct_dialog("Deirdre left for the bank.", "It's possible that once it was on she decided to go to the library instead.", "It's possible that on her way she decided to go only there.." )}],
-  It's possible that on her way she decided to go only there..
+possibility	only	positive, minus	[["target_possibility_only_positive",300], "RangeForm", {html: construct_dialog("Gina went shopping at the supermarket.", "Maybe on the way she decided to go to the post office.", "Maybe on the way she decided to go only to the supermarket." )}],
+  Maybe on the way she decided to go to the post office.
+possibility	only	positive, plus	[["target_possibility_only_positive",300], "RangeForm", {html: construct_dialog("Gina went shopping at the supermarket.", "Maybe on the way she decided to go to the post office.", "Maybe on the way she decided to go only to the supermarket." )}],
+  Maybe on the way she decided to go only to the supermarket.
+possibility	only	neutral, minus	What did Gina do yesterday?  Maybe she went to the post office.
+possibility	only	neutral, plus	What did Gina do yesterday?  Maybe she went only to the post office.
+possibility	only	positive, minus	[["target_possibility_only_positive",301], "RangeForm", {html: construct_dialog("Bill went to the park.", "It's possible on the way he decided to go to the beach instead.", "It’s possible on the way he decided to go only to the park." )}],
+  It's possible on the way he decided to go to the beach instead.
+possibility	only	positive, plus	[["target_possibility_only_positive",301], "RangeForm", {html: construct_dialog("Bill went to the park.", "It's possible on the way he decided to go to the beach instead.", "It’s possible on the way he decided to go only to the park." )}],
+  It’s possible on the way he decided to go only to the park.
+possibility	only	neutral, minus	What did Bill do last weekend?  It’s possible he went to the park.
+possibility	only	neutral, plus	What did Bill do last weekend?  It's possible he went only to the park.
+possibility	only	positive, minus	[["target_possibility_only_positive",302], "RangeForm", {html: construct_dialog("Deirdre left for the bank.", "It's possible on the way she decided to go to the library instead.", "It's possible on the way she decided to go only there." )}],
+  It's possible on the way she decided to go to the library instead.
+possibility	only	positive, plus	[["target_possibility_only_positive",302], "RangeForm", {html: construct_dialog("Deirdre left for the bank.", "It's possible on the way she decided to go to the library instead.", "It's possible on the way she decided to go only there." )}],
+  It's possible on the way she decided to go only there.
 possibility	only	neutral, minus	What did Deirdre do yesterday?  It's possible that she went to the bank.
 possibility	only	neutral, plus	What did Deirdre do yesterday?  It's possible that she only went to the bank.
-possibility	only	positive, minus	[["target_possibility_only_positive",303], "RangeForm", {html: construct_dialog("Burt went to the library.", "It's possible that on the way he decided to go for ice cream.", "It’s possible that on the way he decided to go only there." )}],
-  It's possible that on the way he decided to go for ice cream.
-possibility	only	positive, plus	[["target_possibility_only_positive",303], "RangeForm", {html: construct_dialog("Burt went to the library.", "It's possible that on the way he decided to go for ice cream.", "It’s possible that on the way he decided to go only there." )}],
-  It’s possible that on the way he decided to go only there.
-possibility	only	neutral, minus	What did Burt do today?  It's possible that he went to the library.
-possibility	only	neutral, plus	What did Burt do today?  It's possible that he went only to the library.
-possibility	only	positive, minus	[["target_possibility_only_positive",304], "RangeForm", {html: construct_dialog("Heba left for the town pool.", "It's possible that on the way she decided to go to the park.", "It's possible that on her way, she decided to go only there." )}],
-  It's possible that on the way she decided to go to the park.
-possibility	only	positive, plus	[["target_possibility_only_positive",304], "RangeForm", {html: construct_dialog("Heba left for the town pool.", "It's possible that on the way she decided to go to the park.", "It's possible that on her way, she decided to go only there." )}],
-  It's possible that on her way, she decided to go only there.
-possibility	only	neutral, minus	What did Heba do yesterday.  It's possible that she went to the pool.
-possibility	only	neutral, plus	What did Heba do yesterday.  It's possible that she went only to the pool.
-possibility	only	positive, minus	[["target_possibility_only_positive",305], "RangeForm", {html: construct_dialog("Diego went to the convenience store.", "It's possible that on the way he decided to go to the library.", "It’s possible that on the way he decided to go only to there." )}],
-  It's possible that on the way he decided to go to the library.
-possibility	only	positive, plus	[["target_possibility_only_positive",305], "RangeForm", {html: construct_dialog("Diego went to the convenience store.", "It's possible that on the way he decided to go to the library.", "It’s possible that on the way he decided to go only to there." )}],
-  It’s possible that on the way he decided to go only to there.
-possibility	only	neutral, minus	What did Diego do yesterday?  It's possible that he went to the convenience store.
-possibility	only	neutral, plus	What did Diego do yesterday?  It's possible that he went only to the convenience store.
-possibility	even	positive, minus	[["target_possibility_even_positive",306], "RangeForm", {html: construct_dialog("Irene studied hard in calculus last semester.", "It's possible that she got honors.", "It's possible that she even got honors." )}],
+possibility	only	positive, minus	[["target_possibility_only_positive",303], "RangeForm", {html: construct_dialog("Burt went to the library.", "Maybe on the way he decided to go for ice cream.", "Maybe on the way he decided to go only there." )}],
+  Maybe on the way he decided to go for ice cream.
+possibility	only	positive, plus	[["target_possibility_only_positive",303], "RangeForm", {html: construct_dialog("Burt went to the library.", "Maybe on the way he decided to go for ice cream.", "Maybe on the way he decided to go only there." )}],
+  Maybe on the way he decided to go only there.
+possibility	only	neutral, minus	What did Burt do today?  Maybe he went to the library.
+possibility	only	neutral, plus	What did Burt do today?  Maybe he went only to the library.
+possibility	only	positive, minus	[["target_possibility_only_positive",304], "RangeForm", {html: construct_dialog("Heba left for the town pool.", "It's possible on the way she decided to go to the park.", "It's possible on the way, she decided to go only there." )}],
+  It's possible on the way she decided to go to the park.
+possibility	only	positive, plus	[["target_possibility_only_positive",304], "RangeForm", {html: construct_dialog("Heba left for the town pool.", "It's possible on the way she decided to go to the park.", "It's possible on the way, she decided to go only there." )}],
+  It's possible on the way, she decided to go only there.
+possibility	only	neutral, minus	What did Heba do yesterday.  It's possible she went to the pool.
+possibility	only	neutral, plus	What did Heba do yesterday.  It's possible she went only to the pool.
+possibility	only	positive, minus	[["target_possibility_only_positive",305], "RangeForm", {html: construct_dialog("Diego went to the convenience store.", "On the way he might have decided to go to the library.", "On the way he might have decided to go only to there." )}],
+  On the way he might have decided to go to the library.
+possibility	only	positive, plus	[["target_possibility_only_positive",305], "RangeForm", {html: construct_dialog("Diego went to the convenience store.", "On the way he might have decided to go to the library.", "On the way he might have decided to go only to there." )}],
+  On the way he might have decided to go only to there.
+possibility	only	neutral, minus	What did Diego do yesterday?  He might have only went to the convenience store.
+possibility	only	neutral, plus	What did Diego do yesterday?  He might have only went to the convenience store.
+possibility	even	positive, minus	[["target_possibility_even_positive",306], "RangeForm", {html: construct_dialog("Irene studied hard in calculus last semester.", "It's possible that she got honors.", "It's possible she even got honors." )}],
   It's possible that she got honors.
-possibility	even	positive, plus	[["target_possibility_even_positive",306], "RangeForm", {html: construct_dialog("Irene studied hard in calculus last semester.", "It's possible that she got honors.", "It's possible that she even got honors." )}],
-  It's possible that she even got honors.
-possibility	even	neutral, minus	How did Irene do in class?  It's possible that she got honors.
-possibility	even	neutral, plus	How did Irene do in class?  It's possible that she even got honors.
-possibility	even	positive, minus	[["target_possibility_even_positive",307], "RangeForm", {html: construct_dialog("Javier ran hard at the track meet.", "It's possible that he broke a school record.", "It's possible that he even broke a school record." )}],
-  It's possible that he broke a school record.
-possibility	even	positive, plus	[["target_possibility_even_positive",307], "RangeForm", {html: construct_dialog("Javier ran hard at the track meet.", "It's possible that he broke a school record.", "It's possible that he even broke a school record." )}],
-  It's possible that he even broke a school record.
-possibility	even	neutral, minus	How did Javier do at the track meet?  It's possible that he broke a school record.
-possibility	even	neutral, plus	How did Javier do at the track meet?  It's possible that he even broke a school record.
-possibility	even	positive, minus	[["target_possibility_even_positive",308], "RangeForm", {html: construct_dialog("Kayla's team played hard in the state cup.", "It's possible that they made it to the finals.", "It's possible that they even made it to the finals." )}],
-  It's possible that they made it to the finals.
-possibility	even	positive, plus	[["target_possibility_even_positive",308], "RangeForm", {html: construct_dialog("Kayla's team played hard in the state cup.", "It's possible that they made it to the finals.", "It's possible that they even made it to the finals." )}],
-  It's possible that they even made it to the finals.
-possibility	even	neutral, minus	How did Kayla's team do in the state cup?  It's possible that they made it to the finals.
-possibility	even	neutral, plus	How did Kayla's team do in the state cup?  It's possible that they even made it to the finals.
-possibility	even	positive, minus	[["target_possibility_even_positive",309], "RangeForm", {html: construct_dialog("Tariq studied hard for his test.", "It's possible that he got an A on it.", "It's possible that he even got an A on it." )}],
-  It's possible that he got an A on it.
-possibility	even	positive, plus	[["target_possibility_even_positive",309], "RangeForm", {html: construct_dialog("Tariq studied hard for his test.", "It's possible that he got an A on it.", "It's possible that he even got an A on it." )}],
-  It's possible that he even got an A on it.
-possibility	even	neutral, minus	How did Tariq do on the final exam?  It's possible that he got an A.
-possibility	even	neutral, plus	How did Tariq do on the final exam?  It's possible that he even got an A.
-possibility	even	positive, minus	[["target_possibility_even_positive",310], "RangeForm", {html: construct_dialog("Liz trained hard for the marathon.", "It's possible that that she beat her personal record.", "It's possible that she even beat her personal record." )}],
-  It's possible that that she beat her personal record.
-possibility	even	positive, plus	[["target_possibility_even_positive",310], "RangeForm", {html: construct_dialog("Liz trained hard for the marathon.", "It's possible that that she beat her personal record.", "It's possible that she even beat her personal record." )}],
-  It's possible that she even beat her personal record.
-possibility	even	neutral, minus	How did Liz do in the marathon?  It's possible that she beat her personal record.
-possibility	even	neutral, plus	How did Liz do in the marathon?  It's possible that she even beat her personal record.
-possibility	even	positive, minus	[["target_possibility_even_positive",311], "RangeForm", {html: construct_dialog("Akash's team played well in the lacrosse tournament.", "It's possible that they made it to the semi-final game.", "It's possible that they even made it to the semi-final game." )}],
-  It's possible that they made it to the semi-final game.
-possibility	even	positive, plus	[["target_possibility_even_positive",311], "RangeForm", {html: construct_dialog("Akash's team played well in the lacrosse tournament.", "It's possible that they made it to the semi-final game.", "It's possible that they even made it to the semi-final game." )}],
-  It's possible that they even made it to the semi-final game.
-possibility	even	neutral, minus	How did Akash's team do in the lacrosse tournament?  It's possible that they made it to the semi-final game.
-possibility	even	neutral, plus	How did Akash's team do in the lacrosse tournament?  It's possible that they even made it to the semi-final game.
+possibility	even	positive, plus	[["target_possibility_even_positive",306], "RangeForm", {html: construct_dialog("Irene studied hard in calculus last semester.", "It's possible that she got honors.", "It's possible she even got honors." )}],
+  It's possible she even got honors.
+possibility	even	neutral, minus	How did Irene do in class?  It's possible she got honors.
+possibility	even	neutral, plus	How did Irene do in class?  It's possible she even got honors.
+possibility	even	positive, minus	[["target_possibility_even_positive",307], "RangeForm", {html: construct_dialog("Javier ran hard at the track meet.", "Maybe he broke a school record.", "Maybe he even broke a school record." )}],
+  Maybe he broke a school record.
+possibility	even	positive, plus	[["target_possibility_even_positive",307], "RangeForm", {html: construct_dialog("Javier ran hard at the track meet.", "Maybe he broke a school record.", "Maybe he even broke a school record." )}],
+  Maybe he even broke a school record.
+possibility	even	neutral, minus	How did Javier do at the track meet?  Maybe he broke a school record.
+possibility	even	neutral, plus	How did Javier do at the track meet?  Maybe he even broke a school record.
+possibility	even	positive, minus	[["target_possibility_even_positive",308], "RangeForm", {html: construct_dialog("Kayla's team played hard in the state cup.", "It's possible they made it to the finals.", "It's possible they even made it to the finals." )}],
+  It's possible they made it to the finals.
+possibility	even	positive, plus	[["target_possibility_even_positive",308], "RangeForm", {html: construct_dialog("Kayla's team played hard in the state cup.", "It's possible they made it to the finals.", "It's possible they even made it to the finals." )}],
+  It's possible they even made it to the finals.
+possibility	even	neutral, minus	How did Kayla's team do in the state cup?  It's possible they made it to the finals.
+possibility	even	neutral, plus	How did Kayla's team do in the state cup?  It's possible they even made it to the finals.
+possibility	even	positive, minus	[["target_possibility_even_positive",309], "RangeForm", {html: construct_dialog("Tariq studied hard for his test.", "It's possible he got an A on it.", "It's possible he even got an A on it." )}],
+  It's possible he got an A on it.
+possibility	even	positive, plus	[["target_possibility_even_positive",309], "RangeForm", {html: construct_dialog("Tariq studied hard for his test.", "It's possible he got an A on it.", "It's possible he even got an A on it." )}],
+  It's possible he even got an A on it.
+possibility	even	neutral, minus	How did Tariq do on the final exam?  It's possible he got an A.
+possibility	even	neutral, plus	How did Tariq do on the final exam?  It's possible he even got an A.
+possibility	even	positive, minus	[["target_possibility_even_positive",310], "RangeForm", {html: construct_dialog("Liz trained hard for the marathon.", "It's possible she beat her personal record.", "It's possible she even beat her personal record." )}],
+  It's possible she beat her personal record.
+possibility	even	positive, plus	[["target_possibility_even_positive",310], "RangeForm", {html: construct_dialog("Liz trained hard for the marathon.", "It's possible she beat her personal record.", "It's possible she even beat her personal record." )}],
+  It's possible she even beat her personal record.
+possibility	even	neutral, minus	How did Liz do in the marathon?  It's possible she beat her personal record.
+possibility	even	neutral, plus	How did Liz do in the marathon?  It's possible she even beat her personal record.
+possibility	even	positive, minus	[["target_possibility_even_positive",311], "RangeForm", {html: construct_dialog("Akash's team played well in the lacrosse tournament.", "Maybe they made it to the semi-final game.", "Maybe they even made it to the semi-final game." )}],
+  Maybe they made it to the semi-final game.
+possibility	even	positive, plus	[["target_possibility_even_positive",311], "RangeForm", {html: construct_dialog("Akash's team played well in the lacrosse tournament.", "Maybe they made it to the semi-final game.", "Maybe they even made it to the semi-final game." )}],
+  Maybe they even made it to the semi-final game.
+possibility	even	neutral, minus	How did Akash's team do in the lacrosse tournament?  Maybe they made it to the semi-final game.
+possibility	even	neutral, plus	How did Akash's team do in the lacrosse tournament?  Maybe they even made it to the semi-final game.
 possibility	too	positive, minus	[["target_possibility_too_positive",312], "RangeForm", {html: construct_dialog("Sahil went to a concert.", "Maybe he then went to an arcade.", "Maybe he then went to an arcade, too." )}],
   Maybe he then went to an arcade.
 possibility	too	positive, plus	[["target_possibility_too_positive",312], "RangeForm", {html: construct_dialog("Sahil went to a concert.", "Maybe he then went to an arcade.", "Maybe he then went to an arcade, too." )}],
   Maybe he then went to an arcade, too.
 possibility	too	neutral, minus	What did Sahil do yesterday?  Maybe he went to an arcade.
 possibility	too	neutral, plus	What did Sahil do yesterday?  Maybe he went to an arcade, too.
-possibility	too	positive, minus	[["target_possibility_too_positive",313], "RangeForm", {html: construct_dialog("Celine watched a comedy show on TV.", "Maybe she then watched the news.", "Maybe she then watched the news, too." )}],
-  Maybe she then watched the news.
-possibility	too	positive, plus	[["target_possibility_too_positive",313], "RangeForm", {html: construct_dialog("Celine watched a comedy show on TV.", "Maybe she then watched the news.", "Maybe she then watched the news, too." )}],
-  Maybe she then watched the news, too.
-possibility	too	neutral, minus	What did Celine watch on TV?  Maybe she watched the news.
-possibility	too	neutral, plus	What did Celine watch on TV?  Maybe she watched the news, too.
+possibility	too	positive, minus	[["target_possibility_too_positive",313], "RangeForm", {html: construct_dialog("Celine watched a comedy show on TV.", "She might have then watched the news.", "She might have then watched the news, too." )}],
+  She might have then watched the news.
+possibility	too	positive, plus	[["target_possibility_too_positive",313], "RangeForm", {html: construct_dialog("Celine watched a comedy show on TV.", "She might have then watched the news.", "She might have then watched the news, too." )}],
+  She might have then watched the news, too.
+possibility	too	neutral, minus	What did Celine watch on TV?  She might have watched the news.
+possibility	too	neutral, plus	What did Celine watch on TV?  She might have watched the news, too.
 possibility	too	positive, minus	[["target_possibility_too_positive",314], "RangeForm", {html: construct_dialog("Boris went to dinner at a friend's house.", "Maybe he then went out to a bar.", "Maybe he then went out to a bar, too." )}],
   Maybe he then went out to a bar.
 possibility	too	positive, plus	[["target_possibility_too_positive",314], "RangeForm", {html: construct_dialog("Boris went to dinner at a friend's house.", "Maybe he then went out to a bar.", "Maybe he then went out to a bar, too." )}],
   Maybe he then went out to a bar, too.
 possibility	too	neutral, minus	What did Boris do last Sunday?  Maybe he went out to a bar.
 possibility	too	neutral, plus	What did Boris do last Sunday?  Maybe he went out to a bar, too.
-possibility	too	positive, minus	[["target_possibility_too_positive",315], "RangeForm", {html: construct_dialog("Jamie went to the library.", "Maybe she then went to the post office.", "Maybe she then went to the post office, too." )}],
-  Maybe she then went to the post office.
-possibility	too	positive, plus	[["target_possibility_too_positive",315], "RangeForm", {html: construct_dialog("Jamie went to the library.", "Maybe she then went to the post office.", "Maybe she then went to the post office, too." )}],
-  Maybe she then went to the post office, too.
-possibility	too	neutral, minus	What did Jamie do today?  Maybe she went to the post office.
-possibility	too	neutral, plus	What did Jamie do today?  Maybe she went to the post office, too.
+possibility	too	positive, minus	[["target_possibility_too_positive",315], "RangeForm", {html: construct_dialog("Jamie went to the library.", "It's possible she then went to the post office.", "It's possible she then went to the post office, too." )}],
+  It's possible she then went to the post office.
+possibility	too	positive, plus	[["target_possibility_too_positive",315], "RangeForm", {html: construct_dialog("Jamie went to the library.", "It's possible she then went to the post office.", "It's possible she then went to the post office, too." )}],
+  It's possible she then went to the post office, too.
+possibility	too	neutral, minus	What did Jamie do today?  It's possible she went to the post office.
+possibility	too	neutral, plus	What did Jamie do today?  It's possible she went to the post office, too.
 possibility	too	positive, minus	[["target_possibility_too_positive",316], "RangeForm", {html: construct_dialog("Zev went to the movie theater.", "Maybe he then went for ice cream.", "Maybe he then went for ice cream, too." )}],
   Maybe he then went for ice cream.
 possibility	too	positive, plus	[["target_possibility_too_positive",316], "RangeForm", {html: construct_dialog("Zev went to the movie theater.", "Maybe he then went for ice cream.", "Maybe he then went for ice cream, too." )}],
   Maybe he then went for ice cream, too.
 possibility	too	neutral, minus	What did Zev do last night?  Maybe he went for ice cream.
 possibility	too	neutral, plus	What did Zev do last night?  Maybe he went for ice cream, too.
-possibility	too	positive, minus	[["target_possibility_too_positive",317], "RangeForm", {html: construct_dialog("Lauren went to class.", "Maybe she then went to the library.", "Maybe she then went to the library, too." )}],
-  Maybe she then went to the library.
-possibility	too	positive, plus	[["target_possibility_too_positive",317], "RangeForm", {html: construct_dialog("Lauren went to class.", "Maybe she then went to the library.", "Maybe she then went to the library, too." )}],
-  Maybe she then went to the library, too.
-possibility	too	neutral, minus	What did Lauren do yesterday?  Maybe she went to the library.
-possibility	too	neutral, plus	What did Lauren do yesterday?  Maybe she went to the library, too.
-possibility	cleft	positive, minus	[["target_possibility_cleft_positive",318], "RangeForm", {html: construct_dialog("Hannah baked something last weekend.", "Maybe she made muffins.", "Maybe it was muffins that she made." )}],
-  Maybe she made muffins.
-possibility	cleft	positive, plus	[["target_possibility_cleft_positive",318], "RangeForm", {html: construct_dialog("Hannah baked something last weekend.", "Maybe she made muffins.", "Maybe it was muffins that she made." )}],
-  Maybe it was muffins that she made.
-possibility	cleft	neutral, minus	What did Hannah do last weekend?  Maybe she made muffins.
-possibility	cleft	neutral, plus	What did Hannah do last weekend?  Maybe it was muffins that she made.
+possibility	too	positive, minus	[["target_possibility_too_positive",317], "RangeForm", {html: construct_dialog("Lauren went to class.", "Then she might have gone to the library.", "Then she might have gone to the library, too." )}],
+  Then she might have gone to the library.
+possibility	too	positive, plus	[["target_possibility_too_positive",317], "RangeForm", {html: construct_dialog("Lauren went to class.", "Then she might have gone to the library.", "Then she might have gone to the library, too." )}],
+  Then she might have gone to the library, too.
+possibility	too	neutral, minus	What did Lauren do yesterday?  She might have gone to the library.
+possibility	too	neutral, plus	What did Lauren do yesterday?  She might have gone to the library, too.
+possibility	cleft	positive, minus	[["target_possibility_cleft_positive",318], "RangeForm", {html: construct_dialog("Hannah baked something last weekend.", "She might have made muffins.", "It might have been muffins that she made." )}],
+  She might have made muffins.
+possibility	cleft	positive, plus	[["target_possibility_cleft_positive",318], "RangeForm", {html: construct_dialog("Hannah baked something last weekend.", "She might have made muffins.", "It might have been muffins that she made." )}],
+  It might have been muffins that she made.
+possibility	cleft	neutral, minus	What did Hannah do last weekend?  She might have made muffins.
+possibility	cleft	neutral, plus	What did Hannah do last weekend?  It might have been muffins that she made.
 possibility	cleft	positive, minus	[["target_possibility_cleft_positive",319], "RangeForm", {html: construct_dialog("Dale fixed something yesterday.", "Maybe he fixed the TV remote.", "Maybe it was the TV remote that he fixed." )}],
   Maybe he fixed the TV remote.
 possibility	cleft	positive, plus	[["target_possibility_cleft_positive",319], "RangeForm", {html: construct_dialog("Dale fixed something yesterday.", "Maybe he fixed the TV remote.", "Maybe it was the TV remote that he fixed." )}],
@@ -124,24 +124,24 @@ possibility	cleft	positive, plus	[["target_possibility_cleft_positive",320], "Ra
   Maybe it was pad thai that she tried.
 possibility	cleft	neutral, minus	What did Hyla do tonight?  Maybe she tried pad thai.
 possibility	cleft	neutral, plus	What did Hyla do tonight?  Maybe it was pad thai that she tried.
-possibility	cleft	positive, minus	[["target_possibility_cleft_positive",321], "RangeForm", {html: construct_dialog("Ryan read something yesterday.", "Maybe he read a comic book.", "Maybe it was a comic book that he read." )}],
-  Maybe he read a comic book.
-possibility	cleft	positive, plus	[["target_possibility_cleft_positive",321], "RangeForm", {html: construct_dialog("Ryan read something yesterday.", "Maybe he read a comic book.", "Maybe it was a comic book that he read." )}],
-  Maybe it was a comic book that he read.
-possibility	cleft	neutral, minus	What did Ryan do yesterday?  Maybe he read a comic book.
-possibility	cleft	neutral, plus	What did Ryan do yesterday?  Maybe it was a comic book that he read.
+possibility	cleft	positive, minus	[["target_possibility_cleft_positive",321], "RangeForm", {html: construct_dialog("Ryan read something yesterday.", "It's possible he read a comic book.", "It's possible it was a comic book that he read." )}],
+  It's possible he read a comic book.
+possibility	cleft	positive, plus	[["target_possibility_cleft_positive",321], "RangeForm", {html: construct_dialog("Ryan read something yesterday.", "It's possible he read a comic book.", "It's possible it was a comic book that he read." )}],
+  It's possible it was a comic book that he read.
+possibility	cleft	neutral, minus	What did Ryan do yesterday?  It's possible he read a comic book.
+possibility	cleft	neutral, plus	What did Ryan do yesterday?  It's possible it was a comic book that he read.
 possibility	cleft	positive, minus	[["target_possibility_cleft_positive",322], "RangeForm", {html: construct_dialog("Sylvia watched a game this morning.", "Maybe she watched a hockey game.", "Maybe it was a hockey game that she watched." )}],
   Maybe she watched a hockey game.
 possibility	cleft	positive, plus	[["target_possibility_cleft_positive",322], "RangeForm", {html: construct_dialog("Sylvia watched a game this morning.", "Maybe she watched a hockey game.", "Maybe it was a hockey game that she watched." )}],
   Maybe it was a hockey game that she watched.
 possibility	cleft	neutral, minus	What did Sylvia do this morning?  Maybe she watched a hockey game.
 possibility	cleft	neutral, plus	What did Sylvia do this morning?  Maybe it was a hockey game that she watched.
-possibility	cleft	positive, minus	[["target_possibility_cleft_positive",323], "RangeForm", {html: construct_dialog("Marina built something last night.", "Maybe she built a box.", "Maybe it was a box that she built." )}],
-  Maybe she built a box.
-possibility	cleft	positive, plus	[["target_possibility_cleft_positive",323], "RangeForm", {html: construct_dialog("Marina built something last night.", "Maybe she built a box.", "Maybe it was a box that she built." )}],
-  Maybe it was a box that she built.
-possibility	cleft	neutral, minus	What did Marina do last night?  Maybe she built a box.
-possibility	cleft	neutral, plus	What did Marina do last night?  Maybe it was a box that she built.
+possibility	cleft	positive, minus	[["target_possibility_cleft_positive",323], "RangeForm", {html: construct_dialog("Marina built something last night.", "She might have built a box.", "It might have been a box that she built." )}],
+  She might have built a box.
+possibility	cleft	positive, plus	[["target_possibility_cleft_positive",323], "RangeForm", {html: construct_dialog("Marina built something last night.", "She might have built a box.", "It might have been a box that she built." )}],
+  It might have been a box that she built.
+possibility	cleft	neutral, minus	What did Marina do last night?  She might have built a box.
+possibility	cleft	neutral, plus	What did Marina do last night?  It might have been a box that she built.
 possibility	cognitive	positive, minus	[["target_possibility_cognitive_positive",324], "RangeForm", {html: construct_dialog("Desmond stole Jill's guitar.", "It's possible she suspects that he stole it.", "It's possible she knows he stole it." )}],
   It's possible she suspects that he stole it.
 possibility	cognitive	positive, plus	[["target_possibility_cognitive_positive",324], "RangeForm", {html: construct_dialog("Desmond stole Jill's guitar.", "It's possible she suspects that he stole it.", "It's possible she knows he stole it." )}],
@@ -154,70 +154,70 @@ possibility	cognitive	positive, plus	[["target_possibility_cognitive_positive",3
   It's possible she knows he stole it.
 possibility	cognitive	neutral, minus	Why is Wanda mad?  It's possible she suspects that Zach stole her computer.
 possibility	cognitive	neutral, plus	Why is Wanda mad?  It's possible she knows that Zach stole her computer.
-possibility	cognitive	positive, minus	[["target_possibility_cognitive_positive",326], "RangeForm", {html: construct_dialog("Jerry took Beatrice's book.", "It's possible he suspects that she took it.", "It's possible he knows she took it." )}],
-  It's possible he suspects that she took it.
-possibility	cognitive	positive, plus	[["target_possibility_cognitive_positive",326], "RangeForm", {html: construct_dialog("Jerry took Beatrice's book.", "It's possible he suspects that she took it.", "It's possible he knows she took it." )}],
-  It's possible he knows she took it.
-possibility	cognitive	neutral, minus	Why is Beatrice mad at Jerry?  It's possible she suspects that he took her book.
-possibility	cognitive	neutral, plus	Why is Beatrice mad at Jerry?  It's possible she knows he took her book.
+possibility	cognitive	positive, minus	[["target_possibility_cognitive_positive",326], "RangeForm", {html: construct_dialog("Jerry took Beatrice's book.", "Maybe he suspects that she took it.", "Maybe he knows she took it." )}],
+  Maybe he suspects that she took it.
+possibility	cognitive	positive, plus	[["target_possibility_cognitive_positive",326], "RangeForm", {html: construct_dialog("Jerry took Beatrice's book.", "Maybe he suspects that she took it.", "Maybe he knows she took it." )}],
+  Maybe he knows she took it.
+possibility	cognitive	neutral, minus	Why is Beatrice mad at Jerry?  Maybe she suspects that he took her book.
+possibility	cognitive	neutral, plus	Why is Beatrice mad at Jerry?  Maybe she knows he took her book.
 possibility	cognitive	positive, minus	[["target_possibility_cognitive_positive",327], "RangeForm", {html: construct_dialog("Leonard copied Susana's test answers.", "It's possible she suspects that he copied her answers.", "It's possible she knows he copied her answers." )}],
   It's possible she suspects that he copied her answers.
 possibility	cognitive	positive, plus	[["target_possibility_cognitive_positive",327], "RangeForm", {html: construct_dialog("Leonard copied Susana's test answers.", "It's possible she suspects that he copied her answers.", "It's possible she knows he copied her answers." )}],
   It's possible she knows he copied her answers.
 possibility	cognitive	neutral, minus	What's up with Susana and Leonard?  It's possible she suspects that he copied her test answers.
 possibility	cognitive	neutral, plus	What's up with Susana and Leonard?  It's possible she knows that he copied her test answers.
-possibility	cognitive	positive, minus	[["target_possibility_cognitive_positive",328], "RangeForm", {html: construct_dialog("Dimitri accidentally broke Shivani's microwave.", "It's possible she suspects that he broke it.", "It's possible she knows he broke it." )}],
+possibility	cognitive	positive, minus	[["target_possibility_cognitive_positive",328], "RangeForm", {html: construct_dialog("Dimitri accidentally broke Shivani's microwave.", "Maybe she suspects that he broke it.", "Maybe she knows he broke it." )}],
+  Maybe she suspects that he broke it.
+possibility	cognitive	positive, plus	[["target_possibility_cognitive_positive",328], "RangeForm", {html: construct_dialog("Dimitri accidentally broke Shivani's microwave.", "Maybe she suspects that he broke it.", "Maybe she knows he broke it." )}],
+  Maybe she knows he broke it.
+possibility	cognitive	neutral, minus	Why is Shivani mad at Dimitri?  Maybe she suspects that he broke her microwave.
+possibility	cognitive	neutral, plus	Why is Shivani mad at Dimitri?  Maybe she knows that he broke her microwave.
+possibility	cognitive	positive, minus	[["target_possibility_cognitive_positive",329], "RangeForm", {html: construct_dialog("Lauren took Ned's favorite mug.", "He might suspect that she took it.", "He might know that she took it." )}],
+  He might suspect that she took it.
+possibility	cognitive	positive, plus	[["target_possibility_cognitive_positive",329], "RangeForm", {html: construct_dialog("Lauren took Ned's favorite mug.", "He might suspect that she took it.", "He might know that she took it." )}],
+  He might know that she took it.
+possibility	cognitive	neutral, minus	Why is Ned upset?  He might suspect that Lauren took his favorite mug.
+possibility	cognitive	neutral, plus	Why is Ned upset?  He might know that Lauren took his favorite mug.
+possibility	emotive	positive, minus	[["target_possibility_emotive_positive",330], "RangeForm", {html: construct_dialog("Raj stole Adiyah's sneakers.", "It's possible she suspects that he stole it.", "It's possible she's mad that he stole it." )}],
+  It's possible she suspects that he stole it.
+possibility	emotive	positive, plus	[["target_possibility_emotive_positive",330], "RangeForm", {html: construct_dialog("Raj stole Adiyah's sneakers.", "It's possible she suspects that he stole it.", "It's possible she's mad that he stole it." )}],
+  It's possible she's mad that he stole it.
+possibility	emotive	neutral, minus	What's up with Adiyah?  It's possible she suspects that Raj stole her sneakers.
+possibility	emotive	neutral, plus	What's up with Adiyah?  It's possible she's mad that Raj stole her sneakers.
+possibility	emotive	positive, minus	[["target_possibility_emotive_positive",331], "RangeForm", {html: construct_dialog("Isabella took Zayn's favorite toy car.", "Maybe he suspects that she took it.", "Maybe he's upset that she took it." )}],
+  Maybe he suspects that she took it.
+possibility	emotive	positive, plus	[["target_possibility_emotive_positive",331], "RangeForm", {html: construct_dialog("Isabella took Zayn's favorite toy car.", "Maybe he suspects that she took it.", "Maybe he's upset that she took it." )}],
+  Maybe he's upset that she took it.
+possibility	emotive	neutral, minus	What's up with Zayn?  Maybe he suspects that Isabella took his favorite toy car.
+possibility	emotive	neutral, plus	What's up with Zayn?  Maybe he's mad that Isabella took his favorite toy car.
+possibility	emotive	positive, minus	[["target_possibility_emotive_positive",332], "RangeForm", {html: construct_dialog("Roberta copied Alan's homework.", "It's possible he suspects that she copied it.", "It's possible he's mad that she copied it." )}],
+  It's possible he suspects that she copied it.
+possibility	emotive	positive, plus	[["target_possibility_emotive_positive",332], "RangeForm", {html: construct_dialog("Roberta copied Alan's homework.", "It's possible he suspects that she copied it.", "It's possible he's mad that she copied it." )}],
+  It's possible he's mad that she copied it.
+possibility	emotive	neutral, minus	What's up with Alan and Roberta?  It's possible he suspects that she copied his homework.
+possibility	emotive	neutral, plus	What's up with Alan and Roberta?  It's possible he's mad that she copied his homework.
+possibility	emotive	positive, minus	[["target_possibility_emotive_positive",333], "RangeForm", {html: construct_dialog("Dylan copied Jane's dance move.", "Maybe she suspects that he copied it.", "Maybe she's flattered that he copied it." )}],
+  Maybe she suspects that he copied it.
+possibility	emotive	positive, plus	[["target_possibility_emotive_positive",333], "RangeForm", {html: construct_dialog("Dylan copied Jane's dance move.", "Maybe she suspects that he copied it.", "Maybe she's flattered that he copied it." )}],
+  Maybe she's flattered that he copied it.
+possibility	emotive	neutral, minus	What's up with Jane?  Maybe she suspects that Dylan copied her dance move.
+possibility	emotive	neutral, plus	What's up with Jane?  Maybe she's flattered that Dylan copied her dance move.
+possibility	emotive	positive, minus	[["target_possibility_emotive_positive",334], "RangeForm", {html: construct_dialog("Kevin accidentally broke Busola's phone charger.", "It's possible she suspects that he broke it.", "It's possible she's mad that he broke it." )}],
   It's possible she suspects that he broke it.
-possibility	cognitive	positive, plus	[["target_possibility_cognitive_positive",328], "RangeForm", {html: construct_dialog("Dimitri accidentally broke Shivani's microwave.", "It's possible she suspects that he broke it.", "It's possible she knows he broke it." )}],
-  It's possible she knows he broke it.
-possibility	cognitive	neutral, minus	Why is Shivani mad at Dimitri?  It's possible she suspects that he broke her microwave.
-possibility	cognitive	neutral, plus	Why is Shivani mad at Dimitri?  It's possible she knows that he broke her microwave.
-possibility	cognitive	positive, minus	[["target_possibility_cognitive_positive",329], "RangeForm", {html: construct_dialog("Lauren took Ned's favorite mug.", "It's possible he suspects that she took it.", "It's possible he knows that she took it." )}],
-  It's possible he suspects that she took it.
-possibility	cognitive	positive, plus	[["target_possibility_cognitive_positive",329], "RangeForm", {html: construct_dialog("Lauren took Ned's favorite mug.", "It's possible he suspects that she took it.", "It's possible he knows that she took it." )}],
-  It's possible he knows that she took it.
-possibility	cognitive	neutral, minus	Why is Ned upset?  It's possible he suspects that Lauren took his favorite mug.
-possibility	cognitive	neutral, plus	Why is Ned upset?  It's possible he knows that Lauren took his favorite mug.
-possibility	emotive	positive, minus	[["target_possibility_emotive_positive",330], "RangeForm", {html: construct_dialog("Raj stole Adiyah's sneakers.", "It's possible that she suspects that he stole it.", "It's possible that she's mad that he stole it." )}],
-  It's possible that she suspects that he stole it.
-possibility	emotive	positive, plus	[["target_possibility_emotive_positive",330], "RangeForm", {html: construct_dialog("Raj stole Adiyah's sneakers.", "It's possible that she suspects that he stole it.", "It's possible that she's mad that he stole it." )}],
-  It's possible that she's mad that he stole it.
-possibility	emotive	neutral, minus	What's up with Adiyah?  It's possible that she suspects that Raj stole her sneakers.
-possibility	emotive	neutral, plus	What's up with Adiyah?  It's possible that she's mad that Raj stole her sneakers.
-possibility	emotive	positive, minus	[["target_possibility_emotive_positive",331], "RangeForm", {html: construct_dialog("Isabella took Zayn's favorite toy car.", "It's possible that he suspects that she took it.", "It's possible that he's upset that she took it." )}],
-  It's possible that he suspects that she took it.
-possibility	emotive	positive, plus	[["target_possibility_emotive_positive",331], "RangeForm", {html: construct_dialog("Isabella took Zayn's favorite toy car.", "It's possible that he suspects that she took it.", "It's possible that he's upset that she took it." )}],
-  It's possible that he's upset that she took it.
-possibility	emotive	neutral, minus	What's up with Zayn?  It's possible that he suspects that Isabella took his favorite toy car.
-possibility	emotive	neutral, plus	What's up with Zayn?  It's possible that he's mad that Isabella took his favorite toy car.
-possibility	emotive	positive, minus	[["target_possibility_emotive_positive",332], "RangeForm", {html: construct_dialog("Roberta copied Alan's homework.", "It's possible that he suspects that she copied it.", "It's possible that he's mad that she copied it." )}],
-  It's possible that he suspects that she copied it.
-possibility	emotive	positive, plus	[["target_possibility_emotive_positive",332], "RangeForm", {html: construct_dialog("Roberta copied Alan's homework.", "It's possible that he suspects that she copied it.", "It's possible that he's mad that she copied it." )}],
-  It's possible that he's mad that she copied it.
-possibility	emotive	neutral, minus	What's up with Alan and Roberta?  It's possible that he suspects that she copied his homework.
-possibility	emotive	neutral, plus	What's up with Alan and Roberta?  It's possible that he's mad that she copied his homework.
-possibility	emotive	positive, minus	[["target_possibility_emotive_positive",333], "RangeForm", {html: construct_dialog("Dylan copied Jane's dance move.", "It's possible that she suspects that he copied it.", "It's possible that she's flattered that he copied it." )}],
-  It's possible that she suspects that he copied it.
-possibility	emotive	positive, plus	[["target_possibility_emotive_positive",333], "RangeForm", {html: construct_dialog("Dylan copied Jane's dance move.", "It's possible that she suspects that he copied it.", "It's possible that she's flattered that he copied it." )}],
-  It's possible that she's flattered that he copied it.
-possibility	emotive	neutral, minus	What's up with Jane?  It's possible that she suspects that Dylan copied her dance move.
-possibility	emotive	neutral, plus	What's up with Jane?  It's possible that she's flattered that he copied her dance move.
-possibility	emotive	positive, minus	[["target_possibility_emotive_positive",334], "RangeForm", {html: construct_dialog("Kevin accidentally broke Busola's phone charger.", "It's possible that she suspects that he broke it.", "It's possible that she's mad that he broke it." )}],
-  It's possible that she suspects that he broke it.
-possibility	emotive	positive, plus	[["target_possibility_emotive_positive",334], "RangeForm", {html: construct_dialog("Kevin accidentally broke Busola's phone charger.", "It's possible that she suspects that he broke it.", "It's possible that she's mad that he broke it." )}],
-  It's possible that she's mad that he broke it.
-possibility	emotive	neutral, minus	What's up with Busola?  It's possible that she suspects that Kevin broke her phone charger.
-possibility	emotive	neutral, plus	What's up with Busola?  It's possible that she's mad that Kevin broke her phone charger.
-possibility	emotive	positive, minus	[["target_possibility_emotive_positive",335], "RangeForm", {html: construct_dialog("Rita stole Charlie's new sweater.", "It's possible that he suspects that she stole it.", "It's possible that he's frustrated that she stole it." )}],
-  It's possible that he suspects that she stole it.
-possibility	emotive	positive, plus	[["target_possibility_emotive_positive",335], "RangeForm", {html: construct_dialog("Rita stole Charlie's new sweater.", "It's possible that he suspects that she stole it.", "It's possible that he's frustrated that she stole it." )}],
-  It's possible that he's frustrated that she stole it.
-possibility	emotive	neutral, minus	What's up with Rita and Charlie?  It's possible that he suspects that Rita stole his new sweater.
-possibility	emotive	neutral, plus	What's up with Rita and Charlie?  It's possible that he's frustrated that Rita stole his new sweater.
-possibility	accomplishment	positive, minus	[["target_possibility_accomplishment_positive",336], "RangeForm", {html: construct_dialog("Seth participated in a tennis tournament.", "Maybe he enjoyed participating in it.", "Maybe he won the tournament, too." )}],
+possibility	emotive	positive, plus	[["target_possibility_emotive_positive",334], "RangeForm", {html: construct_dialog("Kevin accidentally broke Busola's phone charger.", "It's possible she suspects that he broke it.", "It's possible she's mad that he broke it." )}],
+  It's possible she's mad that he broke it.
+possibility	emotive	neutral, minus	What's up with Busola?  It's possible she suspects that Kevin broke her phone charger.
+possibility	emotive	neutral, plus	What's up with Busola?  It's possible she's mad that Kevin broke her phone charger.
+possibility	emotive	positive, minus	[["target_possibility_emotive_positive",335], "RangeForm", {html: construct_dialog("Rita stole Charlie's new sweater.", "Maybe he suspects that she stole it.", "Maybe he's frustrated that she stole it." )}],
+  Maybe he suspects that she stole it.
+possibility	emotive	positive, plus	[["target_possibility_emotive_positive",335], "RangeForm", {html: construct_dialog("Rita stole Charlie's new sweater.", "Maybe he suspects that she stole it.", "Maybe he's frustrated that she stole it." )}],
+  Maybe he's frustrated that she stole it.
+possibility	emotive	neutral, minus	What's up with Rita and Charlie?  Maybe he suspects that Rita stole his new sweater.
+possibility	emotive	neutral, plus	What's up with Rita and Charlie?  Maybe he's frustrated that Rita stole his new sweater.
+possibility	accomplishment	positive, minus	[["target_possibility_accomplishment_positive",336], "RangeForm", {html: construct_dialog("Seth participated in a tennis tournament.", "Maybe he enjoyed participating in it.", "Maybe he won the tournament." )}],
   Maybe he enjoyed participating in it.
-possibility	accomplishment	positive, plus	[["target_possibility_accomplishment_positive",336], "RangeForm", {html: construct_dialog("Seth participated in a tennis tournament.", "Maybe he enjoyed participating in it.", "Maybe he won the tournament, too." )}],
-  Maybe he won the tournament, too.
+possibility	accomplishment	positive, plus	[["target_possibility_accomplishment_positive",336], "RangeForm", {html: construct_dialog("Seth participated in a tennis tournament.", "Maybe he enjoyed participating in it.", "Maybe he won the tournament." )}],
+  Maybe he won the tournament.
 possibility	accomplishment	neutral, minus	What did Seth do this weekend?  Maybe he participated in a tennis tournament.
 possibility	accomplishment	neutral, plus	What did Seth do this weekend?  Maybe he won a tennis tournament.
 possibility	accomplishment	positive, minus	[["target_possibility_accomplishment_positive",337], "RangeForm", {html: construct_dialog("Rashida is looking for her favorite mug.", "Maybe she's getting frustrated looking for it.", "Maybe she found it under the sofa." )}],
@@ -232,30 +232,30 @@ possibility	accomplishment	positive, plus	[["target_possibility_accomplishment_p
   Maybe she passed it.
 possibility	accomplishment	neutral, minus	What did Rue do on Monday?  Maybe she studied for a final exam.
 possibility	accomplishment	neutral, plus	What did Rue do on Monday?  Maybe she passed a final exam.
-possibility	accomplishment	positive, minus	[["target_possibility_accomplishment_positive",339], "RangeForm", {html: construct_dialog("Zoe participated in a game of poker last night.", "Maybe she had a good time playing.", "Maybe she won the game." )}],
-  Maybe she had a good time playing.
-possibility	accomplishment	positive, plus	[["target_possibility_accomplishment_positive",339], "RangeForm", {html: construct_dialog("Zoe participated in a game of poker last night.", "Maybe she had a good time playing.", "Maybe she won the game." )}],
-  Maybe she won the game.
-possibility	accomplishment	neutral, minus	What did Zoe do last night?  Maybe she was playing poker.
-possibility	accomplishment	neutral, plus	What did Zoe do last night?  Maybe she won a game of poker.
+possibility	accomplishment	positive, minus	[["target_possibility_accomplishment_positive",339], "RangeForm", {html: construct_dialog("Zoe participated in a game of poker last night.", "She might have had a good time playing.", "She might have won the game." )}],
+  She might have had a good time playing.
+possibility	accomplishment	positive, plus	[["target_possibility_accomplishment_positive",339], "RangeForm", {html: construct_dialog("Zoe participated in a game of poker last night.", "She might have had a good time playing.", "She might have won the game." )}],
+  She might have won the game.
+possibility	accomplishment	neutral, minus	What did Zoe do last night?  She might have been playing poker.
+possibility	accomplishment	neutral, plus	What did Zoe do last night?  She might have won a game of poker.
 possibility	accomplishment	positive, minus	[["target_possibility_accomplishment_positive",340], "RangeForm", {html: construct_dialog("Jake is looking for his car keys.", "Maybe he is getting annoyed as he looks.", "Maybe he found them in his jacket." )}],
   Maybe he is getting annoyed as he looks.
 possibility	accomplishment	positive, plus	[["target_possibility_accomplishment_positive",340], "RangeForm", {html: construct_dialog("Jake is looking for his car keys.", "Maybe he is getting annoyed as he looks.", "Maybe he found them in his jacket." )}],
   Maybe he found them in his jacket.
 possibility	accomplishment	neutral, minus	What's new with Jake?  Maybe he misplaced his car keys.
 possibility	accomplishment	neutral, plus	What's new with Jake?  Maybe he found his car keys.
-possibility	accomplishment	positive, minus	[["target_possibility_accomplishment_positive",341], "RangeForm", {html: construct_dialog("Paul took a physics test last week.", "Maybe he studied hard for it.", "Maybe he passed it." )}],
-  Maybe he studied hard for it.
-possibility	accomplishment	positive, plus	[["target_possibility_accomplishment_positive",341], "RangeForm", {html: construct_dialog("Paul took a physics test last week.", "Maybe he studied hard for it.", "Maybe he passed it." )}],
-  Maybe he passed it.
-possibility	accomplishment	neutral, minus	What was up with Paul yesterday?  Maybe he studied for an exam.
-possibility	accomplishment	neutral, plus	What was up with Paul yesterday?  Maybe he passed an exam.
-possibility	possessive	positive, minus	[["target_possibility_possessive_positive",342], "RangeForm", {html: construct_dialog("Raj got a new printer recently.", "Maybe he asked a friend about how to set up a printer at work.", "Maybe he asked a friend about how to set up his printer at work." )}],
-  Maybe he asked a friend about how to set up a printer at work.
-possibility	possessive	positive, plus	[["target_possibility_possessive_positive",342], "RangeForm", {html: construct_dialog("Raj got a new printer recently.", "Maybe he asked a friend about how to set up a printer at work.", "Maybe he asked a friend about how to set up his printer at work." )}],
-  Maybe he asked a friend about how to set up his printer at work.
-possibility	possessive	neutral, minus	What did Raj do yesterday?  Maybe he asked a friend about how to set up a printer.
-possibility	possessive	neutral, plus	What did Raj do yesterday?  Maybe he asked a friend about how to set up his printer.
+possibility	accomplishment	positive, minus	[["target_possibility_accomplishment_positive",341], "RangeForm", {html: construct_dialog("Paul took a physics test last week.", "It's possible he studied hard for it.", "It's possible he passed it." )}],
+  It's possible he studied hard for it.
+possibility	accomplishment	positive, plus	[["target_possibility_accomplishment_positive",341], "RangeForm", {html: construct_dialog("Paul took a physics test last week.", "It's possible he studied hard for it.", "It's possible he passed it." )}],
+  It's possible he passed it.
+possibility	accomplishment	neutral, minus	What was up with Paul yesterday?  It's possible he studied for an exam.
+possibility	accomplishment	neutral, plus	What was up with Paul yesterday?  It's possible he passed an exam.
+possibility	possessive	positive, minus	[["target_possibility_possessive_positive",342], "RangeForm", {html: construct_dialog("Raj got a new printer recently.", "It's possible he asked a friend about how to set up a printer at work.", "It's possible he asked a friend about how to set up his printer at work." )}],
+  It's possible he asked a friend about how to set up a printer at work.
+possibility	possessive	positive, plus	[["target_possibility_possessive_positive",342], "RangeForm", {html: construct_dialog("Raj got a new printer recently.", "It's possible he asked a friend about how to set up a printer at work.", "It's possible he asked a friend about how to set up his printer at work." )}],
+  It's possible he asked a friend about how to set up his printer at work.
+possibility	possessive	neutral, minus	What did Raj do yesterday?  It's possible he asked a friend about how to set up a printer.
+possibility	possessive	neutral, plus	What did Raj do yesterday?  It's possible he asked a friend about how to set up his printer.
 possibility	possessive	positive, minus	[["target_possibility_possessive_positive",343], "RangeForm", {html: construct_dialog("Rachel got a new guitar last week.", "Maybe she asked a friend about how to tune a guitar.", "Maybe she asked a friend about how to tune her guitar." )}],
   Maybe she asked a friend about how to tune a guitar.
 possibility	possessive	positive, plus	[["target_possibility_possessive_positive",343], "RangeForm", {html: construct_dialog("Rachel got a new guitar last week.", "Maybe she asked a friend about how to tune a guitar.", "Maybe she asked a friend about how to tune her guitar." )}],
@@ -268,78 +268,78 @@ possibility	possessive	positive, plus	[["target_possibility_possessive_positive"
   Maybe he asked his mom about how to properly vacuum his rug.
 possibility	possessive	neutral, minus	What did Ryan do yesterday?  Maybe he asked his mom about how to properly vacuum a rug.
 possibility	possessive	neutral, plus	What did Ryan do yesterday?  Maybe he asked his mom about how to properly vacuum his rug.
-possibility	possessive	positive, minus	[["target_possibility_possessive_positive",345], "RangeForm", {html: construct_dialog("Roderick got a new computer for work.", "Maybe he asked the IT specialist about the best way to set up a new computer.", "Maybe he asked the IT specialist about the best way to set up his new computer." )}],
-  Maybe he asked the IT specialist about the best way to set up a new computer.
-possibility	possessive	positive, plus	[["target_possibility_possessive_positive",345], "RangeForm", {html: construct_dialog("Roderick got a new computer for work.", "Maybe he asked the IT specialist about the best way to set up a new computer.", "Maybe he asked the IT specialist about the best way to set up his new computer." )}],
-  Maybe he asked the IT specialist about the best way to set up his new computer.
-possibility	possessive	neutral, minus	What did Roderick do this morning?  Maybe he asked the IT specialist about the best way to set up a new computer.
-possibility	possessive	neutral, plus	What did Roderick do this morning?  Maybe he asked the IT specialist about the best way to set up his new computer.
+possibility	possessive	positive, minus	[["target_possibility_possessive_positive",345], "RangeForm", {html: construct_dialog("Roderick got a new computer for work.", "He might have asked the IT specialist about the best way to set up a new computer.", "He might have asked the IT specialist about the best way to set up his new computer." )}],
+  He might have asked the IT specialist about the best way to set up a new computer.
+possibility	possessive	positive, plus	[["target_possibility_possessive_positive",345], "RangeForm", {html: construct_dialog("Roderick got a new computer for work.", "He might have asked the IT specialist about the best way to set up a new computer.", "He might have asked the IT specialist about the best way to set up his new computer." )}],
+  He might have asked the IT specialist about the best way to set up his new computer.
+possibility	possessive	neutral, minus	What did Roderick do this morning?  He might have asked the IT specialist about the best way to set up a new computer.
+possibility	possessive	neutral, plus	What did Roderick do this morning?  He might have asked the IT specialist about the best way to set up his new computer.
 possibility	possessive	positive, minus	[["target_possibility_possessive_positive",346], "RangeForm", {html: construct_dialog("Raul got a new car recently.", "Maybe he asked his dad about the best way to change tires on a car.", "Maybe he asked his dad about the best way to change tires on his car." )}],
   Maybe he asked his dad about the best way to change tires on a car.
 possibility	possessive	positive, plus	[["target_possibility_possessive_positive",346], "RangeForm", {html: construct_dialog("Raul got a new car recently.", "Maybe he asked his dad about the best way to change tires on a car.", "Maybe he asked his dad about the best way to change tires on his car." )}],
   Maybe he asked his dad about the best way to change tires on his car.
 possibility	possessive	neutral, minus	What did Raul do yesterday?  Maybe he asked his dad about the best way to change tires on a car.
 possibility	possessive	neutral, plus	What did Raul do yesterday?  Maybe he asked his dad about the best way to change tires on his car.
-possibility	possessive	positive, minus	[["target_possibility_possessive_positive",347], "RangeForm", {html: construct_dialog("Riley got a new fax machine for work.", "Maybe she asked a friend about how to set up a fax machine.", "Maybe she asked a friend about how to set up her fax machine." )}],
-  Maybe she asked a friend about how to set up a fax machine.
-possibility	possessive	positive, plus	[["target_possibility_possessive_positive",347], "RangeForm", {html: construct_dialog("Riley got a new fax machine for work.", "Maybe she asked a friend about how to set up a fax machine.", "Maybe she asked a friend about how to set up her fax machine." )}],
-  Maybe she asked a friend about how to set up her fax machine.
-possibility	possessive	neutral, minus	What did Riley do this morning?  Maybe she asked a friend about how to set up a fax machine.
-possibility	possessive	neutral, plus	What did Riley do this morning?  Maybe she asked a friend about how to set up her fax machine.
-possibility	definite_det	positive, minus	[["target_possibility_definite_det_positive",348], "RangeForm", {html: construct_dialog("There are some students and an auditor in Brock's class.", "It's possible that students tend to really like the course.", "It's possible that the auditor really likes the course." )}],
-  It's possible that students tend to really like the course.
-possibility	definite_det	positive, plus	[["target_possibility_definite_det_positive",348], "RangeForm", {html: construct_dialog("There are some students and an auditor in Brock's class.", "It's possible that students tend to really like the course.", "It's possible that the auditor really likes the course." )}],
-  It's possible that the auditor really likes the course.
-possibility	definite_det	neutral, minus	Brock signed up for a Philosophy class.  It's possible that students tend to really like the course.
-possibility	definite_det	neutral, plus	Brock signed up for a Philosophy class.  It's possible that the auditor really likes the course.
-possibility	definite_det	positive, minus	[["target_possibility_definite_det_positive",349], "RangeForm", {html: construct_dialog("There are three cooks and a dishwasher on Susie's shift.", "It's possible that cooks tend not to like this shift.", "It's possible that the dishwasher doesn't like this shift." )}],
-  It's possible that cooks tend not to like this shift.
-possibility	definite_det	positive, plus	[["target_possibility_definite_det_positive",349], "RangeForm", {html: construct_dialog("There are three cooks and a dishwasher on Susie's shift.", "It's possible that cooks tend not to like this shift.", "It's possible that the dishwasher doesn't like this shift." )}],
-  It's possible that the dishwasher doesn't like this shift.
-possibility	definite_det	neutral, minus	Susie got assigned to a new shift.  It's possible that cooks tend not to like this shift.
-possibility	definite_det	neutral, plus	Susie got assigned to a new shift.  It's possible that the dishwasher doesn't like this shift.
-possibility	definite_det	positive, minus	[["target_possibility_definite_det_positive",350], "RangeForm", {html: construct_dialog("There are four actors and a dancer at Jill's rehearsal.", "It's possible that actors are happy with how the show is going.", "It's possible that the dancer thinks a lot needs to change." )}],
-  It's possible that actors are happy with how the show is going.
-possibility	definite_det	positive, plus	[["target_possibility_definite_det_positive",350], "RangeForm", {html: construct_dialog("There are four actors and a dancer at Jill's rehearsal.", "It's possible that actors are happy with how the show is going.", "It's possible that the dancer thinks a lot needs to change." )}],
-  It's possible that the dancer thinks a lot needs to change.
-possibility	definite_det	neutral, minus	Jill came to rehearsal early.  It's possible that actors are happy with how the show is going.
-possibility	definite_det	neutral, plus	Jill came to rehearsal early.  It's possible that the dancer is happy with how the show is going.
-possibility	definite_det	positive, minus	[["target_possibility_definite_det_positive",351], "RangeForm", {html: construct_dialog("There are four families and a couple in Tomer's apartment building.", "It's possible that families stay in the building for a long time.", "It's possible that the couple just moved in." )}],
-  It's possible that families stay in the building for a long time.
-possibility	definite_det	positive, plus	[["target_possibility_definite_det_positive",351], "RangeForm", {html: construct_dialog("There are four families and a couple in Tomer's apartment building.", "It's possible that families stay in the building for a long time.", "It's possible that the couple just moved in." )}],
-  It's possible that the couple just moved in.
-possibility	definite_det	neutral, minus	Tomer moved to a new apartment building last year.  It's possible that families stay in the building for a long time.
-possibility	definite_det	neutral, plus	Tomer moved to a new apartment building last year.  It's possible that the couple will stay in the building for a long time.
-possibility	definite_det	positive, minus	[["target_possibility_definite_det_positive",352], "RangeForm", {html: construct_dialog("There are five mechanics and a forklift operator in George's shift.", "It's possible that mechanics tend to like this shift.", "It's possible that the forklift operator really likes the shift." )}],
-  It's possible that mechanics tend to like this shift.
-possibility	definite_det	positive, plus	[["target_possibility_definite_det_positive",352], "RangeForm", {html: construct_dialog("There are five mechanics and a forklift operator in George's shift.", "It's possible that mechanics tend to like this shift.", "It's possible that the forklift operator really likes the shift." )}],
-  It's possible that the forklift operator really likes the shift.
-possibility	definite_det	neutral, minus	George just got assigned to a new shift at work.  It's possible that mechanics tend to like this shift.
-possibility	definite_det	neutral, plus	George just got assigned to a new shift at work.  It's possible that the forklift operator likes the shift.
-possibility	definite_det	positive, minus	[["target_possibility_definite_det_positive",353], "RangeForm", {html: construct_dialog("There are seven students and a visitor in Tracy's class.", "It's possible that students tend to struggle in the course.", "It's possible that the visitor is struggling in the course." )}],
-  It's possible that students tend to struggle in the course.
-possibility	definite_det	positive, plus	[["target_possibility_definite_det_positive",353], "RangeForm", {html: construct_dialog("There are seven students and a visitor in Tracy's class.", "It's possible that students tend to struggle in the course.", "It's possible that the visitor is struggling in the course." )}],
-  It's possible that the visitor is struggling in the course.
-possibility	definite_det	neutral, minus	Tracy signed up for a Physics class.  It's possible that students tend to struggle in the course.
-possibility	definite_det	neutral, plus	Tracy signed up for a Physics class.  It's possible that the visitor is struggling in the course.
-possibility	question	positive, minus	[["target_possibility_question_positive",354], "RangeForm", {html: construct_dialog("Someone stole Jack's computer.", "He might wonder whether they have been caught.", "He might wonder who did it." )}],
-  He might wonder whether they have been caught.
-possibility	question	positive, plus	[["target_possibility_question_positive",354], "RangeForm", {html: construct_dialog("Someone stole Jack's computer.", "He might wonder whether they have been caught.", "He might wonder who did it." )}],
-  He might wonder who did it.
-possibility	question	neutral, minus	Jack is thinking about his computer.  He might wonder whether someone stole it.
-possibility	question	neutral, plus	Jack is thinking about his computer.  He might wonder who stole it.
+possibility	possessive	positive, minus	[["target_possibility_possessive_positive",347], "RangeForm", {html: construct_dialog("Riley got a new fax machine for work.", "She might have asked a friend about how to set up a fax machine.", "She might have asked a friend about how to set up her fax machine." )}],
+  She might have asked a friend about how to set up a fax machine.
+possibility	possessive	positive, plus	[["target_possibility_possessive_positive",347], "RangeForm", {html: construct_dialog("Riley got a new fax machine for work.", "She might have asked a friend about how to set up a fax machine.", "She might have asked a friend about how to set up her fax machine." )}],
+  She might have asked a friend about how to set up her fax machine.
+possibility	possessive	neutral, minus	What did Riley do this morning?  She might have asked a friend about how to set up a fax machine.
+possibility	possessive	neutral, plus	What did Riley do this morning?  She might have asked a friend about how to set up her fax machine.
+possibility	definite_det	positive, minus	[["target_possibility_definite_det_positive",348], "RangeForm", {html: construct_dialog("There are some students and an auditor in Brock's class.", "It's possible students tend to really like the course.", "It's possible the auditor really likes the course." )}],
+  It's possible students tend to really like the course.
+possibility	definite_det	positive, plus	[["target_possibility_definite_det_positive",348], "RangeForm", {html: construct_dialog("There are some students and an auditor in Brock's class.", "It's possible students tend to really like the course.", "It's possible the auditor really likes the course." )}],
+  It's possible the auditor really likes the course.
+possibility	definite_det	neutral, minus	Brock signed up for a Philosophy class.  It's possible students tend to really like the course.
+possibility	definite_det	neutral, plus	Brock signed up for a Philosophy class.  It's possible the auditor really likes the course.
+possibility	definite_det	positive, minus	[["target_possibility_definite_det_positive",349], "RangeForm", {html: construct_dialog("There are three cooks and a dishwasher on Susie's shift.", "It's possible cooks tend not to like this shift.", "It's possible the dishwasher doesn't like this shift." )}],
+  It's possible cooks tend not to like this shift.
+possibility	definite_det	positive, plus	[["target_possibility_definite_det_positive",349], "RangeForm", {html: construct_dialog("There are three cooks and a dishwasher on Susie's shift.", "It's possible cooks tend not to like this shift.", "It's possible the dishwasher doesn't like this shift." )}],
+  It's possible the dishwasher doesn't like this shift.
+possibility	definite_det	neutral, minus	Susie got assigned to a new shift.  It's possible cooks tend not to like this shift.
+possibility	definite_det	neutral, plus	Susie got assigned to a new shift.  It's possible the dishwasher doesn't like this shift.
+possibility	definite_det	positive, minus	[["target_possibility_definite_det_positive",350], "RangeForm", {html: construct_dialog("There are four actors and a dancer at Jill's rehearsal.", "It's possible actors are happy with how the show is going.", "It's possible the dancer thinks a lot needs to change." )}],
+  It's possible actors are happy with how the show is going.
+possibility	definite_det	positive, plus	[["target_possibility_definite_det_positive",350], "RangeForm", {html: construct_dialog("There are four actors and a dancer at Jill's rehearsal.", "It's possible actors are happy with how the show is going.", "It's possible the dancer thinks a lot needs to change." )}],
+  It's possible the dancer thinks a lot needs to change.
+possibility	definite_det	neutral, minus	Jill came to rehearsal early.  It's possible actors are happy with how the show is going.
+possibility	definite_det	neutral, plus	Jill came to rehearsal early.  It's possible the dancer is happy with how the show is going.
+possibility	definite_det	positive, minus	[["target_possibility_definite_det_positive",351], "RangeForm", {html: construct_dialog("There are four families and a couple in Tomer's apartment building.", "It's possible families stay in the building for a long time.", "It's possible the couple will stay for a long time." )}],
+  It's possible families stay in the building for a long time.
+possibility	definite_det	positive, plus	[["target_possibility_definite_det_positive",351], "RangeForm", {html: construct_dialog("There are four families and a couple in Tomer's apartment building.", "It's possible families stay in the building for a long time.", "It's possible the couple will stay for a long time." )}],
+  It's possible the couple will stay for a long time.
+possibility	definite_det	neutral, minus	Tomer moved to a new apartment building last year.  It's possible families stay in the building for a long time.
+possibility	definite_det	neutral, plus	Tomer moved to a new apartment building last year.  It's possible the couple will stay in the building for a long time.
+possibility	definite_det	positive, minus	[["target_possibility_definite_det_positive",352], "RangeForm", {html: construct_dialog("There are five mechanics and a forklift operator on George's shift.", "It's possible mechanics tend to like this shift.", "It's possible the forklift operator really likes the shift." )}],
+  It's possible mechanics tend to like this shift.
+possibility	definite_det	positive, plus	[["target_possibility_definite_det_positive",352], "RangeForm", {html: construct_dialog("There are five mechanics and a forklift operator on George's shift.", "It's possible mechanics tend to like this shift.", "It's possible the forklift operator really likes the shift." )}],
+  It's possible the forklift operator really likes the shift.
+possibility	definite_det	neutral, minus	George just got assigned to a new shift at work.  It's possible mechanics tend to like this shift.
+possibility	definite_det	neutral, plus	George just got assigned to a new shift at work.  It's possible the forklift operator likes the shift.
+possibility	definite_det	positive, minus	[["target_possibility_definite_det_positive",353], "RangeForm", {html: construct_dialog("There are seven students and a visitor in Tracy's class.", "Maybe students tend to struggle in the course.", "Maybe the visitor is struggling in the course." )}],
+  Maybe students tend to struggle in the course.
+possibility	definite_det	positive, plus	[["target_possibility_definite_det_positive",353], "RangeForm", {html: construct_dialog("There are seven students and a visitor in Tracy's class.", "Maybe students tend to struggle in the course.", "Maybe the visitor is struggling in the course." )}],
+  Maybe the visitor is struggling in the course.
+possibility	definite_det	neutral, minus	Tracy signed up for a Physics class.  Maybe students tend to struggle in the course.
+possibility	definite_det	neutral, plus	Tracy signed up for a Physics class.  Maybe the visitor is struggling in the course.
+possibility	question	positive, minus	[["target_possibility_question_positive",354], "RangeForm", {html: construct_dialog("Someone stole Jack's computer.", "It's possible he wonders whether someone stole it.", "It's possible he wonders who stole it." )}],
+  It's possible he wonders whether someone stole it.
+possibility	question	positive, plus	[["target_possibility_question_positive",354], "RangeForm", {html: construct_dialog("Someone stole Jack's computer.", "It's possible he wonders whether someone stole it.", "It's possible he wonders who stole it." )}],
+  It's possible he wonders who stole it.
+possibility	question	neutral, minus	Jack is thinking about his computer.  It's possible he wonders whether someone stole it.
+possibility	question	neutral, plus	Jack is thinking about his computer.  It's possible he wonders who stole it.
 possibility	question	positive, minus	[["target_possibility_question_positive",355], "RangeForm", {html: construct_dialog("Someone stole Harrison's gym bag.", "He might wonder if they were caught.", "He might wonder who did it." )}],
   He might wonder if they were caught.
 possibility	question	positive, plus	[["target_possibility_question_positive",355], "RangeForm", {html: construct_dialog("Someone stole Harrison's gym bag.", "He might wonder if they were caught.", "He might wonder who did it." )}],
   He might wonder who did it.
 possibility	question	neutral, minus	Harrison can't find his gym bag.  He might wonder if someone stole it.
 possibility	question	neutral, plus	Harrison can't find his gym bag.  He might wonder who stole it.
-possibility	question	positive, minus	[["target_possibility_question_positive",356], "RangeForm", {html: construct_dialog("Someone stole Allison's phone.", "She might wonder whether they have been caught.", "She might wonder who did it." )}],
-  She might wonder whether they have been caught.
-possibility	question	positive, plus	[["target_possibility_question_positive",356], "RangeForm", {html: construct_dialog("Someone stole Allison's phone.", "She might wonder whether they have been caught.", "She might wonder who did it." )}],
-  She might wonder who did it.
-possibility	question	neutral, minus	Allison can't find her phone.  She might wonder if someone stole it.
-possibility	question	neutral, plus	Allison can't find her phone.  She might wonder who stole it.
+possibility	question	positive, minus	[["target_possibility_question_positive",356], "RangeForm", {html: construct_dialog("Someone stole Allison's phone.", "It's possible she wonders whether they have been caught.", "It's possible she wonders who did it." )}],
+  It's possible she wonders whether they have been caught.
+possibility	question	positive, plus	[["target_possibility_question_positive",356], "RangeForm", {html: construct_dialog("Someone stole Allison's phone.", "It's possible she wonders whether they have been caught.", "It's possible she wonders who did it." )}],
+  It's possible she wonders who did it.
+possibility	question	neutral, minus	Allison can't find her phone.  It's possible she wonders if someone stole it.
+possibility	question	neutral, plus	Allison can't find her phone.  It's possible she wonders who stole it.
 possibility	question	positive, minus	[["target_possibility_question_positive",357], "RangeForm", {html: construct_dialog("Someone dented the fender on Javier's car.", "He might wonder if they were caught on camera.", "He might wonder who did it." )}],
   He might wonder if they were caught on camera.
 possibility	question	positive, plus	[["target_possibility_question_positive",357], "RangeForm", {html: construct_dialog("Someone dented the fender on Javier's car.", "He might wonder if they were caught on camera.", "He might wonder who did it." )}],
@@ -352,36 +352,36 @@ possibility	question	positive, plus	[["target_possibility_question_positive",358
   He might wonder who did it.
 possibility	question	neutral, minus	Max got a good grade on his homework.  He might wonder if anyone copied it.
 possibility	question	neutral, plus	Max got a good grade on his homework.  He might wonder who copied it.
-possibility	question	positive, minus	[["target_possibility_question_positive",359], "RangeForm", {html: construct_dialog("Someone stole Scott's phone charger.", "He might wonder if they were caught on camera.", "He might wonder who did it." )}],
-  He might wonder if they were caught on camera.
-possibility	question	positive, plus	[["target_possibility_question_positive",359], "RangeForm", {html: construct_dialog("Someone stole Scott's phone charger.", "He might wonder if they were caught on camera.", "He might wonder who did it." )}],
-  He might wonder who did it.
-possibility	question	neutral, minus	Scott can't find his phone charger.  He might wonder if someone stole it.
-possibility	question	neutral, plus	Scott can't find his phone charger.  He might wonder who stole it.
-possibility	back	positive, minus	[["target_possibility_back_positive",360], "RangeForm", {html: construct_dialog("Georgia was at her parents house last month. What did she do last week?", "Maybe she drove to her parent's house.", "Maybe she drove back to her parent's house." )}],
-  Maybe she drove to her parent's house.
-possibility	back	positive, plus	[["target_possibility_back_positive",360], "RangeForm", {html: construct_dialog("Georgia was at her parents house last month. What did she do last week?", "Maybe she drove to her parent's house.", "Maybe she drove back to her parent's house." )}],
-  Maybe she drove back to her parent's house.
-possibility	back	neutral, minus	What did Georgia do last week?  Maybe she drove to her parent's house.
-possibility	back	neutral, plus	What did Georgia do last week?  Maybe she drove back to her parent's house.
-possibility	back	positive, minus	[["target_possibility_back_positive",361], "RangeForm", {html: construct_dialog("Cristobal was at the town hall last week. What did he do yesterday afternoon?", "Maybe he went to the Town Hall to file a petition.", "Maybe he went back to the Town Hall to file a petition." )}],
+possibility	question	positive, minus	[["target_possibility_question_positive",359], "RangeForm", {html: construct_dialog("Someone stole Scott's phone charger.", "Maybe he wonders if they were caught on camera.", "Maybe he wonders who did it." )}],
+  Maybe he wonders if they were caught on camera.
+possibility	question	positive, plus	[["target_possibility_question_positive",359], "RangeForm", {html: construct_dialog("Someone stole Scott's phone charger.", "Maybe he wonders if they were caught on camera.", "Maybe he wonders who did it." )}],
+  Maybe he wonders who did it.
+possibility	question	neutral, minus	Scott can't find his phone charger.  Maybe he wonders if someone stole it.
+possibility	question	neutral, plus	Scott can't find his phone charger.  Maybe he wonders who stole it.
+possibility	back	positive, minus	[["target_possibility_back_positive",360], "RangeForm", {html: construct_dialog("Georgia was at her parents house last month. What did she do last week?", "It's possible she drove to her parent's house.", "It's possible she drove back to her parent's house." )}],
+  It's possible she drove to her parent's house.
+possibility	back	positive, plus	[["target_possibility_back_positive",360], "RangeForm", {html: construct_dialog("Georgia was at her parents house last month. What did she do last week?", "It's possible she drove to her parent's house.", "It's possible she drove back to her parent's house." )}],
+  It's possible she drove back to her parent's house.
+possibility	back	neutral, minus	What did Georgia do last month?  It's possible she drove to her parent's house.
+possibility	back	neutral, plus	What did Georgia do last month?  It's possible she drove back to her parent's house.
+possibility	back	positive, minus	[["target_possibility_back_positive",361], "RangeForm", {html: construct_dialog("Christian was at the town hall last week. What did he do yesterday afternoon?", "Maybe he went to the Town Hall to file a petition.", "Maybe he went back to the Town Hall to file a petition." )}],
   Maybe he went to the Town Hall to file a petition.
-possibility	back	positive, plus	[["target_possibility_back_positive",361], "RangeForm", {html: construct_dialog("Cristobal was at the town hall last week. What did he do yesterday afternoon?", "Maybe he went to the Town Hall to file a petition.", "Maybe he went back to the Town Hall to file a petition." )}],
+possibility	back	positive, plus	[["target_possibility_back_positive",361], "RangeForm", {html: construct_dialog("Christian was at the town hall last week. What did he do yesterday afternoon?", "Maybe he went to the Town Hall to file a petition.", "Maybe he went back to the Town Hall to file a petition." )}],
   Maybe he went back to the Town Hall to file a petition.
-possibility	back	neutral, minus	What did Cristobal do yesterday afternoon?  Maybe he went to the Town Hall to file a petition.
-possibility	back	neutral, plus	What did Cristobal do yesterday afternoon?  Maybe he went back to the Town Hall to file a petition.
+possibility	back	neutral, minus	What did Christian do yesterday afternoon?  Maybe he went to the Town Hall to file a petition.
+possibility	back	neutral, plus	What did Christian do yesterday afternoon?  Maybe he went back to the Town Hall to file a petition.
 possibility	back	positive, minus	[["target_possibility_back_positive",362], "RangeForm", {html: construct_dialog("Mariam went to Florida last summer. What about this summer?", "Maybe she went to Florida.", "Maybe she went back to Florida." )}],
   Maybe she went to Florida.
 possibility	back	positive, plus	[["target_possibility_back_positive",362], "RangeForm", {html: construct_dialog("Mariam went to Florida last summer. What about this summer?", "Maybe she went to Florida.", "Maybe she went back to Florida." )}],
   Maybe she went back to Florida.
 possibility	back	neutral, minus	What did Mariam do last summer?  Maybe she went to Florida.
 possibility	back	neutral, plus	What did Mariam do last summer?  Maybe she went back to Florida.
-possibility	back	positive, minus	[["target_possibility_back_positive",363], "RangeForm", {html: construct_dialog("Yuri went to Disneyland last year. Where did he go on vacation this year?", "Maybe he went to Disneyland.", "Maybe he went back to Disneyland." )}],
-  Maybe he went to Disneyland.
-possibility	back	positive, plus	[["target_possibility_back_positive",363], "RangeForm", {html: construct_dialog("Yuri went to Disneyland last year. Where did he go on vacation this year?", "Maybe he went to Disneyland.", "Maybe he went back to Disneyland." )}],
-  Maybe he went back to Disneyland.
-possibility	back	neutral, minus	Where did Yuri go on vacation?  Maybe he went to Disneyland.
-possibility	back	neutral, plus	Where did Yuri go on vacation?  Maybe he went back to Disneyland.
+possibility	back	positive, minus	[["target_possibility_back_positive",363], "RangeForm", {html: construct_dialog("Yuri went to Disneyland last year. Where did he go on vacation this year?", "It's possible he went to Disneyland.", "It's possible he went back to Disneyland." )}],
+  It's possible he went to Disneyland.
+possibility	back	positive, plus	[["target_possibility_back_positive",363], "RangeForm", {html: construct_dialog("Yuri went to Disneyland last year. Where did he go on vacation this year?", "It's possible he went to Disneyland.", "It's possible he went back to Disneyland." )}],
+  It's possible he went back to Disneyland.
+possibility	back	neutral, minus	Where did Yuri go on vacation?  It's possible he went to Disneyland.
+possibility	back	neutral, plus	Where did Yuri go on vacation?  It's possible he went back to Disneyland.
 possibility	back	positive, minus	[["target_possibility_back_positive",364], "RangeForm", {html: construct_dialog("Yvette was in Houston last week. What about this week?", "Maybe she flew to Houston for a conference.", "Maybe flew back to Houston for a conference." )}],
   Maybe she flew to Houston for a conference.
 possibility	back	positive, plus	[["target_possibility_back_positive",364], "RangeForm", {html: construct_dialog("Yvette was in Houston last week. What about this week?", "Maybe she flew to Houston for a conference.", "Maybe flew back to Houston for a conference." )}],
@@ -400,48 +400,48 @@ possibility	state_change	positive, plus	[["target_possibility_state_change_posit
   Today, she might have stopped playing on it.
 possibility	state_change	neutral, minus	What's up with Noel?  She might be playing on her computer.
 possibility	state_change	neutral, plus	What's up with Noel?  She might have stopped playing on her computer.
-possibility	state_change	positive, minus	[["target_possibility_state_change_positive",367], "RangeForm", {html: construct_dialog("Yesterday, Janet was fixing a birdhouse.", "Today, she might be painting the fence.", "Today, she might have stopped fixing it." )}],
-  Today, she might be painting the fence.
-possibility	state_change	positive, plus	[["target_possibility_state_change_positive",367], "RangeForm", {html: construct_dialog("Yesterday, Janet was fixing a birdhouse.", "Today, she might be painting the fence.", "Today, she might have stopped fixing it." )}],
-  Today, she might have stopped fixing it.
-possibility	state_change	neutral, minus	What's new with Janet?  She might be fixing a birdhouse.
-possibility	state_change	neutral, plus	What's new with Janet?  She might have stopped fixing a birdhouse.
+possibility	state_change	positive, minus	[["target_possibility_state_change_positive",367], "RangeForm", {html: construct_dialog("Yesterday, Janet was fixing a birdhouse.", "Maybe today she is painting the fence.", "Maybe today she stopped fixing it." )}],
+  Maybe today she is painting the fence.
+possibility	state_change	positive, plus	[["target_possibility_state_change_positive",367], "RangeForm", {html: construct_dialog("Yesterday, Janet was fixing a birdhouse.", "Maybe today she is painting the fence.", "Maybe today she stopped fixing it." )}],
+  Maybe today she stopped fixing it.
+possibility	state_change	neutral, minus	What's new with Janet?  Maybe she is fixing a birdhouse.
+possibility	state_change	neutral, plus	What's new with Janet?  Maybe she stopped fixing a birdhouse.
 possibility	state_change	positive, minus	[["target_possibility_state_change_positive",368], "RangeForm", {html: construct_dialog("Yesterday, Kyle was painting his room.", "Today, he might be pulling up the rug.", "Today, he might have finished painting it." )}],
   Today, he might be pulling up the rug.
 possibility	state_change	positive, plus	[["target_possibility_state_change_positive",368], "RangeForm", {html: construct_dialog("Yesterday, Kyle was painting his room.", "Today, he might be pulling up the rug.", "Today, he might have finished painting it." )}],
   Today, he might have finished painting it.
 possibility	state_change	neutral, minus	What's up with Kyle?  He might be painting his room.
 possibility	state_change	neutral, plus	What's up with Kyle?  He might have stopped painting his room.
-possibility	state_change	positive, minus	[["target_possibility_state_change_positive",369], "RangeForm", {html: construct_dialog("Ira was chopping wood yesterday.", "Today, he might be stacking it out back.", "Today, he might have finished chopping it." )}],
-  Today, he might be stacking it out back.
-possibility	state_change	positive, plus	[["target_possibility_state_change_positive",369], "RangeForm", {html: construct_dialog("Ira was chopping wood yesterday.", "Today, he might be stacking it out back.", "Today, he might have finished chopping it." )}],
-  Today, he might have finished chopping it.
-possibility	state_change	neutral, minus	What's up with Ira?  He might be stacking wood out back.
-possibility	state_change	neutral, plus	What's up with Ira?  He might have finished chopping wood out back.
+possibility	state_change	positive, minus	[["target_possibility_state_change_positive",369], "RangeForm", {html: construct_dialog("Ira was chopping wood yesterday.", "Today, it's possible he is stacking it out back.", "Today, it's possible he finished chopping it." )}],
+  Today, it's possible he is stacking it out back.
+possibility	state_change	positive, plus	[["target_possibility_state_change_positive",369], "RangeForm", {html: construct_dialog("Ira was chopping wood yesterday.", "Today, it's possible he is stacking it out back.", "Today, it's possible he finished chopping it." )}],
+  Today, it's possible he finished chopping it.
+possibility	state_change	neutral, minus	What's up with Ira?  It's possible he is stacking wood out back.
+possibility	state_change	neutral, plus	What's up with Ira?  It's possible he finished chopping wood out back.
 possibility	state_change	positive, minus	[["target_possibility_state_change_positive",370], "RangeForm", {html: construct_dialog("Gail was weeding the garden yesterday.", "Today, she might be planting flowers.", "Today, she might have finished weeding it." )}],
   Today, she might be planting flowers.
 possibility	state_change	positive, plus	[["target_possibility_state_change_positive",370], "RangeForm", {html: construct_dialog("Gail was weeding the garden yesterday.", "Today, she might be planting flowers.", "Today, she might have finished weeding it." )}],
   Today, she might have finished weeding it.
 possibility	state_change	neutral, minus	What's new with Gail?  She might be weeding the garden.
 possibility	state_change	neutral, plus	What's new with Gail?  She might have finished weeding the garden.
-possibility	state_change	positive, minus	[["target_possibility_state_change_positive",371], "RangeForm", {html: construct_dialog("Bella was cleaning the attic yesterday.", "Today, she might be sweeping the garage.", "Today, she might have finished cleaning it." )}],
-  Today, she might be sweeping the garage.
-possibility	state_change	positive, plus	[["target_possibility_state_change_positive",371], "RangeForm", {html: construct_dialog("Bella was cleaning the attic yesterday.", "Today, she might be sweeping the garage.", "Today, she might have finished cleaning it." )}],
-  Today, she might have finished cleaning it.
-possibility	state_change	neutral, minus	What's up with Bella?  She might be sweeping the garage.
-possibility	state_change	neutral, plus	What's up with Bella?  She might have finished cleaning the attic.
-possibility	still	positive, minus	[["target_possibility_still_positive",372], "RangeForm", {html: construct_dialog("Dan started a new TV show this morning.", "At four, it's possible he was reading a book.", "At four, it's possible he was still watching it." )}],
-  At four, it's possible he was reading a book.
-possibility	still	positive, plus	[["target_possibility_still_positive",372], "RangeForm", {html: construct_dialog("Dan started a new TV show this morning.", "At four, it's possible he was reading a book.", "At four, it's possible he was still watching it." )}],
-  At four, it's possible he was still watching it.
-possibility	still	neutral, minus	What was Dan up to?  It's possible he was watching a TV show.
-possibility	still	neutral, plus	What was Dan up to?  It's possible he was still watching a new TV show.
-possibility	still	positive, minus	[["target_possibility_still_positive",373], "RangeForm", {html: construct_dialog("Norman was reading his book at lunchtime.", "Around three, he was writing a report about it.", "Around three, he was still reading it." )}],
-  Around three, he was writing a report about it.
-possibility	still	positive, plus	[["target_possibility_still_positive",373], "RangeForm", {html: construct_dialog("Norman was reading his book at lunchtime.", "Around three, he was writing a report about it.", "Around three, he was still reading it." )}],
-  Around three, he was still reading it.
-possibility	still	neutral, minus	What was Norman up to?  It's possible he was reading his book.
-possibility	still	neutral, plus	What was Norman up to?  It's possible he was still reading his book.
+possibility	state_change	positive, minus	[["target_possibility_state_change_positive",371], "RangeForm", {html: construct_dialog("Bella was cleaning the attic yesterday.", "Maybe today she is sweeping the garage.", "Maybe today she finished cleaning it." )}],
+  Maybe today she is sweeping the garage.
+possibility	state_change	positive, plus	[["target_possibility_state_change_positive",371], "RangeForm", {html: construct_dialog("Bella was cleaning the attic yesterday.", "Maybe today she is sweeping the garage.", "Maybe today she finished cleaning it." )}],
+  Maybe today she finished cleaning it.
+possibility	state_change	neutral, minus	What's up with Bella?  Maybe she is sweeping the garage.
+possibility	state_change	neutral, plus	What's up with Bella?  Maybe she finished cleaning the attic.
+possibility	still	positive, minus	[["target_possibility_still_positive",372], "RangeForm", {html: construct_dialog("Dan started a new TV show this morning.", "At four, he might have been reading a book.", "At four, he might have still been watching it." )}],
+  At four, he might have been reading a book.
+possibility	still	positive, plus	[["target_possibility_still_positive",372], "RangeForm", {html: construct_dialog("Dan started a new TV show this morning.", "At four, he might have been reading a book.", "At four, he might have still been watching it." )}],
+  At four, he might have still been watching it.
+possibility	still	neutral, minus	What was Dan up to?  He might have been watching a TV show.
+possibility	still	neutral, plus	What was Dan up to?  He might have still been watching a new TV show.
+possibility	still	positive, minus	[["target_possibility_still_positive",373], "RangeForm", {html: construct_dialog("Norman was reading a book at lunchtime.", "Around three, he might have been writing a report on it.", "Around three, he might have still been reading it." )}],
+  Around three, he might have been writing a report on it.
+possibility	still	positive, plus	[["target_possibility_still_positive",373], "RangeForm", {html: construct_dialog("Norman was reading a book at lunchtime.", "Around three, he might have been writing a report on it.", "Around three, he might have still been reading it." )}],
+  Around three, he might have still been reading it.
+possibility	still	neutral, minus	What is Norman up to?  He might be reading a book.
+possibility	still	neutral, plus	What is Norman up to?  He might still be reading a book.
 possibility	still	positive, minus	[["target_possibility_still_positive",374], "RangeForm", {html: construct_dialog("Dylan was playing basketball with friends.", "Later, it's possible he was skateboarding.", "Later, it's possible he was still playing basketball." )}],
   Later, it's possible he was skateboarding.
 possibility	still	positive, plus	[["target_possibility_still_positive",374], "RangeForm", {html: construct_dialog("Dylan was playing basketball with friends.", "Later, it's possible he was skateboarding.", "Later, it's possible he was still playing basketball." )}],
@@ -454,54 +454,54 @@ possibility	still	positive, plus	[["target_possibility_still_positive",375], "Ra
   At 9pm, it's possible he was still watching TV.
 possibility	still	neutral, minus	What is Willie up to tonight?  It's possible he is watching TV.
 possibility	still	neutral, plus	What is Willie up to tonight?  It's possible he is still watching TV.
-possibility	still	positive, minus	[["target_possibility_still_positive",376], "RangeForm", {html: construct_dialog("In the morning, Martin was painting a birdhouse.", "In the afternoon, it's possible he was trimming the hedges.", "In the afternoon, it's possible he was still painting it." )}],
-  In the afternoon, it's possible he was trimming the hedges.
-possibility	still	positive, plus	[["target_possibility_still_positive",376], "RangeForm", {html: construct_dialog("In the morning, Martin was painting a birdhouse.", "In the afternoon, it's possible he was trimming the hedges.", "In the afternoon, it's possible he was still painting it." )}],
-  In the afternoon, it's possible he was still painting it.
-possibility	still	neutral, minus	What is Martin up to this afternoon?  It's possible he is painting a birdhouse.
-possibility	still	neutral, plus	What is Martin up to this afternoon?  It's possible he is still painting a birdhouse.
+possibility	still	positive, minus	[["target_possibility_still_positive",376], "RangeForm", {html: construct_dialog("In the morning, Martin was painting a birdhouse.", "Maybe in the afternoon he was trimming the hedges.", "Maybe in the afternoon he was still painting it." )}],
+  Maybe in the afternoon he was trimming the hedges.
+possibility	still	positive, plus	[["target_possibility_still_positive",376], "RangeForm", {html: construct_dialog("In the morning, Martin was painting a birdhouse.", "Maybe in the afternoon he was trimming the hedges.", "Maybe in the afternoon he was still painting it." )}],
+  Maybe in the afternoon he was still painting it.
+possibility	still	neutral, minus	What is Martin up to this afternoon?  Maybe he is painting a birdhouse.
+possibility	still	neutral, plus	What is Martin up to this afternoon?  Maybe he is still painting a birdhouse.
 possibility	still	positive, minus	[["target_possibility_still_positive",377], "RangeForm", {html: construct_dialog("Valerie went to the walkathon in the morning.", "In the afternoon, it's possible she went to work.", "In the afternoon, it's possible she was still at the walkathon." )}],
   In the afternoon, it's possible she went to work.
 possibility	still	positive, plus	[["target_possibility_still_positive",377], "RangeForm", {html: construct_dialog("Valerie went to the walkathon in the morning.", "In the afternoon, it's possible she went to work.", "In the afternoon, it's possible she was still at the walkathon." )}],
   In the afternoon, it's possible she was still at the walkathon.
 possibility	still	neutral, minus	What is Valerie up to this afternoon?  It's possible she is at a walkathon.
 possibility	still	neutral, plus	What is Valerie up to this afternoon?  It's possible she is still at a walkathon.
-possibility	again	positive, minus	[["target_possibility_again_positive",378], "RangeForm", {html: construct_dialog("Rex went to the mountains last summer.", "This summer, it's possible he went to the beach.", "This summer, it's possible he went there again." )}],
-  This summer, it's possible he went to the beach.
-possibility	again	positive, plus	[["target_possibility_again_positive",378], "RangeForm", {html: construct_dialog("Rex went to the mountains last summer.", "This summer, it's possible he went to the beach.", "This summer, it's possible he went there again." )}],
-  This summer, it's possible he went there again.
-possibility	again	neutral, minus	What did Rex do last summer?  It's possible he went to the mountians.
-possibility	again	neutral, plus	What did Rex do last summer?  It's possible he went to the mountians again.
+possibility	again	positive, minus	[["target_possibility_again_positive",378], "RangeForm", {html: construct_dialog("Rex went to the mountains last summer.", "This summer, he might have gone to the beach.", "This summer, he might have gone there again." )}],
+  This summer, he might have gone to the beach.
+possibility	again	positive, plus	[["target_possibility_again_positive",378], "RangeForm", {html: construct_dialog("Rex went to the mountains last summer.", "This summer, he might have gone to the beach.", "This summer, he might have gone there again." )}],
+  This summer, he might have gone there again.
+possibility	again	neutral, minus	What did Rex do last summer?  He might have gone to the mountains.
+possibility	again	neutral, plus	What did Rex do last summer?  He might have gone to the mountains again.
 possibility	again	positive, minus	[["target_possibility_again_positive",379], "RangeForm", {html: construct_dialog("Jackson went to Disneyworld last spring.", "This spring, it's possible he will go to Universal Studios.", "This spring, it's possible he will go there again." )}],
   This spring, it's possible he will go to Universal Studios.
 possibility	again	positive, plus	[["target_possibility_again_positive",379], "RangeForm", {html: construct_dialog("Jackson went to Disneyworld last spring.", "This spring, it's possible he will go to Universal Studios.", "This spring, it's possible he will go there again." )}],
   This spring, it's possible he will go there again.
 possibility	again	neutral, minus	What will Jackson do this spring?  It's possible he will go to Disneyworld.
 possibility	again	neutral, plus	What will Jackson do this spring?  It's possible he will go to Disneyworld again.
-possibility	again	positive, minus	[["target_possibility_again_positive",380], "RangeForm", {html: construct_dialog("Last summer, Phil went to the beach.", "It's possible that he will go to the mountians this summer.", "It's possible that he will go there again this summer." )}],
-  It's possible that he will go to the mountians this summer.
-possibility	again	positive, plus	[["target_possibility_again_positive",380], "RangeForm", {html: construct_dialog("Last summer, Phil went to the beach.", "It's possible that he will go to the mountians this summer.", "It's possible that he will go there again this summer." )}],
-  It's possible that he will go there again this summer.
-possibility	again	neutral, minus	What will Phil do this spring?  It's possible he will go to the beach.
-possibility	again	neutral, plus	What will Phil do this spring?  It's possible he will go to the beach again.
-possibility	again	positive, minus	[["target_possibility_again_positive",381], "RangeForm", {html: construct_dialog("Last summer, Gail went to Washington DC.", "It's possible that this summer she will go to New York.", "It's possible that she will go there again this summer." )}],
-  It's possible that this summer she will go to New York.
-possibility	again	positive, plus	[["target_possibility_again_positive",381], "RangeForm", {html: construct_dialog("Last summer, Gail went to Washington DC.", "It's possible that this summer she will go to New York.", "It's possible that she will go there again this summer." )}],
-  It's possible that she will go there again this summer.
+possibility	again	positive, minus	[["target_possibility_again_positive",380], "RangeForm", {html: construct_dialog("Last summer, Phil went to the beach.", "Maybe he will go to the mountians this summer.", "Maybe he will go there again this summer." )}],
+  Maybe he will go to the mountians this summer.
+possibility	again	positive, plus	[["target_possibility_again_positive",380], "RangeForm", {html: construct_dialog("Last summer, Phil went to the beach.", "Maybe he will go to the mountians this summer.", "Maybe he will go there again this summer." )}],
+  Maybe he will go there again this summer.
+possibility	again	neutral, minus	What will Phil do this spring?  Maybe he will go to the beach.
+possibility	again	neutral, plus	What will Phil do this spring?  Maybe he will go to the beach again.
+possibility	again	positive, minus	[["target_possibility_again_positive",381], "RangeForm", {html: construct_dialog("Last summer, Gail went to Washington DC.", "It's possible this summer she will go to New York.", "It's possible she will go there again this summer." )}],
+  It's possible this summer she will go to New York.
+possibility	again	positive, plus	[["target_possibility_again_positive",381], "RangeForm", {html: construct_dialog("Last summer, Gail went to Washington DC.", "It's possible this summer she will go to New York.", "It's possible she will go there again this summer." )}],
+  It's possible she will go there again this summer.
 possibility	again	neutral, minus	What will Gail do this summer?  It's possible she will visit Washington DC.
 possibility	again	neutral, plus	What will Gail do this summer?  It's possible she will visit Washington DC agian.
-possibility	again	positive, minus	[["target_possibility_again_positive",382], "RangeForm", {html: construct_dialog("Last fall, Paulina visited California.", "It's possible that she will visit Oregon this fall.", "It's possible that she will visit it again this fall." )}],
-  It's possible that she will visit Oregon this fall.
-possibility	again	positive, plus	[["target_possibility_again_positive",382], "RangeForm", {html: construct_dialog("Last fall, Paulina visited California.", "It's possible that she will visit Oregon this fall.", "It's possible that she will visit it again this fall." )}],
-  It's possible that she will visit it again this fall.
-possibility	again	neutral, minus	What will Paulina do this fall?  It's possible she will visit California.
-possibility	again	neutral, plus	What will Paulina do this fall?  It's possible she will visit California again.
-possibility	again	positive, minus	[["target_possibility_again_positive",383], "RangeForm", {html: construct_dialog("Last winter, Nora went to Canada.", "It's possible that she will go to Mexico this winter.", "It's possible that she will go again this winter." )}],
-  It's possible that she will go to Mexico this winter.
-possibility	again	positive, plus	[["target_possibility_again_positive",383], "RangeForm", {html: construct_dialog("Last winter, Nora went to Canada.", "It's possible that she will go to Mexico this winter.", "It's possible that she will go again this winter." )}],
-  It's possible that she will go again this winter.
-possibility	again	neutral, minus	What will Nora do this winter?  It's possible that she will visit Canada.
-possibility	again	neutral, plus	What will Nora do this winter?  It's possible that she will visit Canada again.
+possibility	again	positive, minus	[["target_possibility_again_positive",382], "RangeForm", {html: construct_dialog("Last fall, Paulina visited California.", "Maybe she will visit Oregon this fall.", "Maybe she will visit it again this fall." )}],
+  Maybe she will visit Oregon this fall.
+possibility	again	positive, plus	[["target_possibility_again_positive",382], "RangeForm", {html: construct_dialog("Last fall, Paulina visited California.", "Maybe she will visit Oregon this fall.", "Maybe she will visit it again this fall." )}],
+  Maybe she will visit it again this fall.
+possibility	again	neutral, minus	What will Paulina do this fall?  Maybe she will visit California.
+possibility	again	neutral, plus	What will Paulina do this fall?  Maybe she will visit California again.
+possibility	again	positive, minus	[["target_possibility_again_positive",383], "RangeForm", {html: construct_dialog("Last winter, Nora went to Canada.", "Maybe she will go to Mexico this winter.", "Maybe she will go again this winter." )}],
+  Maybe she will go to Mexico this winter.
+possibility	again	positive, plus	[["target_possibility_again_positive",383], "RangeForm", {html: construct_dialog("Last winter, Nora went to Canada.", "Maybe she will go to Mexico this winter.", "Maybe she will go again this winter." )}],
+  Maybe she will go again this winter.
+possibility	again	neutral, minus	What will Nora do this winter?  Maybe she will visit Canada.
+possibility	again	neutral, plus	What will Nora do this winter?  Maybe she will visit Canada again.
 conditionals	only	positive, minus	[["target_conditionals_only_positive",200], "RangeForm", {html: construct_dialog("Gabriel left for the hardware store.", "If he then decided to go to the post office, that's where he is now.", "If he decided to go only there, that's where he is now." )}],
   If he then decided to go to the post office, that's where he is now.
 conditionals	only	positive, plus	[["target_conditionals_only_positive",200], "RangeForm", {html: construct_dialog("Gabriel left for the hardware store.", "If he then decided to go to the post office, that's where he is now.", "If he decided to go only there, that's where he is now." )}],
@@ -526,9 +526,9 @@ conditionals	only	positive, plus	[["target_conditionals_only_positive",203], "Ra
   If he decided to go only there, he's probably there now.
 conditionals	only	neutral, minus	What's Dominic doing?  If he decided to go to the gym, then he's probably there.
 conditionals	only	neutral, plus	What's Dominic doing?  If he decided to go only to the gym, he's probably there.
-conditionals	only	positive, minus	[["target_conditionals_only_positive",204], "RangeForm", {html: construct_dialog("Greta went to the dog park.", "If when then decided to go to the track, she'll be there now.", "If she decided to go only there, she'll be there now." )}],
-  If when then decided to go to the track, she'll be there now.
-conditionals	only	positive, plus	[["target_conditionals_only_positive",204], "RangeForm", {html: construct_dialog("Greta went to the dog park.", "If when then decided to go to the track, she'll be there now.", "If she decided to go only there, she'll be there now." )}],
+conditionals	only	positive, minus	[["target_conditionals_only_positive",204], "RangeForm", {html: construct_dialog("Greta went to the dog park.", "If she then decided to go to the track, she'll be there now.", "If she decided to go only there, she'll be there now." )}],
+  If she then decided to go to the track, she'll be there now.
+conditionals	only	positive, plus	[["target_conditionals_only_positive",204], "RangeForm", {html: construct_dialog("Greta went to the dog park.", "If she then decided to go to the track, she'll be there now.", "If she decided to go only there, she'll be there now." )}],
   If she decided to go only there, she'll be there now.
 conditionals	only	neutral, minus	What's Greta doing?  If she decided to go to the dog park, she'll be there now.
 conditionals	only	neutral, plus	What's Greta doing?  If she decided to only go to the dog park, she'll be there now.
@@ -554,8 +554,8 @@ conditionals	even	positive, minus	[["target_conditionals_even_positive",208], "R
   If he places, he'll be happy.
 conditionals	even	positive, plus	[["target_conditionals_even_positive",208], "RangeForm", {html: construct_dialog("Cullen ran hard at the track meet.", "If he places, he'll be happy.", "If he even places he'll be happy." )}],
   If he even places he'll be happy.
-conditionals	even	neutral, minus	How dies Cullen feel about his performance at the track meet?  If he places, he'll be happy.
-conditionals	even	neutral, plus	How dies Cullen feel about his performance at the track meet?  If he even places, he'll be happy.
+conditionals	even	neutral, minus	How does Cullen feel about his performance at the track meet?  If he places, he'll be happy.
+conditionals	even	neutral, plus	How does Cullen feel about his performance at the track meet?  If he even places, he'll be happy.
 conditionals	even	positive, minus	[["target_conditionals_even_positive",209], "RangeForm", {html: construct_dialog("Natasha studied hard for her exam.", "If she gets a B, she'll be happy.", "If she even gets a B, she'll be happy." )}],
   If she gets a B, she'll be happy.
 conditionals	even	positive, plus	[["target_conditionals_even_positive",209], "RangeForm", {html: construct_dialog("Natasha studied hard for her exam.", "If she gets a B, she'll be happy.", "If she even gets a B, she'll be happy." )}],
@@ -597,7 +597,7 @@ conditionals	too	positive, minus	[["target_conditionals_too_positive",215], "Ran
 conditionals	too	positive, plus	[["target_conditionals_too_positive",215], "RangeForm", {html: construct_dialog("Jonah went to a coffee shop.", "If he then went to a park, he'll be in a good mood.", "If he then went to a park too, he'll be in a good mood." )}],
   If he then went to a park too, he'll be in a good mood.
 conditionals	too	neutral, minus	How is Jonah doing today?  If he went to a park, he'll be in a good mood.
-conditionals	too	neutral, plus	How is Jonah doing today?  If he went to a park, too, he'll be in a good mood.
+conditionals	too	neutral, plus	How is Jonah doing today?  If he went to a park too, he'll be in a good mood.
 conditionals	too	positive, minus	[["target_conditionals_too_positive",216], "RangeForm", {html: construct_dialog("Drake had a glass of wine.", "If he then had a cocktail, he'll be tipsy.", "If he then had a cocktail too, he'll be tipsy." )}],
   If he then had a cocktail, he'll be tipsy.
 conditionals	too	positive, plus	[["target_conditionals_too_positive",216], "RangeForm", {html: construct_dialog("Drake had a glass of wine.", "If he then had a cocktail, he'll be tipsy.", "If he then had a cocktail too, he'll be tipsy." )}],
@@ -812,7 +812,7 @@ conditionals	definite	positive, minus	[["target_conditionals_definite_positive",
   If mechanics are happy, they will work hard.
 conditionals	definite	positive, plus	[["target_conditionals_definite_positive",251], "RangeForm", {html: construct_dialog("On Brooke's team there are three mechanics and a forklift operator.", "If mechanics are happy, they will work hard.", "If the forklift operator is happy, they will work hard." )}],
   If the forklift operator is happy, they will work hard.
-conditionals	definite	neutral, minus	What has Brooke learned about her team at work?  If the mechanics are happy, they will work hard.
+conditionals	definite	neutral, minus	What has Brooke learned about her team at work?  If mechanics are happy, they will work hard.
 conditionals	definite	neutral, plus	What has Brooke learned about her team at work?  If the forklift operator is happy, they will work hard.
 conditionals	definite	positive, minus	[["target_conditionals_definite_positive",252], "RangeForm", {html: construct_dialog("In Madeline's class there are many students and an auditor.", "If students are engaged, they will ask questions.", "If the auditor is engaged, they will ask questions." )}],
   If students are engaged, they will ask questions.
@@ -874,9 +874,9 @@ conditionals	again	positive, plus	[["target_conditionals_again_positive",261], "
   If she goes again this year, she'll be pleased.
 conditionals	again	neutral, minus	How is Molly feeling on vacation?  If she went to the zoo, she'll be pleased.
 conditionals	again	neutral, plus	How is Molly feeling on vacation?  If she went to the zoo again, she'll be pleased.
-conditionals	again	positive, minus	[["target_conditionals_again_positive",262], "RangeForm", {html: construct_dialog("Bella went to the mountains last winter.", "If she spent time there this winter, she'll be happy.", "If she goes again this year, she'll be happy." )}],
-  If she spent time there this winter, she'll be happy.
-conditionals	again	positive, plus	[["target_conditionals_again_positive",262], "RangeForm", {html: construct_dialog("Bella went to the mountains last winter.", "If she spent time there this winter, she'll be happy.", "If she goes again this year, she'll be happy." )}],
+conditionals	again	positive, minus	[["target_conditionals_again_positive",262], "RangeForm", {html: construct_dialog("Bella went to the mountains last winter.", "If she spends time there this winter, she'll be happy.", "If she goes again this year, she'll be happy." )}],
+  If she spends time there this winter, she'll be happy.
+conditionals	again	positive, plus	[["target_conditionals_again_positive",262], "RangeForm", {html: construct_dialog("Bella went to the mountains last winter.", "If she spends time there this winter, she'll be happy.", "If she goes again this year, she'll be happy." )}],
   If she goes again this year, she'll be happy.
 conditionals	again	neutral, minus	How is Bella feeling after her vacation?  If she went to the mountains, she'll be happy.
 conditionals	again	neutral, plus	How is Bella feeling after her vacation?  If she went to the mountains again, she'll be happy.
@@ -890,7 +890,7 @@ conditionals	again	positive, minus	[["target_conditionals_again_positive",264], 
   If he spends time there today, he'll be tired.
 conditionals	again	positive, plus	[["target_conditionals_again_positive",264], "RangeForm", {html: construct_dialog("On vacation, Kevin went to the museum yesterday.", "If he spends time there today, he'll be tired.", "If he goes again today, he'll be tired." )}],
   If he goes again today, he'll be tired.
-conditionals	again	neutral, minus	How is Kevin doing on vacation?  If he goes to the museum today, he'll be tired?
+conditionals	again	neutral, minus	How is Kevin doing on vacation?  If he goes to the museum today, he'll be tired.
 conditionals	again	neutral, plus	How is Kevin doing on vacation?  If he goes to the museum again today, he'll be tired.
 conditionals	again	positive, minus	[["target_conditionals_again_positive",265], "RangeForm", {html: construct_dialog("Samuel went to the seaside yesterday.", "If he spends time there today, he'll be in a good mood.", "If he goes again today, he'll be in a good mood." )}],
   If he spends time there today, he'll be in a good mood.
@@ -940,12 +940,12 @@ conditionals	stateChange	positive, plus	[["target_conditionals_stateChange_posit
   If he stopped, he's relaxing now.
 conditionals	stateChange	neutral, minus	What is Xavi up to?  If he's by the pool, he's relaxing now.
 conditionals	stateChange	neutral, plus	What is Xavi up to?  If he stopped cleaning the garage, he's relaxing now.
-conditionals	stateChange	positive, minus	[["target_conditionals_stateChange_positive",273], "RangeForm", {html: construct_dialog("Dennis was painting his room.", "If he's in the kitchen, he's eating lunch now.", "If he stopped, he's eating lunch now." )}],
-  If he's in the kitchen, he's eating lunch now.
-conditionals	stateChange	positive, plus	[["target_conditionals_stateChange_positive",273], "RangeForm", {html: construct_dialog("Dennis was painting his room.", "If he's in the kitchen, he's eating lunch now.", "If he stopped, he's eating lunch now." )}],
-  If he stopped, he's eating lunch now.
-conditionals	stateChange	neutral, minus	What is Dennis up to?  If he's in the kitchen, he's eating lunch now.
-conditionals	stateChange	neutral, plus	What is Dennis up to?  If he stopped painting his room, he's eating lunch now.
+conditionals	stateChange	positive, minus	[["target_conditionals_stateChange_positive",273], "RangeForm", {html: construct_dialog("Dennis was painting his room.", "If he's in the kitchen, he's probably eating lunch now.", "If he stopped, he's probably eating lunch now." )}],
+  If he's in the kitchen, he's probably eating lunch now.
+conditionals	stateChange	positive, plus	[["target_conditionals_stateChange_positive",273], "RangeForm", {html: construct_dialog("Dennis was painting his room.", "If he's in the kitchen, he's probably eating lunch now.", "If he stopped, he's probably eating lunch now." )}],
+  If he stopped, he's probably eating lunch now.
+conditionals	stateChange	neutral, minus	What is Dennis up to?  If he's in the kitchen, he's probably eating lunch now.
+conditionals	stateChange	neutral, plus	What is Dennis up to?  If he stopped painting his room, he's probably eating lunch now.
 conditionals	stateChange	positive, minus	[["target_conditionals_stateChange_positive",274], "RangeForm", {html: construct_dialog("Rocco was building a treehouse.", "If he's inside, he's relaxing now.", "If he stopped, he's relaxing now." )}],
   If he's inside, he's relaxing now.
 conditionals	stateChange	positive, plus	[["target_conditionals_stateChange_positive",274], "RangeForm", {html: construct_dialog("Rocco was building a treehouse.", "If he's inside, he's relaxing now.", "If he stopped, he's relaxing now." )}],
@@ -958,24 +958,24 @@ conditionals	stateChange	positive, plus	[["target_conditionals_stateChange_posit
   If she stopped, she's relaxing now.
 conditionals	stateChange	neutral, minus	What is Itzel up to?  If she's outside by the pool, she's relaxing now.
 conditionals	stateChange	neutral, plus	What is Itzel up to?  If she stopped folding clothes, she's relaxing now.
-conditionals	stateChange	positive, minus	[["target_conditionals_stateChange_positive",276], "RangeForm", {html: construct_dialog("Aniya was cleaning the attic.", "If she's in the kitchen, she's eating lunch now.", "If she stopped, she's eating lunch now." )}],
-  If she's in the kitchen, she's eating lunch now.
-conditionals	stateChange	positive, plus	[["target_conditionals_stateChange_positive",276], "RangeForm", {html: construct_dialog("Aniya was cleaning the attic.", "If she's in the kitchen, she's eating lunch now.", "If she stopped, she's eating lunch now." )}],
-  If she stopped, she's eating lunch now.
-conditionals	stateChange	neutral, minus	What is Aniya up to?  If she's in the kitchen, she's eating lunch now.
-conditionals	stateChange	neutral, plus	What is Aniya up to?  If she stopped cleaning the attic, she's eating lunch now.
+conditionals	stateChange	positive, minus	[["target_conditionals_stateChange_positive",276], "RangeForm", {html: construct_dialog("Aniya was cleaning the attic.", "If she's in the kitchen, she's probably eating lunch now.", "If she stopped, she's probably eating lunch now." )}],
+  If she's in the kitchen, she's probably eating lunch now.
+conditionals	stateChange	positive, plus	[["target_conditionals_stateChange_positive",276], "RangeForm", {html: construct_dialog("Aniya was cleaning the attic.", "If she's in the kitchen, she's probably eating lunch now.", "If she stopped, she's probably eating lunch now." )}],
+  If she stopped, she's probably eating lunch now.
+conditionals	stateChange	neutral, minus	What is Aniya up to?  If she's in the kitchen, she's probably eating lunch now.
+conditionals	stateChange	neutral, plus	What is Aniya up to?  If she stopped cleaning the attic, she's probably eating lunch now.
 conditionals	stateChange	positive, minus	[["target_conditionals_stateChange_positive",277], "RangeForm", {html: construct_dialog("April was reading a book.", "If she outside now, she's probably playing.", "If she stopped, she's probably playing outside." )}],
   If she outside now, she's probably playing.
 conditionals	stateChange	positive, plus	[["target_conditionals_stateChange_positive",277], "RangeForm", {html: construct_dialog("April was reading a book.", "If she outside now, she's probably playing.", "If she stopped, she's probably playing outside." )}],
   If she stopped, she's probably playing outside.
 conditionals	stateChange	neutral, minus	What is April up to?  If she's outside now, she's probably playing.
 conditionals	stateChange	neutral, plus	What is April up to?  If she stopped reading her book, she's probably playing.
-conditionals	still	positive, minus	[["target_conditionals_still_positive",278], "RangeForm", {html: construct_dialog("In the morning, Norm was working on a report. ", "If he's editing it now, he'll be concentrating on that.", "If he's still working on it, he'll be concentrating on that." )}],
-  If he's editing it now, he'll be concentrating on that.
-conditionals	still	positive, plus	[["target_conditionals_still_positive",278], "RangeForm", {html: construct_dialog("In the morning, Norm was working on a report. ", "If he's editing it now, he'll be concentrating on that.", "If he's still working on it, he'll be concentrating on that." )}],
-  If he's still working on it, he'll be concentrating on that.
-conditionals	still	neutral, minus	How's Norm doing?  If he's working on his report, he'll be concentrating on that.
-conditionals	still	neutral, plus	How's Norm doing?  If he's still working on his report, he'll be concentrating on that.
+conditionals	still	positive, minus	[["target_conditionals_still_positive",278], "RangeForm", {html: construct_dialog("In the morning, Norm was working on a report. ", "If he's editing it now, he'll be concentrating.", "If he's still working on it, he'll be concentrating." )}],
+  If he's editing it now, he'll be concentrating.
+conditionals	still	positive, plus	[["target_conditionals_still_positive",278], "RangeForm", {html: construct_dialog("In the morning, Norm was working on a report. ", "If he's editing it now, he'll be concentrating.", "If he's still working on it, he'll be concentrating." )}],
+  If he's still working on it, he'll be concentrating.
+conditionals	still	neutral, minus	How's Norm doing?  If he's working on his report, he'll be concentrating.
+conditionals	still	neutral, plus	How's Norm doing?  If he's still working on his report, he'll be concentrating.
 conditionals	still	positive, minus	[["target_conditionals_still_positive",279], "RangeForm", {html: construct_dialog("Earlier, Orlando was playing basketball with friends.", "If he's stretching now, he'll be in a good mood.", "If he's still playing, he'll be in a good mood." )}],
   If he's stretching now, he'll be in a good mood.
 conditionals	still	positive, plus	[["target_conditionals_still_positive",279], "RangeForm", {html: construct_dialog("Earlier, Orlando was playing basketball with friends.", "If he's stretching now, he'll be in a good mood.", "If he's still playing, he'll be in a good mood." )}],
@@ -1006,10 +1006,10 @@ conditionals	still	positive, plus	[["target_conditionals_still_positive",283], "
   If she's still playing, she'll be tired soon.
 conditionals	still	neutral, minus	What's up with Lana?  If she's playing soccer, she'll be tired soon.
 conditionals	still	neutral, plus	What's up with Lana?  If she's still playing soccer, she'll be tired soon.
-question	only	positive, minus	[["target_question_only_positive",400], "RangeForm", {html: construct_dialog("Martha likes Indian takeout.", "Does she get it a lot?", "Does she only like Indian food?" )}],
+question	only	positive, minus	[["target_question_only_positive",400], "RangeForm", {html: construct_dialog("Martha likes Indian takeout.", "Does she get it a lot?", "Does she only like Indian?" )}],
   Does she get it a lot?
-question	only	positive, plus	[["target_question_only_positive",400], "RangeForm", {html: construct_dialog("Martha likes Indian takeout.", "Does she get it a lot?", "Does she only like Indian food?" )}],
-  Does she only like Indian food?
+question	only	positive, plus	[["target_question_only_positive",400], "RangeForm", {html: construct_dialog("Martha likes Indian takeout.", "Does she get it a lot?", "Does she only like Indian?" )}],
+  Does she only like Indian?
 question	only	neutral, minus	Martha gets takeout a lot.  Does she get Indian food?
 question	only	neutral, plus	Martha gets takeout a lot.  Does she only get Indian food?
 question	only	positive, minus	[["target_question_only_positive",401], "RangeForm", {html: construct_dialog("Fernanda likes comedy movies.", "Does she watch comedies a lot?", "Does she only like comedies?" )}],
@@ -1420,11 +1420,11 @@ question	state_change	positive, plus	[["target_question_state_change_positive",4
   Did she stop doing her chores?
 question	state_change	neutral, minus	Sophie was in her house and heard her friends playing outside.  Did she go out to join them?
 question	state_change	neutral, plus	Sophie was in her house and heard her friends playing outside.  Did she stop doing chores?
-question	state_change	positive, minus	[["target_question_state_change_positive",469], "RangeForm", {html: construct_dialog("Seth was weeding the garden when he felt a raindrop.", "Did he go inside?", "Did he finish weeding the garden?" )}],
-  Did he go inside?
-question	state_change	positive, plus	[["target_question_state_change_positive",469], "RangeForm", {html: construct_dialog("Seth was weeding the garden when he felt a raindrop.", "Did he go inside?", "Did he finish weeding the garden?" )}],
+question	state_change	positive, minus	[["target_question_state_change_positive",469], "RangeForm", {html: construct_dialog("Seth was weeding the garden when he felt a raindrop.", "Did he put on a raincoat?", "Did he finish weeding the garden?" )}],
+  Did he put on a raincoat?
+question	state_change	positive, plus	[["target_question_state_change_positive",469], "RangeForm", {html: construct_dialog("Seth was weeding the garden when he felt a raindrop.", "Did he put on a raincoat?", "Did he finish weeding the garden?" )}],
   Did he finish weeding the garden?
-question	state_change	neutral, minus	Seth was outside when he felt a raindrop.  Did he go inside?
+question	state_change	neutral, minus	Seth was outside when he felt a raindrop.  Did he put on a raincoat?
 question	state_change	neutral, plus	Seth was outside when he felt a raindrop.  Did he finish weeding the garden?
 question	state_change	positive, minus	[["target_question_state_change_positive",470], "RangeForm", {html: construct_dialog("Travis was fixing the fence when it started to rain.", "Did he put on a rain jacket?", "Did he finish fixing the fence?" )}],
   Did he put on a rain jacket?
@@ -1480,9 +1480,9 @@ question	again	positive, plus	[["target_question_again_positive",478], "RangeFor
   Did he go again this summer?
 question	again	neutral, minus	Avi had a great summer.  Did he go to the beach?
 question	again	neutral, plus	Avi had a great summer.  Did he go to the beach again?
-question	again	positive, minus	[["target_question_again_positive",479], "RangeForm", {html: construct_dialog("Riley went to Disney Land last summer..", "Did she go to a resort this summer?", "Did she go again this summer?" )}],
+question	again	positive, minus	[["target_question_again_positive",479], "RangeForm", {html: construct_dialog("Riley went to Disney Land last summer.", "Did she go to a resort this summer?", "Did she go again this summer?" )}],
   Did she go to a resort this summer?
-question	again	positive, plus	[["target_question_again_positive",479], "RangeForm", {html: construct_dialog("Riley went to Disney Land last summer..", "Did she go to a resort this summer?", "Did she go again this summer?" )}],
+question	again	positive, plus	[["target_question_again_positive",479], "RangeForm", {html: construct_dialog("Riley went to Disney Land last summer.", "Did she go to a resort this summer?", "Did she go again this summer?" )}],
   Did she go again this summer?
 question	again	neutral, minus	Riley had an awesome summer.  Did she visit Disney Land?
 question	again	neutral, plus	Riley had an awesome summer.  Did she visit Disney Land again?
@@ -1696,12 +1696,12 @@ negation	epistemic_factives	positive, plus	[["target_negation_epistemic_factives
   But she doesn't yet know that they lost.
 negation	epistemic_factives	neutral, minus	What is Martha's reaction to the election?  She doesn't believe that her favorite candidate lost.
 negation	epistemic_factives	neutral, plus	What is Martha's reaction to the election?  She doesn't yet know that her favorite candidate lost.
-negation	epistemic_factives	positive, minus	[["target_negation_epistemic_factives_positive",531], "RangeForm", {html: construct_dialog("Liam failed his math test last week.", "But he doesn't believe that he failed.", "But he doesn't yet know that he failed." )}],
+negation	epistemic_factives	positive, minus	[["target_negation_epistemic_factives_positive",531], "RangeForm", {html: construct_dialog("Liam failed his test last week.", "But he doesn't believe that he failed.", "But he doesn't yet know that he failed." )}],
   But he doesn't believe that he failed.
-negation	epistemic_factives	positive, plus	[["target_negation_epistemic_factives_positive",531], "RangeForm", {html: construct_dialog("Liam failed his math test last week.", "But he doesn't believe that he failed.", "But he doesn't yet know that he failed." )}],
+negation	epistemic_factives	positive, plus	[["target_negation_epistemic_factives_positive",531], "RangeForm", {html: construct_dialog("Liam failed his test last week.", "But he doesn't believe that he failed.", "But he doesn't yet know that he failed." )}],
   But he doesn't yet know that he failed.
-negation	epistemic_factives	neutral, minus	How did Liam react to his math test score?  He can't believe that he failed it.
-negation	epistemic_factives	neutral, plus	How did Liam react to his math test score?  He doesn't yet know that he failed.
+negation	epistemic_factives	neutral, minus	How did Liam react to his test score?  He can't believe that he failed it.
+negation	epistemic_factives	neutral, plus	How did Liam react to his test score?  He doesn't yet know that he failed.
 negation	epistemic_factives	positive, minus	[["target_negation_epistemic_factives_positive",532], "RangeForm", {html: construct_dialog("Ella's team lost the game this weekend.", "But she doesn't believe that they lost.", "But she doesn't yet know that they lost." )}],
   But she doesn't believe that they lost.
 negation	epistemic_factives	positive, plus	[["target_negation_epistemic_factives_positive",532], "RangeForm", {html: construct_dialog("Ella's team lost the game this weekend.", "But she doesn't believe that they lost.", "But she doesn't yet know that they lost." )}],
@@ -1737,7 +1737,7 @@ negation	cognitive_factives	positive, minus	[["target_negation_cognitive_factive
 negation	cognitive_factives	positive, plus	[["target_negation_cognitive_factives_positive",537], "RangeForm", {html: construct_dialog("Tim failed his English exam last week.", "But he doesn't believe that he failed it.", "But he isn't too worried that he failed it." )}],
   But he isn't too worried that he failed it.
 negation	cognitive_factives	neutral, minus	How did Tim react to his English exam scores?  He doesn't believe that he failed the test.
-negation	cognitive_factives	neutral, plus	How did Tim react to his English exam scores?  He isn't to worried that he failed the test.
+negation	cognitive_factives	neutral, plus	How did Tim react to his English exam scores?  He isn't too worried that he failed the test.
 negation	cognitive_factives	positive, minus	[["target_negation_cognitive_factives_positive",538], "RangeForm", {html: construct_dialog("Gina's team lost the soccer match yesterday.", "But she doesn't believe that the lost.", "But she isn't too sad that they lost." )}],
   But she doesn't believe that the lost.
 negation	cognitive_factives	positive, plus	[["target_negation_cognitive_factives_positive",538], "RangeForm", {html: construct_dialog("Gina's team lost the soccer match yesterday.", "But she doesn't believe that the lost.", "But she isn't too sad that they lost." )}],
@@ -1756,12 +1756,12 @@ negation	cognitive_factives	positive, plus	[["target_negation_cognitive_factives
   But she isn't that excited about it.
 negation	cognitive_factives	neutral, minus	What was Laura's reaction to the church lottery outcome?  She doesn't believe that she won.
 negation	cognitive_factives	neutral, plus	What was Laura's reaction to the church lottery outcome?  She isn't excited that she won.
-negation	cognitive_factives	positive, minus	[["target_negation_cognitive_factives_positive",541], "RangeForm", {html: construct_dialog("Denis was selected for a law school scholarship.", "But he doesn't believe that he got it.", "But he isn't so thrilled that he got it." )}],
-  But he doesn't believe that he got it.
-negation	cognitive_factives	positive, plus	[["target_negation_cognitive_factives_positive",541], "RangeForm", {html: construct_dialog("Denis was selected for a law school scholarship.", "But he doesn't believe that he got it.", "But he isn't so thrilled that he got it." )}],
-  But he isn't so thrilled that he got it.
-negation	cognitive_factives	neutral, minus	What was Denis's reaction to the scholarship announcement?  He doesn't believe that he got it.
-negation	cognitive_factives	neutral, plus	What was Denis's reaction to the scholarship announcement?  He isn't so thrilled that he got it.
+negation	cognitive_factives	positive, minus	[["target_negation_cognitive_factives_positive",541], "RangeForm", {html: construct_dialog("Denis' team lost the basketball tournament.", "But he doens't believe that they lost.", "But he isn't too sad that they lost." )}],
+  But he doens't believe that they lost.
+negation	cognitive_factives	positive, plus	[["target_negation_cognitive_factives_positive",541], "RangeForm", {html: construct_dialog("Denis' team lost the basketball tournament.", "But he doens't believe that they lost.", "But he isn't too sad that they lost." )}],
+  But he isn't too sad that they lost.
+negation	cognitive_factives	neutral, minus	What was Dennis' reaction to the game?  He doens't believe that his team lost.
+negation	cognitive_factives	neutral, plus	What was Dennis' reaction to the game?  He doens't believe that his team lost.
 negation	accomplishment	positive, minus	[["target_negation_accomplishment_positive",542], "RangeForm", {html: construct_dialog("Harold participated in a tennis tournament over the weekend.", "He didn't enjoy playing in it, though.", "He didn't win it, though." )}],
   He didn't enjoy playing in it, though.
 negation	accomplishment	positive, plus	[["target_negation_accomplishment_positive",542], "RangeForm", {html: construct_dialog("Harold participated in a tennis tournament over the weekend.", "He didn't enjoy playing in it, though.", "He didn't win it, though." )}],
@@ -1786,15 +1786,15 @@ negation	accomplishment	positive, plus	[["target_negation_accomplishment_positiv
   She didn't finish first, though.
 negation	accomplishment	neutral, minus	Why is Aisha disappointed in herself?  She didn't run in the marathon yesterday.
 negation	accomplishment	neutral, plus	Why is Aisha disappointed in herself?  She didn't finish the marathon yesterday.
-negation	accomplishment	positive, minus	[["target_negation_accomplishment_positive",546], "RangeForm", {html: construct_dialog("Charlie was mowing the law last weekend.", "He didn't like doing the work, though.", "He didn't finish mowing it, though." )}],
+negation	accomplishment	positive, minus	[["target_negation_accomplishment_positive",546], "RangeForm", {html: construct_dialog("Charlie was mowing the lawn last weekend.", "He didn't like doing the work, though.", "He didn't finish mowing it, though." )}],
   He didn't like doing the work, though.
-negation	accomplishment	positive, plus	[["target_negation_accomplishment_positive",546], "RangeForm", {html: construct_dialog("Charlie was mowing the law last weekend.", "He didn't like doing the work, though.", "He didn't finish mowing it, though." )}],
+negation	accomplishment	positive, plus	[["target_negation_accomplishment_positive",546], "RangeForm", {html: construct_dialog("Charlie was mowing the lawn last weekend.", "He didn't like doing the work, though.", "He didn't finish mowing it, though." )}],
   He didn't finish mowing it, though.
-negation	accomplishment	neutral, minus	Why is Charlie in a bad mood?  He didn't mowing the lawn earlier today.
+negation	accomplishment	neutral, minus	Why is Charlie in a bad mood?  He didn't mow the lawn earlier today.
 negation	accomplishment	neutral, plus	Why is Charlie in a bad mood?  He didn't finish mowing the lawn earlier today.
-negation	accomplishment	positive, minus	[["target_negation_accomplishment_positive",547], "RangeForm", {html: construct_dialog("Lou was working on a school assignment..", "He didn't enjoy working on it, though.", "He didn't finish it, though." )}],
+negation	accomplishment	positive, minus	[["target_negation_accomplishment_positive",547], "RangeForm", {html: construct_dialog("Lou was working on a school assignment.", "He didn't enjoy working on it, though.", "He didn't finish it, though." )}],
   He didn't enjoy working on it, though.
-negation	accomplishment	positive, plus	[["target_negation_accomplishment_positive",547], "RangeForm", {html: construct_dialog("Lou was working on a school assignment..", "He didn't enjoy working on it, though.", "He didn't finish it, though." )}],
+negation	accomplishment	positive, plus	[["target_negation_accomplishment_positive",547], "RangeForm", {html: construct_dialog("Lou was working on a school assignment.", "He didn't enjoy working on it, though.", "He didn't finish it, though." )}],
   He didn't finish it, though.
 negation	accomplishment	neutral, minus	Why is Lou's father upset at him?  He didn't do a school assignment yesterday.
 negation	accomplishment	neutral, plus	Why is Lou's father upset at him?  He dind't finish a school assingment yesterday.
@@ -1804,9 +1804,9 @@ negation	possessive	positive, plus	[["target_negation_possessive_positive",548],
   She she didn't put on her coat when she went outside.
 negation	possessive	neutral, minus	Why is Francis cold?  She didn't put on a coat when she went outside.
 negation	possessive	neutral, plus	Why is Francis cold?  She didn't put on her coat when she went outside.
-negation	possessive	positive, minus	[["target_negation_possessive_positive",549], "RangeForm", {html: construct_dialog("Recently, Priscilla got a new compass. Over the weekend, she went on a favorite hike.", "She didn't take a compass with her.", "She didn't take her compass with her." )}],
+negation	possessive	positive, minus	[["target_negation_possessive_positive",549], "RangeForm", {html: construct_dialog("Recently, Priscilla got a new compass. Over the weekend, she went on a hike.", "She didn't take a compass with her.", "She didn't take her compass with her." )}],
   She didn't take a compass with her.
-negation	possessive	positive, plus	[["target_negation_possessive_positive",549], "RangeForm", {html: construct_dialog("Recently, Priscilla got a new compass. Over the weekend, she went on a favorite hike.", "She didn't take a compass with her.", "She didn't take her compass with her." )}],
+negation	possessive	positive, plus	[["target_negation_possessive_positive",549], "RangeForm", {html: construct_dialog("Recently, Priscilla got a new compass. Over the weekend, she went on a hike.", "She didn't take a compass with her.", "She didn't take her compass with her." )}],
   She didn't take her compass with her.
 negation	possessive	neutral, minus	Why did Priscilla get lost?  She didn't take a compass when she went on a hike.
 negation	possessive	neutral, plus	Why did Priscilla get lost?  She didn't take her compass when she went on a hike.
@@ -1834,12 +1834,12 @@ negation	possessive	positive, plus	[["target_negation_possessive_positive",553],
   But he didn't take his water bottle with him.
 negation	possessive	neutral, minus	Why did Bill get thirsty on his bike ride?  He didn't take a water bottle with him.
 negation	possessive	neutral, plus	Why did Bill get thirsty on his bike ride?  He didn't take his water bottle with him.
-negation	definite_det	positive, minus	[["target_negation_definite_det_positive",554], "RangeForm", {html: construct_dialog("Martha has five administrators and a doctor on her team at the hospital.", "She doesn't see administrators much around the ward.", "She doesn't see the doctor much." )}],
-  She doesn't see administrators much around the ward.
-negation	definite_det	positive, plus	[["target_negation_definite_det_positive",554], "RangeForm", {html: construct_dialog("Martha has five administrators and a doctor on her team at the hospital.", "She doesn't see administrators much around the ward.", "She doesn't see the doctor much." )}],
+negation	definite_det	positive, minus	[["target_negation_definite_det_positive",554], "RangeForm", {html: construct_dialog("Martha has five nurses and a doctor on her team at the hospital.", "She doesn't see nurses much around the ward.", "She doesn't see the doctor much." )}],
+  She doesn't see nurses much around the ward.
+negation	definite_det	positive, plus	[["target_negation_definite_det_positive",554], "RangeForm", {html: construct_dialog("Martha has five nurses and a doctor on her team at the hospital.", "She doesn't see nurses much around the ward.", "She doesn't see the doctor much." )}],
   She doesn't see the doctor much.
-negation	definite_det	neutral, minus	What's up at Martha's hospital shift?  She doesn't see managers much.
-negation	definite_det	neutral, plus	What's up at Martha's hospital shift?  She doesn't see the doctor much.
+negation	definite_det	neutral, minus	What's up at Martha's shift at the hospital?  She doesn't see nurses much.
+negation	definite_det	neutral, plus	What's up at Martha's shift at the hospital?  She doesn't see the doctor much.
 negation	definite_det	positive, minus	[["target_negation_definite_det_positive",555], "RangeForm", {html: construct_dialog("Louis has five managers and an accountant at his office.", "He doesn't see managers much at work.", "He doesn't see the accountant much at work." )}],
   He doesn't see managers much at work.
 negation	definite_det	positive, plus	[["target_negation_definite_det_positive",555], "RangeForm", {html: construct_dialog("Louis has five managers and an accountant at his office.", "He doesn't see managers much at work.", "He doesn't see the accountant much at work." )}],
@@ -1851,7 +1851,7 @@ negation	definite_det	positive, minus	[["target_negation_definite_det_positive",
 negation	definite_det	positive, plus	[["target_negation_definite_det_positive",556], "RangeForm", {html: construct_dialog("Nora has a few engineers and an inspector on her shift.", "She doesn't see engineers much on her shift.", "She doesn't see the inspector much on her shift." )}],
   She doesn't see the inspector much on her shift.
 negation	definite_det	neutral, minus	Why does Nora's shift feel empty at work?  She doesn't see engineers much in her area.
-negation	definite_det	neutral, plus	Why does Nora's shift feel empty at work?  She doens't see the inspector much in her area.
+negation	definite_det	neutral, plus	Why does Nora's shift feel empty at work?  She doesn't see the inspector much in her area.
 negation	definite_det	positive, minus	[["target_negation_definite_det_positive",557], "RangeForm", {html: construct_dialog("There are three English teachers and a Math teacher at Dan's schoo.", "He doesn't see English teachers in the cafeteria much.", "He doen'st see the Math teacher in the cafeteria." )}],
   He doesn't see English teachers in the cafeteria much.
 negation	definite_det	positive, plus	[["target_negation_definite_det_positive",557], "RangeForm", {html: construct_dialog("There are three English teachers and a Math teacher at Dan's schoo.", "He doesn't see English teachers in the cafeteria much.", "He doen'st see the Math teacher in the cafeteria." )}],
@@ -1863,19 +1863,19 @@ negation	definite_det	positive, minus	[["target_negation_definite_det_positive",
 negation	definite_det	positive, plus	[["target_negation_definite_det_positive",558], "RangeForm", {html: construct_dialog("Deborah has a few administrators and a nurse on her shift at the hospital.", "She doesn't see administrators much in her wing.", "She doesn't see the nurse much in her wing." )}],
   She doesn't see the nurse much in her wing.
 negation	definite_det	neutral, minus	What's up with Deborah's hospital shift?  She doesn't see administrators much on her floor.
-negation	definite_det	neutral, plus	What's up with Deborah's hospital shift?  She doens't see the nurse much on her floor.
+negation	definite_det	neutral, plus	What's up with Deborah's hospital shift?  She doesn't see the nurse much on her floor.
 negation	definite_det	positive, minus	[["target_negation_definite_det_positive",559], "RangeForm", {html: construct_dialog("Mark has five engineers and a forklift operator on his shift.", "He doesn't see engineers much in his area.", "He doesn't see the forklift operator much in his area." )}],
   He doesn't see engineers much in his area.
 negation	definite_det	positive, plus	[["target_negation_definite_det_positive",559], "RangeForm", {html: construct_dialog("Mark has five engineers and a forklift operator on his shift.", "He doesn't see engineers much in his area.", "He doesn't see the forklift operator much in his area." )}],
   He doesn't see the forklift operator much in his area.
 negation	definite_det	neutral, minus	What's up on Mark's shift at work?  He doesn't see engineers much in his area.
 negation	definite_det	neutral, plus	What's up on Mark's shift at work?  He doesn't see the forklifht operator much in his area.
-negation	question	positive, minus	[["target_negation_question_positive",560], "RangeForm", {html: construct_dialog("Someone stole the cookies that John just baked.", "He doesn't concern himself wondering if they were caught.", "He doesn't concern himself wondering who did it." )}],
+negation	question	positive, minus	[["target_negation_question_positive",560], "RangeForm", {html: construct_dialog("Someone stole some cookies that John just baked.", "He doesn't concern himself wondering if they were caught.", "He doesn't concern himself wondering who did it." )}],
   He doesn't concern himself wondering if they were caught.
-negation	question	positive, plus	[["target_negation_question_positive",560], "RangeForm", {html: construct_dialog("Someone stole the cookies that John just baked.", "He doesn't concern himself wondering if they were caught.", "He doesn't concern himself wondering who did it." )}],
+negation	question	positive, plus	[["target_negation_question_positive",560], "RangeForm", {html: construct_dialog("Someone stole some cookies that John just baked.", "He doesn't concern himself wondering if they were caught.", "He doesn't concern himself wondering who did it." )}],
   He doesn't concern himself wondering who did it.
-negation	question	neutral, minus	John is thinking about the cookies he just baked.  He doesn't concern himself wondering if someone stole them.
-negation	question	neutral, plus	John is thinking about the cookies he just baked.  He doesn't concern himself wondering who stole them.
+negation	question	neutral, minus	John is thinking about some cookies he just baked.  He doesn't concern himself wondering if someone stole them.
+negation	question	neutral, plus	John is thinking about some cookies he just baked.  He doesn't concern himself wondering who stole them.
 negation	question	positive, minus	[["target_negation_question_positive",561], "RangeForm", {html: construct_dialog("Someone copied Gabby's homework.", "She doesn't concern herself wondering if they got caught, though.", "She doesn't concern herself wondering who it is, though." )}],
   She doesn't concern herself wondering if they got caught, though.
 negation	question	positive, plus	[["target_negation_question_positive",561], "RangeForm", {html: construct_dialog("Someone copied Gabby's homework.", "She doesn't concern herself wondering if they got caught, though.", "She doesn't concern herself wondering who it is, though." )}],
@@ -1888,17 +1888,17 @@ negation	question	positive, plus	[["target_negation_question_positive",562], "Ra
   He doesn't both himself wondering who did it.
 negation	question	neutral, minus	George is thinking about his deliveries.  He doesn't both himself wondering if someone stole it from his porch.
 negation	question	neutral, plus	George is thinking about his deliveries.  He doesn't bother himself wondering who stole it from his porch.
-negation	question	positive, minus	[["target_negation_question_positive",563], "RangeForm", {html: construct_dialog("Someone copied the answers on Frank's test.", "He doesn't care if they were caught, though.", "He doesn't care about who did it, though." )}],
+negation	question	positive, minus	[["target_negation_question_positive",563], "RangeForm", {html: construct_dialog("Someone copied the answers on Frank's test.", "He doesn't care if they were caught, though.", "He doesn't care who did it, though." )}],
   He doesn't care if they were caught, though.
-negation	question	positive, plus	[["target_negation_question_positive",563], "RangeForm", {html: construct_dialog("Someone copied the answers on Frank's test.", "He doesn't care if they were caught, though.", "He doesn't care about who did it, though." )}],
-  He doesn't care about who did it, though.
+negation	question	positive, plus	[["target_negation_question_positive",563], "RangeForm", {html: construct_dialog("Someone copied the answers on Frank's test.", "He doesn't care if they were caught, though.", "He doesn't care who did it, though." )}],
+  He doesn't care who did it, though.
 negation	question	neutral, minus	Frank is thinking about his recent math test.  He doesn't care if someone copied his answers.
 negation	question	neutral, plus	Frank is thinking about his recent math test.  He doesn't care about who copied his answers.
 negation	question	positive, minus	[["target_negation_question_positive",564], "RangeForm", {html: construct_dialog("Somone is interested in buying Harry's house.", "He doesn't concern himself wondering if they can pay for it.", "He doesn't concern himself wondering who it is, though." )}],
   He doesn't concern himself wondering if they can pay for it.
 negation	question	positive, plus	[["target_negation_question_positive",564], "RangeForm", {html: construct_dialog("Somone is interested in buying Harry's house.", "He doesn't concern himself wondering if they can pay for it.", "He doesn't concern himself wondering who it is, though." )}],
   He doesn't concern himself wondering who it is, though.
-negation	question	neutral, minus	Harry is thinking about his house.  He doesn't concern himself if someone is interested in buying it.
+negation	question	neutral, minus	Harry is thinking about his house.  He doesn't concern himself wondering if someone is interested in buying it.
 negation	question	neutral, plus	Harry is thinking about his house.  He doesn't concern himself wondering who is interested in buying it.
 negation	question	positive, minus	[["target_negation_question_positive",565], "RangeForm", {html: construct_dialog("Somone stole Cara's laptop charger.", "She doesn't bother wondering if they were caught, though.", "She doesn't bother wondering who it was, though." )}],
   She doesn't bother wondering if they were caught, though.
@@ -1966,9 +1966,9 @@ negation	stange_change	positive, plus	[["target_negation_stange_change_positive"
   Even though he saw that a game was on TV, he didn't stop cleaning.
 negation	stange_change	neutral, minus	Jackson noticed that a basketball game was on TV.  Even so, he didn't watch it.
 negation	stange_change	neutral, plus	Jackson noticed that a basketball game was on TV.  Even so, he didn't stop cleaning the garage.
-negation	stange_change	positive, minus	[["target_negation_stange_change_positive",576], "RangeForm", {html: construct_dialog("Paul was mowing the law.", "Even though he saw his favorite show was on, he didn't watch it.", "Even though his favorite show was on, he didn't stop mowing." )}],
+negation	stange_change	positive, minus	[["target_negation_stange_change_positive",576], "RangeForm", {html: construct_dialog("Paul was mowing the lawn.", "Even though he saw his favorite show was on, he didn't watch it.", "Even though his favorite show was on, he didn't stop mowing." )}],
   Even though he saw his favorite show was on, he didn't watch it.
-negation	stange_change	positive, plus	[["target_negation_stange_change_positive",576], "RangeForm", {html: construct_dialog("Paul was mowing the law.", "Even though he saw his favorite show was on, he didn't watch it.", "Even though his favorite show was on, he didn't stop mowing." )}],
+negation	stange_change	positive, plus	[["target_negation_stange_change_positive",576], "RangeForm", {html: construct_dialog("Paul was mowing the lawn.", "Even though he saw his favorite show was on, he didn't watch it.", "Even though his favorite show was on, he didn't stop mowing." )}],
   Even though his favorite show was on, he didn't stop mowing.
 negation	stange_change	neutral, minus	Paul saw that his favorite show was on TV.  Even so, he didn't watch it.
 negation	stange_change	neutral, plus	Paul saw that his favorite show was on TV.  Even so, he didn't stop mowing the lawn.
@@ -2002,9 +2002,9 @@ negation	still	positive, plus	[["target_negation_still_positive",581], "RangeFor
   But at three, he wasn't still practicing.
 negation	still	neutral, minus	Why did the piano teacher get mad at Joel?  He wasn't practicing the piano.
 negation	still	neutral, plus	Why did the piano teacher get mad at Joel?  He wasn't still practicing the piano.
-negation	still	positive, minus	[["target_negation_still_positive",582], "RangeForm", {html: construct_dialog("Julia was helping her grandparents after dinner.", "But at nine, she wasn't helping.", "But at nine, she wasn't still helping them out." )}],
-  But at nine, she wasn't helping.
-negation	still	positive, plus	[["target_negation_still_positive",582], "RangeForm", {html: construct_dialog("Julia was helping her grandparents after dinner.", "But at nine, she wasn't helping.", "But at nine, she wasn't still helping them out." )}],
+negation	still	positive, minus	[["target_negation_still_positive",582], "RangeForm", {html: construct_dialog("Julia was helping her grandparents after dinner.", "But at nine, she wasn't helping them out.", "But at nine, she wasn't still helping them out." )}],
+  But at nine, she wasn't helping them out.
+negation	still	positive, plus	[["target_negation_still_positive",582], "RangeForm", {html: construct_dialog("Julia was helping her grandparents after dinner.", "But at nine, she wasn't helping them out.", "But at nine, she wasn't still helping them out." )}],
   But at nine, she wasn't still helping them out.
 negation	still	neutral, minus	Why did Julia's mom get mad at her?  She wasn't helping her grandparents.
 negation	still	neutral, plus	Why did Julia's mom get mad at her?  She wasn't still helping her grandparents.
@@ -2074,12 +2074,12 @@ base	only	positive, plus	[["target_base_only_positive",103], "RangeForm", {html:
   On her way, he decided to go only to the grocery store.
 base	only	neutral, minus	What did Terry do yesterday?  He decided to go to the grocery store.
 base	only	neutral, plus	What did Terry do yesterday?  He decided to go only to the grocery store.
-base	only	positive, minus	[["target_base_only_positive",104], "RangeForm", {html: construct_dialog("Paul went off to the basketball court.", "On his way, he decided to go to the park, instead.", "On his way, he decided to go only to the basketball courty." )}],
+base	only	positive, minus	[["target_base_only_positive",104], "RangeForm", {html: construct_dialog("Paul went off to the basketball court.", "On his way, he decided to go to the park, instead.", "On his way, he decided to go only to the basketball court." )}],
   On his way, he decided to go to the park, instead.
-base	only	positive, plus	[["target_base_only_positive",104], "RangeForm", {html: construct_dialog("Paul went off to the basketball court.", "On his way, he decided to go to the park, instead.", "On his way, he decided to go only to the basketball courty." )}],
-  On his way, he decided to go only to the basketball courty.
+base	only	positive, plus	[["target_base_only_positive",104], "RangeForm", {html: construct_dialog("Paul went off to the basketball court.", "On his way, he decided to go to the park, instead.", "On his way, he decided to go only to the basketball court." )}],
+  On his way, he decided to go only to the basketball court.
 base	only	neutral, minus	What did Paul do last weekend?  He went to the basketball court.
-base	only	neutral, plus	What did Paul do last weekend?  He went to to only the basketball courty.
+base	only	neutral, plus	What did Paul do last weekend?  He went to to only the basketball court.
 base	only	positive, minus	[["target_base_only_positive",105], "RangeForm", {html: construct_dialog("Even went off to the bank.", "On his way, he decided to go the drug store.", "On his way, he decided to go only to the bank." )}],
   On his way, he decided to go the drug store.
 base	only	positive, plus	[["target_base_only_positive",105], "RangeForm", {html: construct_dialog("Even went off to the bank.", "On his way, he decided to go the drug store.", "On his way, he decided to go only to the bank." )}],
@@ -2252,7 +2252,7 @@ base	emotive	positive, minus	[["target_base_emotive_positive",133], "RangeForm",
   She suspects that he stole it.
 base	emotive	positive, plus	[["target_base_emotive_positive",133], "RangeForm", {html: construct_dialog("Harry stole Annie's new scarf.", "She suspects that he stole it.", "She's angry that he stole it." )}],
   She's angry that he stole it.
-base	emotive	neutral, minus	What's up with Annie?  She is suspects that Harry stole her scarf.
+base	emotive	neutral, minus	What's up with Annie?  She suspects that Harry stole her scarf.
 base	emotive	neutral, plus	What's up with Annie?  She's angry that Harry stole her scarf.
 base	emotive	positive, minus	[["target_base_emotive_positive",134], "RangeForm", {html: construct_dialog("Sarah accidentally broke Nelson's guitar.", "He suspects that she broke it.", "He's annoyed that she broke it." )}],
   He suspects that she broke it.
@@ -2356,10 +2356,10 @@ base	definite	positive, plus	[["target_base_definite_positive",150], "RangeForm"
   The designer joined the team recently.
 base	definite	neutral, minus	Harry got assigned to a new team at work.  Programmers rotate off the team frequently.
 base	definite	neutral, plus	Harry got assigned to a new team at work.  The designer joined the team recently.
-base	definite	positive, minus	[["target_base_definite_positive",151], "RangeForm", {html: construct_dialog("There are six families and a couple in Bob's apartment building.", "Families stay in the building for a long time.", "The couple just moved in." )}],
+base	definite	positive, minus	[["target_base_definite_positive",151], "RangeForm", {html: construct_dialog("There are six families and a couple in Bob's apartment building.", "Families stay in the building for a long time.", "The couple will stay for a long time." )}],
   Families stay in the building for a long time.
-base	definite	positive, plus	[["target_base_definite_positive",151], "RangeForm", {html: construct_dialog("There are six families and a couple in Bob's apartment building.", "Families stay in the building for a long time.", "The couple just moved in." )}],
-  The couple just moved in.
+base	definite	positive, plus	[["target_base_definite_positive",151], "RangeForm", {html: construct_dialog("There are six families and a couple in Bob's apartment building.", "Families stay in the building for a long time.", "The couple will stay for a long time." )}],
+  The couple will stay for a long time.
 base	definite	neutral, minus	Bob moved to a new apartment building last year.  Families tend to like the building.
 base	definite	neutral, plus	Bob moved to a new apartment building last year.  The couple likes the building.
 base	definite	positive, minus	[["target_base_definite_positive",152], "RangeForm", {html: construct_dialog("There are five mechanics and a forklift operator in George's shift.", "Mechanics tend to like this shift.", "The forklift operator really likes the shift." )}],
@@ -2368,12 +2368,12 @@ base	definite	positive, plus	[["target_base_definite_positive",152], "RangeForm"
   The forklift operator really likes the shift.
 base	definite	neutral, minus	George just got assigned to a new shift at work.  Mechanics tend to like this shift.
 base	definite	neutral, plus	George just got assigned to a new shift at work.  The forklift operator really likes this shift.
-base	definite	positive, minus	[["target_base_definite_positive",153], "RangeForm", {html: construct_dialog("There are three cooks and a dishwasher on Michael's shift.", "Cooks tend to like working this shift.", "The dish washer likes working this shift." )}],
+base	definite	positive, minus	[["target_base_definite_positive",153], "RangeForm", {html: construct_dialog("There are three cooks and a waiter on Michael's shift.", "Cooks tend to like working this shift.", "The waiter likes working this shift." )}],
   Cooks tend to like working this shift.
-base	definite	positive, plus	[["target_base_definite_positive",153], "RangeForm", {html: construct_dialog("There are three cooks and a dishwasher on Michael's shift.", "Cooks tend to like working this shift.", "The dish washer likes working this shift." )}],
-  The dish washer likes working this shift.
+base	definite	positive, plus	[["target_base_definite_positive",153], "RangeForm", {html: construct_dialog("There are three cooks and a waiter on Michael's shift.", "Cooks tend to like working this shift.", "The waiter likes working this shift." )}],
+  The waiter likes working this shift.
 base	definite	neutral, minus	Michael got assigned to a new shift at the restaurant where he works.  Cooks tend to like working this shift.
-base	definite	neutral, plus	Michael got assigned to a new shift at the restaurant where he works.  The dishwasher likes working this shift.
+base	definite	neutral, plus	Michael got assigned to a new shift at the restaurant where he works.  The waiter likes working this shift.
 base	question_matrix	positive, minus	[["target_base_question_matrix_positive",154], "RangeForm", {html: construct_dialog("Allison baked something last week.", "I wonder, did she bake some muffins?", "I wonder what did she bake?" )}],
   I wonder, did she bake some muffins?
 base	question_matrix	positive, plus	[["target_base_question_matrix_positive",154], "RangeForm", {html: construct_dialog("Allison baked something last week.", "I wonder, did she bake some muffins?", "I wonder what did she bake?" )}],
@@ -2420,8 +2420,8 @@ base	question_embed	positive, minus	[["target_base_question_embed_positive",161]
   He wonders if they were caught on camera.
 base	question_embed	positive, plus	[["target_base_question_embed_positive",161], "RangeForm", {html: construct_dialog("Someone dented Jame's fender.", "He wonders if they were caught on camera.", "He wonders who did it." )}],
   He wonders who did it.
-base	question_embed	neutral, minus	James recently got a car.  He wonders if someone has dented its fender.
-base	question_embed	neutral, plus	James recently got a car.  He wonders who dented its fender.
+base	question_embed	neutral, minus	James is worried about his car.  He wonders if someone has dented its fender.
+base	question_embed	neutral, plus	James is worried about his car.  He wonders who dented its fender.
 base	question_embed	positive, minus	[["target_base_question_embed_positive",162], "RangeForm", {html: construct_dialog("Someone copied Elise's homework.", "She wonders if they were caught.", "She wonders who did it." )}],
   She wonders if they were caught.
 base	question_embed	positive, plus	[["target_base_question_embed_positive",162], "RangeForm", {html: construct_dialog("Someone copied Elise's homework.", "She wonders if they were caught.", "She wonders who did it." )}],
@@ -2500,9 +2500,9 @@ base	back	positive, plus	[["target_base_back_positive",174], "RangeForm", {html:
   He went back to Florida.
 base	back	neutral, minus	What did Harry do last summer?  He went to Florida.
 base	back	neutral, plus	What did Harry do last summer?  He went back to Florida.
-base	back	positive, minus	[["target_base_back_positive",175], "RangeForm", {html: construct_dialog("Kirk went to Disneyland last year. Where did he go on vacation this year?", "He went to the Disneyland.", "He went back to Disneyland." )}],
-  He went to the Disneyland.
-base	back	positive, plus	[["target_base_back_positive",175], "RangeForm", {html: construct_dialog("Kirk went to Disneyland last year. Where did he go on vacation this year?", "He went to the Disneyland.", "He went back to Disneyland." )}],
+base	back	positive, minus	[["target_base_back_positive",175], "RangeForm", {html: construct_dialog("Kirk went to Disneyland last year. Where did he go on vacation this year?", "He went to Disneyland.", "He went back to Disneyland." )}],
+  He went to Disneyland.
+base	back	positive, plus	[["target_base_back_positive",175], "RangeForm", {html: construct_dialog("Kirk went to Disneyland last year. Where did he go on vacation this year?", "He went to Disneyland.", "He went back to Disneyland." )}],
   He went back to Disneyland.
 base	back	neutral, minus	Where did Kirk go on vacation?  He went to Disneyland.
 base	back	neutral, plus	Where did Kirk go on vacation?  He went back to Disneyland.
